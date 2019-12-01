@@ -253,7 +253,7 @@ otras.</p>
 </code></pre>
 <p><strong>Para no tener que escribir la contraseña del repositorio remoto cada
 vez</strong> puedes utilizar el siguiente comando que la guarda en una caché:</p>
-<pre><code>  $ git config --global credential.helper cache.
+<pre><code>  $ git config --global credential.helper cache
 </code></pre>
 </li>
 <li>
