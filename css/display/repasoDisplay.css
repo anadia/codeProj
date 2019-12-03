@@ -1,0 +1,5 @@
+.container p{
+    /* mostramos los elementos en linea */
+    display: inline;
+    
+}

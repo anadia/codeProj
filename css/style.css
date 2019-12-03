@@ -1,0 +1,30 @@
+.container{
+    /* ancho */
+    width: 300px;
+    /* alto */
+    height: 300px;
+    /* borde */
+    border: 2px solid black;
+    /* color fondo */
+    background-color: rgb(65, 56, 10);
+}
+.container p{
+    /* colore de texto */
+    color: white;
+    /* tamaño fuente */
+    font-size: 30px;
+    /* alineación texto */
+    text-align: center;
+    /* cambio de fuente tipografia*/
+    font-family: Arial, Helvetica, sans-serif;
+    /* negrita */
+    font-weight: bold;
+}
+.container2{
+    /* fondo degradado */
+    background: linear-gradient(red,white);
+    width: 300px;
+    height: 300px;
+    border: 2px solid black
+
+}

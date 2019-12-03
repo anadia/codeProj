@@ -1,0 +1,14 @@
+.container{
+    height: 250px;
+    width: 250px;
+    background-color: teal;
+}
+.container h1{
+    display: inline;
+    color: white;
+}
+
+
+.inline{
+    display: inline;
+}

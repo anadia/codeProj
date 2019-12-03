@@ -1,0 +1,22 @@
+.menu{
+    background-color: rgb(119, 133, 119);
+    height: 180px;
+    text-align: center;
+}
+.inline ul li{
+    display: inline;
+}
+.inline ul li a{
+    display: inline;
+    text-decoration:none;
+}
+.roja{
+    color:red;
+}
+.cuerpo{
+    background-color:rgb(166, 180, 166) ;
+    height: 600px;
+}
+.redondo{
+    border-radius: 50%;
+}

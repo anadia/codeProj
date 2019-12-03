@@ -1,0 +1,15 @@
+.imagenes div{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+.color {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+}
+.invisible {
+    display: none;
+}
