@@ -3,12 +3,7 @@
 <script>
 
 /*
-2- Crear una función que devuelva el cubo de un número dado.
-3- Crear una función que transforme una distancia dada de kilómetros a metros y la devuelva por pantalla.
-4- Crear una función que dado un valor en millas escriba por pantalla su equivalencia en metros.
-1 milla = 1852 metros.
-5- Crear una función que dada una cantidad en Euros, escriba por pantalla su equivalente en pesetas.
-1 € = 166,386 pesetas
+
 6- Crear una función en la que dados dos números, escriba por pantalla su suma, resta, multiplicación y  división.
 7- Crear una función en la que dado un número muestre por pantalla si es positivo o negativo.
 8- Crear una función que reciba un valor numérico, y escriba por pantalla el número en formato texto. Por ejemplo para el número 1 tendrá que escribir “Uno”. Realizarlo sólo para los valores de 0 a 10.
@@ -34,23 +29,98 @@ c) los dos números son iguales
 
 //1- Crear una función que escriba por pantalla el cuadrado de un número dado.
 
-function cuadradoNum (num){
+/*
+function cuadradoNump (num){
+	var num = prompt("Introduce un numero: ");
+	var numCuadrado = parseInt( Math.pow(num,2));
+	return numCuadrado;
+	}
+	//funcion sin prompt
+function cuadNum (num2){
+	var numCuadrado = Math.pow(num2,2);
+	return numCuadrado;
+	}
+	//Invocamos funcion con prompt
+	var numero = cuadradoNump();
+	console.log("El cuadrado del numero dado es :");
+	console.log(numero);
 	
+	//Invocamos funcion sin prompt
+	console.log("---------------------");
+	var cuadradoDos = console.log(cuadNum(2));
+	var cuadradoTres = console.log(cuadNum(3));
+	var cuadradoCuatro = console.log(cuadNum(4));
+*/
+
+//2- Crear una función que devuelva el cubo de un número dado.
+/*	
+function cuboNump (num){
+	var num = prompt("Introduce un numero: ");
+	var numCubo = parseInt( Math.pow(num,3));
+	return numCubo;
+	}
+	//funcion sin prompt
+function cuboNum (num2){
+	var numCubo = Math.pow(num2,3);
+	return numCubo;
+	}
+	//Invocamos funcion con prompt
+	var numero = cuboNump();
+	console.log("El cubo del numero dado es :");
+	console.log(numero);
 	
+	//Invocamos funcion sin prompt
+	console.log("---------------------");
+	var cuboDos = console.log(cuboNum(2));
+	var cuboTres = console.log(cuboNum(3));
+	var cuboCuatro = console.log(cuboNum(4));	
+*/
+//3- Crear una función que transforme una distancia dada de kilómetros a metros y la devuelva por pantalla.
+/*
+function kiloAmetros(distancia){
+var distanciaM = distancia * 1000;
+return distanciaM;
+}
+//uso de la funcion con prompt
+var distanciaKm = parseInt(prompt("Introduce una distancia :"));
+console.log ("La distancia en metros para " + distanciaKm + " Km es: ");
+console.log (kiloAmetros(distanciaKm) + " metros");
+
+//uso de la funcion sin prompt
+var distanciaKm1 = console.log(kiloAmetros(45));
+var distanciaKm2 = console.log(kiloAmetros(123));
+var distanciaKm2 = console.log(kiloAmetros(10));
+*/
+
+//4- Crear una función que dado un valor en millas escriba por pantalla su equivalencia en metros. 1 milla = 1852 metros.
+/*
+function millasAmetros (disMillas){
+	var disMetros =(disMillas * 1852);
+	return disMetros;
+}
+var indicaMillas = prompt ("Indica una cantidad en millas :");
+indicaMillas = parseInt(indicaMillas);
+console.log(indicaMillas + " millas corresponde a estos metros :");
+console.log(millasAmetros(indicaMillas));
+*/
 	
+//5- Crear una función que dada una cantidad en Euros, escriba por pantalla su equivalente en pesetas. 1 € = 166,386 pesetas	
+/*
+function pesetasAeuros (pesetas){
+var euros = pesetas / 166.386;
+return euros;
+}	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+var indicaPesetas = prompt("Indica una cantidad en pesetas ");
+//recogemos cantidad con decimales
+indicaPesetas = parseFloat(indicaPesetas);
+pesetasRedondeadas = Math.round(indicaPesetas);
+//pesetas redondeadas
+console.log(pesetasRedondeadas);
+var cantidadEuros = pesetasAeuros(pesetasRedondeadas);
+console.log ("Los euros que corresponden a tus pesetas son :");
+console.log(Math.round(cantidadEuros));
+*/
 	
 	
 	
