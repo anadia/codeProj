@@ -1,0 +1,150 @@
+<html>
+<head>
+<script>
+/* 
+
+
+3. Hacer una función que compruebe y devuelva si un año es bisiesto o no. Un
+
+año es bisiesto si es divisible por 4 y no por 100, o si es divisible por 400.
+
+El valor devuelto por la función deberá ser un valor booleano, y se escribirá un
+
+mensaje por pantalla indicando si es o no bisiesto a partir del valor devuelto de la
+
+función.
+
+AÑOS BISIESTOS:
+
+1904, 1908, 1912, 1916, 1920, 1924, 1928, 1932, 1936, 1940, 1944, 1948, 1952, 1956,
+
+1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996,2000
+
+1900 no es bisiesto
+
+
+
+4- Escribir un código que calcule, dado el sueldo del empleado, lo que tiene que cobrar
+
+un empleado sabiendo que se le tiene que aplicar al sueldo una retención del 20%.
+
+
+
+5- Escribir un código que pida por teclado tres valores de tipo entero, y que calcule si
+
+se cumple que la suma de dos de ellos es igual al tercero. La salida del programa
+
+tiene que tener el formato:
+
+Números introducidos: N1 N2 N3
+
+Una de las cuatro líneas de salida siguientes:
+
+- Se cumple que: a=b+c
+
+- Se cumple que: b=a+c
+
+- Se cumple que: c=a+b
+
+- Los números no cumplen la condición
+
+
+
+6- Repetir el ejercicio anterior utilizando una variable de tipo lógico que represente si
+
+se cumple o no que uno de los números es igual a la suma de los otros dos.
+
+
+
+7- Hacer un código que pida por teclado dos números y que calcule y escriba su suma
+
+solamente si los dos son pares y el primero es menor que cincuenta y el segundo está
+
+dentro del intervalo cerrado 100-500. En el caso de que no se cumplan las
+
+condiciones, en vez de la suma visualizar un mensaje de error.
+
+
+
+8- Diseñar un código que calcule el importe final de una venta considerando que sobre
+
+el valor bruto se hace un descuento según la siguiente tabla:
+
+Valores &lt;=20000 Descuento 0%
+
+Valores &gt;20000 y &lt;=100000 Descuento 5%
+
+Valores &gt;100000 Descuento 10%
+
+
+
+9- Escribir un código que visualice en pantalla los mensajes “Altas”, “Bajas”,
+
+“Consultas”, “Modificaciones”, siempre que se introduzcan las letras A, B, C o M
+
+respectivamente, tanto en mayúsculas como en minúsculas. En el caso de pulsar
+
+cualquier otra tecla saldrá por pantalla el mensaje “Debe introducir A, B, C o M&quot;.
+*/
+/*
+1. Crear una función que escriba por pantalla "el número es par"; si se le pasa
+un número par a la función o "el número es impar" en caso de que se le pase un número impar.
+Se deberá utilizar el operador modulus de JavaScript
+*/
+/*
+function comprobarParImpar (num){
+ 	if (num % 2 == 0){
+	console.log ("El numero es par");	
+	}
+	else {
+	console.log ("El numero es impar");	
+	}
+}
+var numero = prompt("Introduce un numero y comprobamos si es par o impar");
+comprobarParImpar (numero);
+*/
+/*
+2. Escribir una función en la que dados dos números enteros nos devuelva la
+suma de los dos números solamente si son los dos positivos; si no se cumple que los
+dos son positivos la función devolverá el valor -1. Después con el valor devuelto de
+la función, la salida tiene que tener el formato siguiente:
+- Números introducidos: XX, XX
+- La suma de los dos números es: XXX
+- No se calcula la suma porque alguno de los números o los dos no son positivos
+*/
+function sumarNumeros (num1, num2){
+	return num1 + num2;
+
+}
+
+function comprobarPositivo (num){
+	var positivo = "";
+	if (num > -1){
+	positivo = true;
+	}
+	else {
+	positivo = -1;
+	}
+	return positivo;
+}
+function escribirSuma (num1, num2){
+	var resultado = -1;
+	if (comprobarPositivo(num1) == true && comprobarPositivo(num2) == true){
+		resultado = (sumarNumeros(num1, num2));
+	}
+
+	else {
+	console.log("Los numeros no son positivos no los puedo sumar");	
+	}
+	return resultado;
+}
+var numero1 = parseInt(prompt ("Introduce primer numero :"));
+var numero2 = parseInt(prompt ("Introduce segundo numero :"));
+var result = escribirSuma (numero1, numero2);
+console.log (result);
+
+</script>
+</head>
+<body>
+</body>
+</html>
