@@ -1,0 +1,105 @@
+h3{
+    text-align: center;
+    line-height : 4px;
+}
+h4{
+    text-align: center;
+    line-height : 10px;
+}
+
+.padre{
+    height: 1100px;
+    width: 800px;
+    border: 1px solid black;
+}
+.central{
+    height: 1000px;
+    width: 740px; 
+    font-size: 11px;
+    font-family: "monospace";
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 1px solid black;
+}
+
+.dosAncho{
+    width: 30px; 
+}
+
+.cuatroAncho{
+    width: 60px; 
+}
+.ochoAncho{
+    width: 120px; 
+}
+.dseisAncho{
+    width: 220px; 
+}
+
+.veinteAncho{
+width: 360px; 
+}
+
+
+.caja1{
+    width: 740px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+ 
+}
+.caja1_1{
+    width: 370px;
+    height: 150px;
+    background-color: rgb(157, 157, 241);
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.caja1_2{
+    width: 370px;
+    height: 150px;
+    background-color: rgb(179, 235, 179);
+    border: 1px solid black;
+}
+.caja2{
+    width: 740px;
+    height: 330px;
+    border: 1px solid black;
+    display: flex;
+  
+}
+.caja2_1{
+    width: 370px;
+    background-color: rgb(226, 162, 162);
+    border: 1px solid black;
+    text-align: center;
+}
+.caja2_2{
+    width: 370px;
+    height: 330px;
+    background-color: rgb(241, 215, 166);
+    border: 1px solid black;
+ 
+
+    
+
+}
+.caja2_2_1{
+    width: 100%;
+    background-color: rgb(208, 209, 151);
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}

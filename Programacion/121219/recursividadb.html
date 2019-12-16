@@ -1,0 +1,312 @@
+<html>
+<head>
+<script>
+/*
+function contar(x){
+	console.log(x);
+	if (x < 100){
+		 contar(x+1);
+	}	
+}
+contar(1);*/
+
+// numeros pares entre uno y 100 con funcion recursiva
+/*function calcularRecursivaPares (x){
+	console.log(x);
+	if (x< 100 ){
+		calcularRecursivaPares (x+2)
+	}
+}
+calcularRecursivaPares (2);
+*/
+	/*
+function calcularRecursivaPares (num){
+
+	if (num < 100){
+		num += 1;
+		if (num % 2 == 0) {
+		console.log(num);
+		calcularRecursivaPares (num+1)	
+		
+		}
+	}
+}
+calcularRecursivaPares (1);	
+*/
+/*
+EJERCICIO 1.	Utilizando la sentencia Switch, convertir a código morse un número introducido por teclado:
+
+0	 _ _ _ _ _
+1	 ._ _ _ _
+2	 .._ _ _
+3	 ..._ _
+4	 ...._
+5 	.....
+6	 _....
+7	 _ _...
+8 	_ _ _..
+9	 _ _ _ _.
+*/
+/*
+function convertToMorse (num){
+	switch (num){
+		case 0:
+			console.log("_ _ _ _ _");
+		break;
+		case 1:
+			console.log("._ _ _ _");
+		break;	
+		case 2:
+			console.log(".._ _ _");
+		break;
+		case 3:
+			console.log("..._ _");
+		break;
+		case 4:
+			console.log("...._");
+		break;	
+		case 5:
+			console.log(".....");
+		break;	
+		case 6:
+			console.log("_....");
+		break;	
+		case 7:
+			console.log("_ _...");
+		break;	
+		case 8:
+			console.log("_ _ _..");
+		break;	
+		case 9:
+			console.log("_ _ _ _.");
+		break;	
+		default:
+			console.log("Indica numero valido");
+	}
+}
+var entrada = parseInt(prompt("introduce un numero del 1 al 9 y devuelvo en morse :"));
+convertToMorse (entrada);	
+*/
+
+/*Crear una función que indique si un número es primo o no. Un número primo es aquel que sólo es divisible entre sí mismo y entre la unidad. Hacerlo con recursividad.
+*/
+	/*
+function calcularPrimoRecursivo (num, comparador){
+	if (num % comparador == 0 && num !=2 ){
+		console.log("no es primo");
+	}
+	else if (comparador > Math.floor(num/2)){
+		console.log("es primo");
+	}
+	else{
+		return calcularPrimoRecursivo(num, comparador+1);
+	}
+}
+	
+var numero = parseInt(prompt("Indica un numero indicamos si es o no primo :"));
+calcularPrimoRecursivo (numero, numero);
+*/
+	/*
+	function calcularSiPrimo (num){
+		var contador = 1;
+		var y =1;
+		var x =1;
+		if (y <= num){
+			if ((x = num/y) && x == num){
+			contador = contador+1;
+			y = y+1;
+				console.log("hola");
+			calcularSiPrimo (num);
+			return contador;
+			}
+		}
+		else{
+		console.log("No es primo")
+		}
+		return contador;
+	}
+	var numero = prompt ("Indica un numero :");
+	var cont = calcularSiPrimo (numero);
+	if (cont > 3){
+	console.log("El numero no es primo");
+	}
+	else  {
+		"El numero es primo";
+	}
+	*/
+/*
+	function isPrime(n, i = 2){
+ 
+    if (n <= 2){
+        return true;
+		}
+		if(n == 2){
+			
+		}
+		else{
+		return false;
+		}
+	
+	
+    if (n % i == 0){ 
+        console.log("false");
+	}
+    if (i * i > n){
+        console.log("true") ;
+	}
+	
+	
+    return isPrime(n, i + 1) ;
+  }
+
+	var n = prompt("indica un numero");
+	if (isPrime(n)){
+    console.log("Yes") ;
+	}
+	else{ 
+    console.log("No") ;
+	}
+
+*/
+	/*
+	var i, p, pascal, primerow, primes, show, _i;
+ 
+pascal = function() {
+  var a;
+  a = [];
+  return function() {
+    var b, i;
+    if (a.length === 0) {
+      return a = [1];
+    } else {
+      b = (function() {
+        var _i, _ref, _results;
+        _results = [];
+        for (i = _i = 0, _ref = a.length - 1; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
+          _results.push(a[i] + a[i + 1]);
+        }
+        return _results;
+      })();
+      return a = [1].concat(b).concat([1]);
+    }
+  };
+};
+ 
+show = function(a) {
+  var degree, i, sgn, show_x, str, _i, _ref;
+  show_x = function(e) {
+    switch (e) {
+      case 0:
+        return "";
+      case 1:
+        return "x";
+      default:
+        return "x^" + e;
+    }
+  };
+  degree = a.length - 1;
+  str = "(x - 1)^" + degree + " =";
+  sgn = 1;
+  for (i = _i = 0, _ref = a.length; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
+    str += ' ' + (sgn > 0 ? "+" : "-") + ' ' + a[i] + show_x(degree - i);
+    sgn = -sgn;
+  }
+  return str;
+};
+ 
+primerow = function(row) {
+  var degree;
+  degree = row.length - 1;
+  return row.slice(1, degree).every(function(x) {
+    return x % degree === 0;
+  });
+};
+ 
+p = pascal();
+ 
+for (i = _i = 0; _i <= 7; i = ++_i) {
+  console.log(show(p()));
+}
+ 
+p = pascal();
+ 
+p();
+ 
+p();
+ 
+primes = (function() {
+  var _j, _results;
+  _results = [];
+  for (i = _j = 1; _j <= 49; i = ++_j) {
+    if (primerow(p())) {
+      _results.push(i + 1);
+    }
+  }
+  return _results;
+})();
+ 
+console.log("");
+ 
+console.log("Los primos hasta 50 son: " + primes);
+*/
+	
+	
+//EJERCICIO 2. Indicar funcion recursiva que indique si un numero es primo
+/*function indicarSiPrimoRecursiva(num , ref){
+    if (num % ref == 0 && num !=2){
+    return false;
+	}
+    else if (ref > Math.floor (num / 2)){
+    return true;
+	}
+    else{
+    return IndicarSiPrimoRecursiva(num, ref + 1);
+	}
+}
+var numero = parseInt(prompt("Indica un numero para comprobar si es primo: "));
+if (IndicarSiPrimoRecursiva (numero, 2) ==){
+console.log("El numero es primo");
+}
+else{ 
+console.log("El numero no es primo");
+}
+
+
+// Óscar Terrés *** CODE HOUSE ACADEMY BOOTCAMP ***/
+/*	
+	function indicarSiPrimoRecursiva(num , ref){
+		if (ref > 1){
+			if (num % ref == 0){
+				console.log("El numero no es primo");
+			}
+			else {
+				indicarSiPrimoRecursiva(num, ref -1);
+			}
+		}
+		else {
+		console.log("El numero es primo");	
+		}
+	}
+		var numero = prompt("Indica numero");
+		indicarSiPrimoRecursiva(numero, numero -1);
+		
+//	EJERCICIO 3. Función recursiva que calcule el factorial de un número.	
+function calcularFactorial (num){
+	var acum = 1;
+	if (num != 1){
+		acum = num * calcularFactorial(num -1);
+	}	
+	
+	return acum;
+}
+var numero = prompt("Indica un numero :") ;
+var resultado = calcularFactorial(numero);
+	console.log("resultado :" + resultado);
+
+*/
+
+</script>
+</head>
+<body>
+</body>
+</html>

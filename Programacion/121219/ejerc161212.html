@@ -1,0 +1,156 @@
+<html>
+<head>
+<script>
+/* Ejercicio 1
+Hacer un código que calcule y escriba la suma de los números pares por un 
+lado, y de los impares por otro, de los números 
+comprendidos entre 1 y 1000. Debe ser resuelto usando un único bucle.
+*/
+/*
+let sumaTotalPares = 0;
+let sumaTotalImpares = 0;
+
+for (let i = 1; i <= 1000; i++){
+	if (i % 2 == 0){
+	sumaTotalPares = sumaTotalPares + i;
+	}
+	else{
+	sumaTotalImpares = sumaTotalImpares + i;
+	}
+	
+}
+	
+
+console.log("La suma de los pares es: " + sumaTotalPares);
+console.log("La suma de los impares es: " + sumaTotalImpares);
+
+*/
+/*
+let sumaTotalPares = 0;
+let sumaTotalImpares = 0;
+for (let i = 1; i < 1001; i++){
+	if (i % 2 == 0) {
+		//console.log((sumaTotalPares + i) + " = " + sumaTotalPares + " + " + i);
+		sumaTotalPares = sumaTotalPares + i; // sumaTotalPares += i;
+	}
+	else {
+		//console.log((sumaTotalImpares + i) + " = " + sumaTotalImpares + " + " + i);
+		sumaTotalImpares = sumaTotalImpares + i; // sumaTotalImpares += i;
+	}
+}
+console.log("Suma total pares " + sumaTotalPares);
+console.log("Suma total impares " + sumaTotalImpares);
+
+
+*/
+
+// Ejercicio 2
+/* Leer por teclado 5 números enteros (positivos o negativos), y escribir cuál 
+fue el mayor de los números introducidos. Hay que controlar que el usuario no 
+introduzca otro texto, si se da esta circunstancia se ignora el dato 
+introducido.
+*/
+
+/*
+let num;
+let mayor;
+for (let i = 0; i < 5; ){
+	num = parseInt(prompt("Introduce num : "));
+		if (isNaN(num) == false){
+			if (i == 0){
+			mayor = num;
+			}
+			if (num > mayor ){
+				mayor = num;
+			}
+			i++;
+				
+		}
+			
+			
+			
+	
+}
+
+console.log ("El mayor es :" + mayor);
+*/
+/*
+let mayor;
+let i = 0;
+do {
+	let num = parseInt(prompt());	
+	if (isNaN(num) == false){
+		if (i == 0){ //primera vez
+			console.log("El valor inicial de mayor es " + num);
+			mayor = num;
+		}
+		if (num > mayor){
+			mayor = num;
+			console.log("Ahora el mayor es " + mayor);
+		}
+		i++;
+	}
+} while (i < 5);
+console.log("FINAL El mayor es: " + mayor);
+*/
+/*
+Ejercicio 3
+Crear un código que dibuje por pantalla el siguiente patrón, en función del 
+número que el usuario introduzca por teclado, en este caso para un 4 sería:
+*/
+/*
+
+let num = parseInt(prompt("introduce un numero"));
+for(let i = 0;i < num;i++){
+  linea = "";
+  let j=0;
+  while(j<= i){
+        linea = linea + "*";
+        j++;
+}
+console.log(linea);
+}
+
+/*
+let simbolo = "*";
+let filas = parseInt(prompt());
+for (let i = 0; i < filas; i++){
+	let textoAcum = "";
+	for (let j = 0; j <= i; j++){
+		textoAcum += simbolo; //textoAcum = textoAcum + simbolo;
+	}
+	console.log(textoAcum);
+}
+
+
+*/
+
+
+
+
+/*
+4- Crear una función que sirva para hacer potencias. Una potencia es una 
+operación matemática entre dos términos denominados: base a y exponente n, 
+como en an, en la que se multiplica la base por el número de veces que diga 
+el exponente. Como en el siguiente ejemplo:
+*/
+
+let base = parseInt(prompt("introduce una base :"));
+let exponente = parseInt(prompt("introduce un exponente :"));
+let potencia;
+function hacerPotencias(base,exponente){
+	let potencia;
+	for(let i = 0; i < exponente; i++){
+	potencia = base * base;
+	console.log(potencia);
+	}
+}
+let resultado = hacerPotencias(base, exponente);
+console.log(resultado);
+
+</script>	
+</head>
+<body>
+
+</body>
+</html>

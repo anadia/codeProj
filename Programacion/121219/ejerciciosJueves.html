@@ -3,88 +3,6 @@
 <script>
 /* 
 
-
-3. Hacer una función que compruebe y devuelva si un año es bisiesto o no. Un
-
-año es bisiesto si es divisible por 4 y no por 100, o si es divisible por 400.
-
-El valor devuelto por la función deberá ser un valor booleano, y se escribirá un
-
-mensaje por pantalla indicando si es o no bisiesto a partir del valor devuelto de la
-
-función.
-
-AÑOS BISIESTOS:
-
-1904, 1908, 1912, 1916, 1920, 1924, 1928, 1932, 1936, 1940, 1944, 1948, 1952, 1956,
-
-1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996,2000
-
-1900 no es bisiesto
-
-
-
-4- Escribir un código que calcule, dado el sueldo del empleado, lo que tiene que cobrar
-
-un empleado sabiendo que se le tiene que aplicar al sueldo una retención del 20%.
-
-
-
-5- Escribir un código que pida por teclado tres valores de tipo entero, y que calcule si
-
-se cumple que la suma de dos de ellos es igual al tercero. La salida del programa
-
-tiene que tener el formato:
-
-Números introducidos: N1 N2 N3
-
-Una de las cuatro líneas de salida siguientes:
-
-- Se cumple que: a=b+c
-
-- Se cumple que: b=a+c
-
-- Se cumple que: c=a+b
-
-- Los números no cumplen la condición
-
-
-
-6- Repetir el ejercicio anterior utilizando una variable de tipo lógico que represente si
-
-se cumple o no que uno de los números es igual a la suma de los otros dos.
-
-
-
-7- Hacer un código que pida por teclado dos números y que calcule y escriba su suma
-
-solamente si los dos son pares y el primero es menor que cincuenta y el segundo está
-
-dentro del intervalo cerrado 100-500. En el caso de que no se cumplan las
-
-condiciones, en vez de la suma visualizar un mensaje de error.
-
-
-
-8- Diseñar un código que calcule el importe final de una venta considerando que sobre
-
-el valor bruto se hace un descuento según la siguiente tabla:
-
-Valores &lt;=20000 Descuento 0%
-
-Valores &gt;20000 y &lt;=100000 Descuento 5%
-
-Valores &gt;100000 Descuento 10%
-
-
-
-9- Escribir un código que visualice en pantalla los mensajes “Altas”, “Bajas”,
-
-“Consultas”, “Modificaciones”, siempre que se introduzcan las letras A, B, C o M
-
-respectivamente, tanto en mayúsculas como en minúsculas. En el caso de pulsar
-
-cualquier otra tecla saldrá por pantalla el mensaje “Debe introducir A, B, C o M&quot;.
 */
 /*
 1. Crear una función que escriba por pantalla "el número es par"; si se le pasa
@@ -104,6 +22,20 @@ var numero = prompt("Introduce un numero y comprobamos si es par o impar");
 comprobarParImpar (numero);
 */
 /*
+function esParImpar(num) {
+	var result = "impar";
+	if (num % 2 == 0) {
+		result = "par";
+	}
+	console.log(result);
+	return result;
+}
+var num = prompt("Introduce un número entero");
+var res = esParImpar(num);
+console.log(res);
+
+*/
+/*
 2. Escribir una función en la que dados dos números enteros nos devuelva la
 suma de los dos números solamente si son los dos positivos; si no se cumple que los
 dos son positivos la función devolverá el valor -1. Después con el valor devuelto de
@@ -112,6 +44,7 @@ la función, la salida tiene que tener el formato siguiente:
 - La suma de los dos números es: XXX
 - No se calcula la suma porque alguno de los números o los dos no son positivos
 */
+/*
 function sumarNumeros (num1, num2){
 	return num1 + num2;
 
@@ -129,8 +62,10 @@ function comprobarPositivo (num){
 }
 function escribirSuma (num1, num2){
 	var resultado = -1;
-	if (comprobarPositivo(num1) == true && comprobarPositivo(num2) == true){
+	if (num1 == true && num2 == true){
 		resultado = (sumarNumeros(num1, num2));
+		console.log("si son positivos");
+		
 	}
 
 	else {
@@ -138,11 +73,443 @@ function escribirSuma (num1, num2){
 	}
 	return resultado;
 }
+function dosDigitos(num1){
+	if (num1<10){
+	num1 = "0"+num1;	
+	}
+	else{
+	}
+	return num1
+}
+function comprobarResultado(num2){
+	if  (num2>9){
+	num2 = "0"+num2;	
+	} 
+	else{
+	num2 = "00"+num2;
+	}
+	return num2
+}
+	
 var numero1 = parseInt(prompt ("Introduce primer numero :"));
+comprobarPositivo(numero1)
+numero1 = dosDigitos(numero1);
+console.log (numero1);
+	
 var numero2 = parseInt(prompt ("Introduce segundo numero :"));
-var result = escribirSuma (numero1, numero2);
-console.log (result);
+comprobarPositivo(numero2);
+numero2 = dosDigitos(numero2);
+console.log (numero2);
+var result = escribirSuma (parseInt(numero1), parseInt(numero2));
+console.log (comprobarResultado(result));
+*/
+/*
+Carlos Yáñez 15:33
+var n1 = parseInt(prompt());
+var n2 = parseInt(prompt());
+console.log("Números introducidos son: " + n1 + " y " + n2);
+var res = sumarPositivos(n1, n2);
+if (res == -1){
+	console.log("No se calcula la suma porque alguno de los números o los " +
+		"dos no son positivos");
+}
+else {
+	console.log("La suma de los dos números es: " + res);
+}
+function sumarPositivos(num1, num2){
+	var result = -1;
+	if (num1 >= 0 && num2 >= 0) {
+		result = num1 + num2;
+	}
+	return result;
+}
+*/
+/*
+3. Hacer una función que compruebe y devuelva si un año es bisiesto o no. Un
+año es bisiesto si es divisible por 4 y no por 100, o si es divisible por 400.
+El valor devuelto por la función deberá ser un valor booleano, y se escribirá un
+mensaje por pantalla indicando si es o no bisiesto a partir del valor devuelto de la
+función.
+AÑOS BISIESTOS:
+1904, 1908, 1912, 1916, 1920, 1924, 1928, 1932, 1936, 1940, 1944, 1948, 1952, 1956,
+1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996,2000
+1900 no es bisiesto
+*/
+	/*if year is not divisible by 4 then not leap year
+else if year is not divisible by 100 then leap year
+else if year is divisible by 400 then leap year
+else not leap year*/
+/*
 
+function comprobarBisiesto (year){
+	var bisiesto = false;
+	if (year % 100 !=0){
+		if (year % 4 == 0 ) {
+		bisiesto = true;
+		}
+		else {
+		bisiesto = false;
+		}
+	}
+	else if (year % 400 == 0 ){
+		bisiesto = true;
+		}
+	else {
+		bisiesto = false;	
+		}
+	return bisiesto;
+}
+var anno = parseInt(prompt("Indicame un año y te digo si es bisiesto"));
+console.log(comprobarBisiesto(anno));
+*/
+/*
+function comprobarSiEsBisiesto(ano) {
+	var result = false;
+	if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
+		result = true;
+	}
+	return result;
+}
+var x = comprobarSiEsBisiesto(1996);
+console.log(x);
+console.log(comprobarSiEsBisiesto(1456));
+console.log(comprobarSiEsBisiesto(1457));
+console.log(comprobarSiEsBisiesto(1458));
+console.log(comprobarSiEsBisiesto(1459));
+console.log(comprobarSiEsBisiesto(1460));
+console.log(comprobarSiEsBisiesto(1461));
+console.log(comprobarSiEsBisiesto(1462));
+console.log(comprobarSiEsBisiesto(1463));
+*/
+//4- Escribir un código que calcule, dado el sueldo del empleado, lo que tiene que cobrar
+// un empleado sabiendo que se le tiene que aplicar al sueldo una retención del 20%.
+	/*
+	function calcularSalarioNeto (salario){
+		const RETENCIONES = salario * 0.20;
+		var neto = salario - RETENCIONES;
+		return console.log("Tu salario neto sera : " + neto + " euros");
+	}
+	var salarioBruto = prompt("Indica tu sueldo Bruto :");
+	console.log(calcularSalarioNeto (salarioBruto));
+	*/
+/*
+function calcularSalarioNeto (salario){	
+	const RETENCION = 20; //valor de la retencion
+	return salario - (salario * RETENCION / 100);
+}
+var salarioBruto = parseFloat(prompt("Indica tu sueldo Bruto :"));
+console.log(calcularSalarioNeto(salarioBruto));
+var salarioNeto = calcularSalarioNeto(salarioBruto);
+console.log(salarioNeto);
+*/
+/*
+function calcularSalarioNeto (salario){	
+	const RETENCION = 20; //valor de la retencion
+	return salario - (salario * RETENCION / 100);
+}
+var salarioBruto = parseFloat(prompt("Indica tu sueldo Bruto :"));
+console.log(calcularSalarioNeto(salarioBruto));
+var salarioNeto = calcularSalarioNeto(salarioBruto);
+console.log(salarioNeto);
+*/
+/*
+5- Escribir un código que pida por teclado tres valores de tipo entero, y que calcule si
+se cumple que la suma de dos de ellos es igual al tercero. La salida del programa
+tiene que tener el formato:
+Números introducidos: N1 N2 N3
+Una de las cuatro líneas de salida siguientes:
+- Se cumple que: a=b+c
+- Se cumple que: b=a+c
+- Se cumple que: c=a+b
+- Los números no cumplen la condición
+*/
+/*function sumarDosIgualTercero(a,b,c){
+	var comp1 = b + c;
+	var comp2 = a + c;
+	var comp3 = a + b;
+	if (a == comp1){
+	console.log("Se cumple que: a=b+c");
+	console.log("valor de 'a' : "+ a);
+	console.log("valor de 'b' : "+ b);
+	console.log("valor de 'c' : "+ c);
+	}
+	else if (b == comp2){
+	console.log("Se cumple que: b=a+c");
+	console.log("valor de 'a' : "+ a);
+	console.log("valor de 'b' : "+ b);
+	console.log("valor de 'c' : "+ c);
+	}
+	else if (c == comp3){
+	console.log("Se cumple que: c=a+b");
+	console.log("valor de 'a' : "+ a);
+	console.log("valor de 'b' : "+ b);
+	console.log("valor de 'c' : "+ c);
+	}
+	else {
+	console.log("no se cumple ninguna de las tres condiciones");
+	console.log("valor de 'a' : "+ a);
+	console.log("valor de 'b' : "+ b);
+	console.log("valor de 'c' : "+ c);
+	}
+}
+var N1 = parseInt(prompt("Introduce el valor 'a' :"));
+var N2 = parseInt(prompt("Introduce el valor 'b' :"));
+var N3 = parseInt(prompt("Introduce el valor 'c' :"));
+sumarDosIgualTercero(N1,N2,N3);
+*/
+/*
+Laura Matías 15:57
+var a = parseInt(prompt("Introduce el valor a"));
+        var b = parseInt(prompt("Introduce el valor b"));
+        var c = parseInt(prompt("Introduce el valor c"));
+        console.log("los Números introducidos: " + a + " " + b + " " + c);
+        if (a + b == c) {
+            console.log("Se cumple que c = a + b ");
+        }
+        else if (a + c == b) {
+            console.log("Se cumple que b = a + c ");
+        }
+        else if (b + c == a) {
+            console.log("Se cumple que a = b + c ");
+        }
+        else {
+            console.log("Los números no cumplen la condición");
+        }
+*/
+/*
+6- Repetir el ejercicio anterior utilizando una variable de tipo lógico que represente si
+se cumple o no que uno de los números es igual a la suma de los otros dos.
+*/
+/*
+function sumarDosIgualTercero(a,b,c){
+	var comprobacion = false;
+
+	if (a == b + c){
+	comprobacion = true;
+	}
+	else{
+	comprobacion = false;
+	}
+	if (b == a + c){
+	comprobacion = true;
+	}
+	else{
+	comprobacion = false;
+	}
+	if (c == a + b){
+	comprobacion = true;
+	}
+	else {
+	comprobacion = false;
+	}
+	return comprobacion;
+}
+var N1 = parseInt(prompt("Introduce el valor 'a' :"));
+var N2 = parseInt(prompt("Introduce el valor 'b' :"));
+var N3 = parseInt(prompt("Introduce el valor 'c' :"));
+console.log(sumarDosIgualTercero(N1,N2,N3));
+*/	
+/*
+var numero1 = parseFloat(prompt("Dime tu primer número"));
+var numero2 = parseFloat(prompt("Dime tu segundo número"));
+var numero3 = parseFloat(prompt("Dime tu tercer número"));
+var suma1 = numero1 + numero2;
+var suma2 = numero3 + numero2;
+var suma3 = numero1 + numero3;
+console.log("Números introducidos: " + numero1 + " " + numero2 + " "
+	+ numero3);
+if (numero1 == suma2 || numero2 == suma3 || numero3 == suma1){
+	console.log(true);
+}else {
+	console.log(false);
+}
+*/
+	
+/*7- Hacer un código que pida por teclado dos números y que calcule y escriba su suma
+solamente si los dos son pares y el primero es menor que cincuenta y el segundo está
+dentro del intervalo cerrado 100-500. En el caso de que no se cumplan las
+condiciones, en vez de la suma visualizar un mensaje de error.
+*/
+	/*
+function comprobarPares (num1,num2){
+
+	if (num1 % 2 == 0){
+		par = true;
+		console.log(num1 + " es par");
+		if (num2 % 2 == 0){
+		console.log(num1 + " es par");
+		}
+	}
+	else {
+	console.log("error");
+	}
+	return num1 + num2; ;
+}
+function comprobarCondicional (nume1, nume2){
+	var compruebaRango = false;
+	if (nume1 <50 && (nume2 >= 100 && nume2 <= 500)){
+	compruebaRango = true;
+	}
+	else{
+	compruebaRango = false 
+	}
+	return compruebaRango;
+}
+var numero1 = parseInt(prompt("di numero 1: "));
+var numero2 = parseInt(prompt("di numero 2: "));
+if (comprobarCondicional (numero1, numero2)){
+	comprobarPares (numero1, numero2);
+}	*/
+	
+	/*
+	var x = parseInt(prompt());
+	var y = parseInt(prompt());
+	if (x % 2 == 0 && y % 2 == 0 && x < 50 && y >= 100 && y <= 500) {
+	//if (x % 2 == 0 && y % 2 == 0 && x < 50 && !(y < 100 || y > 500)) {
+		console.log(x + y);
+	}
+	else {
+	console.log("Errorrrr");
+}
+	
+	*/
+	
+	
+	/*
+	
+	
+8- Diseñar un código que calcule el importe final de una venta considerando que sobre
+el valor bruto se hace un descuento según la siguiente tabla:
+Valores <= 20000 Descuento 0%
+Valores  >20000 y <=100000 Descuento 5%
+Valores >100000 Descuento 10%
+*/
+	/*
+function valorConDescuento (valorBruto){
+	var valorNeto = 0;
+	if (valorBruto> 20000 && valorBruto <= 100000){
+		valorNeto = valorBruto-(valorBruto*5)/100
+		console.log("Descuento del 5%");
+	}
+	else if (valorBruto>100000){
+		valorNeto = valorBruto-(valorBruto*10)/100
+		console.log("Descuento del 10%");
+	}
+	else {
+	valorNeto = 0;	
+	}
+	return valorNeto;
+}
+var valor = parseInt(prompt("Indica valor del producto :"));
+console.log(valorConDescuento (valor));
+*/
+/*
+/*
+function calcularImporte(valorInicialCompra){
+	var venta = valorInicialCompra;
+	var descuento = 0;
+	if(venta <= 20000){		
+		venta = venta - descuento;
+	}else if(venta > 20000 && venta <= 100000){
+		descuento = venta * 0.05;
+		venta = venta - descuento;
+	}else{
+		descuento = venta * 0.10;
+		venta = venta - descuento;
+	}
+	console.log("Orininalmente la venta era " + valorInicialCompra +
+		" y con descuento " + venta);
+	return venta;
+}
+console.log(calcularImporte(1000));
+console.log(calcularImporte(10000));
+console.log(calcularImporte(100000));
+console.log(calcularImporte(1000000));
+*/
+/*
+function calcularImporte(valorInicialCompra){
+	var venta = valorInicialCompra;
+	var descuento = 0;
+	if(venta > 20000 && venta <= 100000){
+		descuento = venta * 0.05;
+	}else if(venta > 100000){
+		descuento = venta * 0.10;		
+	}
+	venta = venta - descuento;
+	console.log("Orininalmente la venta era " + valorInicialCompra +
+		" y con descuento " + venta);
+	return venta;
+}
+console.log(calcularImporte(1000));
+console.log(calcularImporte(10000));
+console.log(calcularImporte(100000));
+console.log(calcularImporte(1000000));
+*/
+/*
+Carlos Yáñez 17:04
+var x = 9;
+x++; // x = x + 1;
+x++; // x = x + 1;
+x++; // x = x + 1;
+console.log(x);
+var y = 3;
+y -= 4; // y = y - 4;
+console.log(y);
+var j = 8;
+j /= 2; // j = j / 2;
+console.log(j);
+j += 2;// j = j + 2;
+*//*
+9- Escribir un código que visualice en pantalla los mensajes “Altas”, “Bajas”,
+“Consultas”, “Modificaciones”, siempre que se introduzcan las letras A, B, C o M
+respectivamente, tanto en mayúsculas como en minúsculas. En el caso de pulsar
+cualquier otra tecla saldrá por pantalla el mensaje “Debe introducir A, B, C o M&quot;.
+*/
+	/*
+function comprobarCodigo(comprobacion){
+	if (comprobacion == "A" || "a"){
+		console.log("Altas");
+	}
+	else if (comprobacion == "B" || "b"){
+		console.log("Bajas");
+	}
+	else if (comprobacion == "C" || "c"){
+	console.log("Consultas");
+	}	
+	else if (comprobacion == "M" || "m"){
+	console.log("Modificaciones");
+	}	
+	else {
+		console.log("Debe introducir A, B, C o M");
+	}
+}
+var codigo = prompt("Introduce un codigo :");
+comprobarCodigo(codigo);
+*/
+/*
+
+var mensaje = prompt("Dime tu letra");
+		switch (mensaje){
+		case "A":
+		case "a":
+			console.log("Altas");
+			break;
+		case "B":
+		case "b":
+			console.log("Bajas");
+			break;
+		case "C":
+		case "c":
+			console.log("Consultas");
+			break;
+		case "M":
+		case "m":
+			console.log("Modificaciones");
+			break;
+		default:
+			console.log("Debe introducir A, B, C o M puede usar minusculas");
+		}
+		*/
 </script>
 </head>
 <body>
