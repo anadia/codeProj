@@ -1,0 +1,48 @@
+ul{
+    width: 100%;
+    justify-content: space-around;
+}
+.border{
+    border: 1px solid greenyellow !important;
+}
+
+.margin{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.img{
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.superior{
+    position: fixed;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.choco{
+    background-color: rgba(142, 202, 226, 0.561);
+}
+
+.muffinTitle{
+    font-family: monospace;
+    font-size: 75px;
+    color: rgba(70, 235, 70, 0.719);
+    text-shadow: rgba(34, 33, 30, 0.246) 3px 3px 3px;
+    text-shadow: rgba(115, 174, 241, 0.753) 4px 4px 4px;
+
+}
+
+a{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 18px;
+    color: ivory !important;
+}

@@ -1,0 +1,45 @@
+.container{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+/* first-line*/
+.texto::first-line{
+    color: red;
+}
+
+.texto::first-letter{
+    color: rgb(27, 27, 2);
+}
+
+/*before */
+.texto::before{
+    content: "aaaaaaaa ";
+}
+
+/*after*/
+.texto::after{
+    content: " baaaba";
+}
+
+/* hover */ 
+/* solo coje : */
+img:hover{
+    background-color: transparent !important;
+    height: 200px;
+    width: 200px;
+    float: right;
+
+}
+
+/* focus */
+.sherlok:focus{
+    font-size: larger;
+    background-color: coral;
+    float: left;
+}
+img{
+    width: 30px;
+    height: 30px;
+}

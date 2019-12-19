@@ -1,0 +1,66 @@
+.container{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+  /*  flex-direction: row;*/
+  /* adapta el contenido al contenedor padre
+  flex-wrap: nowrap ; */
+  /*si no cabe salta a la linea */
+  /* flex-wrap: wrap ;  */
+  /* solo funciona con flex*/
+  justify-content: center;
+  /* space-between y space-evenly INT */
+  align-items: center;
+  /*flex-end y flex-start*/
+}
+.container0{
+    width: 250px;
+    height: 250px; 
+    border: 1px solid black;
+    display: flex;
+    /*no ajuste*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.container1{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+.container2{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+
+.container3{
+    width: 250px;
+    height: 150px;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 34px;
+    
+}
+.container4{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(21, 255, 0);
+    flex-direction: row;
+
+}
+.container5{
+    width: 50px;
+    height: 50px;
+    background-color:grey;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}

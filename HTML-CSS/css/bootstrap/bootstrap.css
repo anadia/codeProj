@@ -1,0 +1,51 @@
+.fondoN{
+    background-color: black;
+    color: white;
+}
+
+.fondoBlue{
+    background-color: blue;
+    color: cornsilk;
+}
+
+
+.fondoRed{
+    background-color: red;
+    color: cornsilk;
+    margin-top: 2px;
+}
+
+.fondoYe{
+    background-color: yellow;
+    color: black;
+}
+
+.fondoGreen{
+    background-color: green;
+    color: white;
+}
+
+.fondoGreen2{
+    background-color: green;
+    color: wblackhite;
+}
+
+.fondoBW{
+    background-color: white;
+    color: black;
+}
+
+.colUna{
+    background-color: lightblue;
+    color: white;
+}
+
+.colDos{
+    background-color: rgb(185, 66, 82);
+    color: black;
+}
+
+.imageS{
+    height: 30px;
+    width: 60px;
+}

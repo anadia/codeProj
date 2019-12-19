@@ -1,0 +1,100 @@
+.containerPadre {
+display: flex;
+width: 500px;
+height: 300px;
+border: 1px solid black;
+flex-wrap: wrap;
+
+}
+.linea1{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+width: 500px;
+}
+.cont0{
+width: 70px;
+height: 70px;
+border: 1px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.cont1{
+width: 20px;
+height: 20px;
+background-color: black;
+
+}
+.cont2{
+width: 20px;
+height: 20px;
+background-color: black;  
+}
+
+.cont3{
+width: 70px;
+height: 70px;
+border: 1px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.cont4{
+width: 20px;
+height: 20px;
+background-color: black;
+
+}
+.cont5{
+width: 20px;
+height: 20px;
+background-color: black;  
+}
+.linea2{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+width: 500px;
+justify-content: center;
+align-items: center;
+}
+.cont6{
+width: 80px;
+height: 60px;
+border: 1px solid black;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+margin-left: 200px;
+}
+.cont7{
+width: 30px;
+height: 60px;
+background-color: green;
+}
+
+.linea3{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+width: 500px;
+justify-content: center;
+align-items: center;
+}
+
+.cont8{
+width: 60px;
+height: 30px;
+background-color:brown;
+border: 1px solid black;
+}
+.cont9{
+width: 60px;
+height: 30px;
+background-color:brown;
+border: 1px solid black;
+}
