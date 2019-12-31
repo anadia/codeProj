@@ -23,7 +23,7 @@ ul{
 
 .superior{
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     margin-top: 15px;
 }
 
@@ -34,7 +34,7 @@ ul{
 .muffinTitle{
     font-family: monospace;
     font-size: 75px;
-    color: rgba(70, 235, 70, 0.719);
+    color: rgba(246, 246, 246, 0.719);
     text-shadow: rgba(34, 33, 30, 0.246) 3px 3px 3px;
     text-shadow: rgba(115, 174, 241, 0.753) 4px 4px 4px;
 
@@ -45,4 +45,15 @@ a{
     font-weight: bolder;
     font-size: 18px;
     color: ivory !important;
+}
+
+.imagenCarousel{
+
+    width: 150px !important;
+    height: 150px !important;
+}
+.enlinea{
+    display: flex !important;
+    width: 100vw;
+    justify-content: space-around;
 }

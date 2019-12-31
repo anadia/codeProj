@@ -1,0 +1,256 @@
+<html>
+<head>
+<script>
+/* HOJA EJERCICIO 3N
+------------------------------------------------
+1- Crea un función que, dado un array, concatene 
+en formato texto el contenido de todos los elementos 
+del array separados por comas, con independencia de 
+que formato tenga el contenido de cada posición del 
+array (números o texto).
+------------------------------------------------
+*/
+/*
+function concatenaArrays (vector){
+	let acum = "";
+	for(let i =0; i < vector.length;i++){
+		if (i == 0){
+		acum += vector[i];
+		}
+		else{
+		acum += "," + vector[i];
+		}
+	}
+	return acum;
+}
+let vector1 = new Array ("pera", "coche", "gato", 45.2, 2, undefined, null);
+console.log(concatenaArrays(vector1));
+*/
+/*
+--------------------------------------------------
+2- Crea una función que compruebe si un array tiene 
+sólo números en su interior. Habrá que comprobar que 
+cada uno de los elementos sea numérico y devuelve 
+true si todos lo son y false en caso de que al menos 
+uno o varios no sean números.
+--------------------------------------------------
+*/
+/*
+function compruebaArraysNum (vector){
+	let bandera = true;
+	for(let i =0; i < vector.length;i++){
+		if (isNaN(vector[i]) == true || vector[i] == null){
+			bandera = false;
+		}
+	}
+	return bandera;
+}
+
+let vector1 = new Array ("pera", "coche", "gato", 45.2, 2, undefined, null);
+console.log(compruebaArraysNum (vector1));	
+let vector2 = new Array (1, 6, 8, 45.2, 2, 10, null);
+console.log(compruebaArraysNum (vector2));	
+let vector3 = new Array (1, 6, 8, 45.2, 2, 10, 55);
+console.log(compruebaArraysNum (vector3));	
+*/
+
+/*
+------------------------------------------------------------------
+3- Crea un función que, dado un array que tenga sólo números en su 
+contenido, compruebe si cada uno de los elementos es mayor que 2. 
+Si todos son mayores devolverá true o false en caso contrario. Se 
+podrá usar la función del ejercicio anterior para comprobar si todos 
+son números.
+------------------------------------------------------------------
+*/
+/*
+function compruebaArraysNum (vector){
+	let bandera = true;
+	for(let i =0; i < vector.length;i++){
+		if (isNaN(vector[i]) == true || vector[i] == null){
+			bandera = false;
+		}
+	
+	}
+	return bandera;
+}
+ function compruebaNumsMasDos(vector){
+	let bandera2 = true;
+	for(let i =0; i < vector.length;i++){
+		if (vector[i]<=2){
+			bandera2 = false;
+		}
+	}
+	return bandera2;
+ }
+
+let vector1 = new Array (10, 6, 8, 45.2, 21, 10, 55);
+if (compruebaArraysNum (vector1)== true){
+	console.log("El array solo contiene numeros");
+}
+else {
+	console.log("El array contiene elementos diferentes a numeros");
+}
+if (compruebaNumsMasDos(vector1)== true){
+	console.log("El array solo contiene numeros mayores de 2");
+}
+else {
+	console.log("Hay elementos menores o iguales a 2 en el array");
+}
+*/
+/*
+--------------------------------------------------------------------
+4- Crear una función que, dado un array y un elemento, realice una 
+búsqueda de ese elemento dentro del array y devuelva la posición en 
+la que lo ha encontrado en caso de que lo encuentre o -1 si no ha 
+podido encontrarlo.
+--------------------------------------------------------------------
+*/
+/*
+let posicion = -1;
+function buscaEnArray(vector, elemento){
+	for(let i = 0;i < vector.length;i++){
+		if (vector[i] == elemento){
+			posicion = i;
+		}
+	}
+	return posicion;
+}
+let vector1 = new Array ("pera", "coche", "gato", 45.2, 2, undefined, null);
+let elemento1 = "gato";
+console.log(buscaEnArray(vector1,elemento1));
+*/
+
+/*
+--------------------------------------------------------------------
+5- Crear una función que, dado un array, divida cada uno de los 
+elementos entre 2, e inserte en un nuevo array el resultado de la 
+división (decimal en caso de que sea).
+Por ejemplo: [2, 3, 4] => [1, 1.5, 2]
+
+--------------------------------------------------------------------
+*/
+/*
+let vector1 = new Array (2,3,4);
+let vector2 = new Array (1);
+function divideEntreDos (vectora,vectorb){
+	 for (let i =0; i< vectora.length;i++){
+		vectorb[i] = vectora[i]/2;
+	 }
+	 console.log (vectorb);
+}
+divideEntreDos(vector1,vector2);
+*/
+
+/*
+--------------------------------------------------------------------
+6- Crear una función que, dado un array y un elemento, añada ese elemento 
+al final del array y devuelva el array modificado con ese elemento 
+añadido.
+--------------------------------------------------------------------
+*/
+/*
+function addElementArray (vector,element){
+	 let limit = vector.length;
+	 vector[limit]=element;
+	 console.log(vector);
+}
+let vector1 = new Array ("nube", "flor", "cielo");
+let elemento = "risa";
+addElementArray(vector1,elemento);
+*/
+
+/*
+--------------------------------------------------------------------
+7- Crear una función que, dado un array, devuelva el valor del último 
+elemento de un array.
+--------------------------------------------------------------------
+*/
+/*
+function lastElementArray (vector){
+	let limit = vector.length;
+	console.log(vector[limit-1]);
+}
+let vector1 = new Array ("nube", "flor", "cielo");
+lastElementArray (vector1);   
+*/
+
+/*
+--------------------------------------------------------------------
+8- Crear una función que, dado un array, devuelva un nuevo array con 
+los datos invertidos del array anterior:
+Ejemplo: [2,5,8,9] => [9,8,5,2]
+--------------------------------------------------------------------
+*/
+/*
+function inverseArray(vectora){
+	let limit = vectora.length;
+	let vectorb = new Array (limit);
+	for (let i =1;i <= limit;i++){
+		vectorb[limit-i] = vectora[i-1];
+	}
+	console.log(vectorb);
+}
+
+let vector = new Array (2,5,8,9);
+inverseArray(vector);
+*/
+/*
+--------------------------------------------------------------------
+9- Crear una función que dado un array y una posición, devuelva el 
+array “cortado” desde la posición 0 hasta la recibida. Si recibe un 
+0 devolverá un array con un solo valor, el primero.
+Ejemplo: [2,5,8,9,15]  corto por el 2 => [2,5,8] (corta en la posición 
+2 e ignora el 9 y el 15)
+--------------------------------------------------------------------
+*/
+/*
+let vector =new Array (2,5,8,9,15);
+let posicion = 1;
+function cutArray (vector1, posicion1){
+	let vector2 =new Array(posicion1);
+	for (let i = 0; i < posicion1+1; i++){
+		vector2[i] = vector1[i];
+	}		
+	console.log(vector2);
+}
+cutArray (vector,posicion);
+*/
+
+/*
+--------------------------------------------------------------------
+10- Crear una función que dado un array y una posición, devuelva el 
+array “cortado” desde la posición recibida hasta el final. Si recibe 
+un valor mayor que el tamaño del array, devolvera -1. Si recibe el 
+valor de la última posición del array devolverá un array con solo el 
+último valor.
+Ejemplo: [2,5,8,9,15]  corto podr el 2 => [8, 9,15] (corta desde la 
+posición 2 e ignora el 2 y el 5)
+Ejemplo: [2,5,8,9,15]  corto por el 4 => [15]
+Ejemplo: [2,5,8,9,15]  corto por el 8 => -1
+--------------------------------------------------------------------
+*/
+/*
+let vector =new Array (2,5,8,9,15);
+let posicion = 4;
+function cutArrayToEnd (vector1, posicion1){
+	let vector2 = new Array (1);
+	if (posicion < vector1.length){
+		for (let i = 0, j = 0; i < vector1.length; i++){
+				vector2[j] = vector1[i];
+				j++;
+			}	
+			console.log(vector2);
+	}
+	else{
+		console.log(-1)
+	}
+}		
+	
+cutArrayToEnd  (vector,posicion);
+*/
+</script>
+</head>
+<body>
+</body>
+</tml>[

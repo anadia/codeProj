@@ -1,0 +1,306 @@
+<html>
+<head>
+<script>
+//funciones
+​
+//1º: no recibe nada y no devuelve nada
+function saludar(){
+	console.log("Hola");
+}
+//invocacion:
+saludar();
+​
+​
+//2º: recibe algo y no devuelve nada
+function saludarNombre(nombre) {
+	console.log("Hola " + nombre);
+}
+//invocacion
+saludarNombre("Pepe");
+​
+​
+//3º: No recibe nada pero devuelve algo
+function saludarGenerico(){
+	return "Buenos dias";
+}
+//invoacion:
+var texto = saludarGenerico();
+console.log(texto);
+​
+//4º: Si recibe y Si devuelve
+function saludarAAlguien(nombre){
+	return "Buenos dias " + nombre;
+}
+//invocacion
+var saludo = saludarAAlguien("Jose Luis");
+console.log(saludo);
+​
+​
+//ifs sin else
+var x = 0;
+if (x < 5){
+	console.log("Que bien que x es menor que 5!!!");
+}
+​
+//ifs con else
+if (x < 5){
+	console.log("Es menor");
+}
+else {
+	console.log("No es menor o Es mayor!!!!");
+}
+​
+//ifs con else if
+if (x < 5){
+	console.log("Es menor");
+}
+else if (x == 6){
+	console.log("Es igual a 6");
+}
+else if (x == 7){
+	console.log("Es igual a 7");
+}
+else {
+	console.log("Es mayor que 7");
+}
+​
+//agrupaciones: y u o
+​
+//un Y
+if (x > 5 && x < 10){
+	console.log("x está en tre 5 y 10");
+}
+​
+​
+//un O
+if (x < 5 || x > 10){
+	console.log("x no está entre 5 y 10");
+}
+​
+​
+//bucles:
+​
+//1º bucle (mucho más usado):
+for (var i = 0; i < 5; i++){
+	console.log(i); //escribe todos los valores de i de 0 a 4
+}
+​
+//2º 2º más usado
+var i = 0;
+while (i < 5){
+	console.log(i);  //escribe todos los valores de i de 0 a 4
+	i++;
+}
+​
+//3º bucle menos menos menos usado posible
+var i = 0;
+do { //siempre ejecutará el código al menos una vez
+	console.log(i); 
+	i++;
+} while (i < 5);
+​
+//utilizar let Ecmascript &
+​
+for (let i = 0; i < 5; i++){
+	console.log("lalla");
+}
+let i = 0;
+while (i < 5){
+	console.log("entro");
+}
+// Sumar o Multiplicar con bucles
+//Uso de acum
+let acum = 0;
+let entrada = "";
+for (let i =0; i < 5; i++){
+entrada = parseInt(prompt());
+acum = acum + entrada;
+console.log(acum);
+}
+console.log(acum);
+//switch elegir entre casos
+switch (expresión) {
+  case valor1:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor1
+    [break;]
+  case valor2:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor2
+    [break;]
+  ...
+  case valorN:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con valorN
+    [break;]
+  default:
+    //Declaraciones ejecutadas cuando ninguno de los valores coincide con el valor de la expresión
+    [break;]
+}
+
+//ejemplo
+var foo = 0;
+switch (foo) {
+  case -1:
+    console.log('1 negativo');
+    break;
+  case 0: // foo es 0, por lo tanto se cumple la condición y se ejecutara el siguiente bloque
+    console.log(0)
+    // NOTA: el "break" olvidado debería estar aquí
+  case 1: // No hay sentencia "break" en el 'case 0:', por lo tanto este caso también será ejecutado
+    console.log(1);
+    break; // Al encontrar un "break", no será ejecutado el 'case 2:'
+  case 2:
+    console.log(2);
+    break;
+  default:
+    console.log('default');
+}
+//Concatenar con bucles
+// acum no puede ser 0 o 1
+let acum = "";
+let entrada = "";
+for (let i =0; i < 5; i++){
+entrada = prompt();
+//si no es mayor o igual no concatena 
+// con coma la primera entrada
+	if (i >= 1){
+	acum = acum + "," + entrada;
+	console.log(acum);
+	}
+	else{
+	acum = acum + entrada
+	console.log(acum)
+	}
+}
+//resultaado final en 1 linea
+
+console.log(acum);
+
+//Crear Arrays, arreglos o vectores
+
+let lunas = new Array("luna", "ganimedes", "europa", "calixto", "io");
+
+// Banderas para marcar si es true o false una condicion Flags
+let nums = new Array(1,4,5,7,8,9,12,14,15,16,);
+let n = parseInt(prompt());
+
+let encontrado = false;
+for (let i = 0; i < nums.length && encontrado == false; i++){
+	if (nums[i] == n){
+		encontrado = true;
+	}
+	console.log(i);
+}
+
+if(encontrado == true){
+	console.log("Encontrado");
+} 
+else{
+	console.log("No Encontrado");
+}
+
+// Retorna un entero aleatorio entre min (incluido) y max (excluido)
+function crearAleatorioEntero(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+// Devuelve el numero mayor contenido en un array
+let vectorReducido = new Array(16,2,53,221,22,4,2,1234,56,3333,2,1,3);
+let valorLimite = vectorReducido.length;
+console.log("El array contiene " + valorLimite + " elementos");
+
+// la longitud la establecemos valor absoluto a valorLimite
+for (let i =0; i<valorLimite; i++){
+	let pivote =0;
+	if (vectorReducido[i]<vectorReducido[i+1] ){
+	}
+	else if (i<valorLimite-1){
+		pivote = vectorReducido[i+1];
+		vectorReducido[i+1] = vectorReducido[i];
+		vectorReducido[i] = pivote;
+	}
+}
+let ultimoValorArray =  vectorReducido.length - 1
+console.log("El numero mayor es " + vectorReducido[ultimoValorArray]);
+// medir duracion de un script
+
+let acum = "";
+
+// Remember when we started
+let acum2 =0;
+for (let i=0; i <10;i++){
+let start = new Date().getTime();
+
+for (let i = 1; i <= 1e6; i++) {
+  acum += i;
+}
+
+// Remember when we finished
+let end = new Date().getTime();
+
+// Now calculate and output the difference
+acum2 = acum2 + (end - start);
+console.log((end - start) + " milisegundos");
+}
+let media = acum2 / 10;
+console.log("tiempo medio de ejecucion es " + media + " milisegundos");
+
+//funcion que concatena arrays
+function concatenaArrays (vector){
+	let acum = "";
+	for(let i =0; i < vector.length;i++){
+		if (i == 0){
+		acum += vector[i];
+		}
+		else{
+		acum += "," + vector[i];
+		}
+	}
+	return acum;
+}
+
+//funcion ordenacion quickshort
+function swap(vector1, leftIndex, rightIndex){
+    let temp = vector1[leftIndex];
+    vector1[leftIndex] = vector1[rightIndex];
+    vector1[rightIndex] = temp;
+}
+function partition(vector1, left,right) {
+    let pivot = vector1[Math.floor((right + left) / 2)];//middle
+    let i       = left; //left 
+    let j       = right; //right 
+    while (i <= j) {
+        while (vector1[i] < pivot) {
+            i++;
+        }
+        while (vector1[j] > pivot) {
+            j--;
+        }
+        if (i <= j) {
+            swap(vector1, i, j); //swap
+            i++;
+            j--;
+        }
+    }
+    return i;
+}
+
+function quickSort(vector1, left,right) {
+    let index; 
+    if (vector1.length > 1) {
+        index = partition(vector1, left, right); //index returned from partition
+        if (left < index - 1) { //more elements on the left side of the pivot
+            quickSort(vector1, left, index - 1);
+        }
+        if (index < right) { //more elements on the right side of the pivot
+            quickSort(vector1, index, right);
+        }
+    }
+    return vector1;
+}
+let sortedArray = quickSort(vector, 0, vector.length - 1);
+console.log(sortedArray); 
+</script>	
+</head>
+<body>
+Hola
+</bodvector1y>
+</html>

@@ -1,0 +1,370 @@
+<html>
+<head>
+<script>
+//EJERCICIO 5
+/* Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "negro", 
+"gris"] determinar si un color introducido por el usuario a través de un 
+prompt se encuentra dentro del array o no
+*/
+/*
+let colorIntro = prompt("Introduce un color");
+let colores = new Array("azul", "amarillo", "rojo", "verde", "negro", "gris");
+let bandera = false;
+for (i = 0; i < colores.length; i++){
+	if (colores[i] == colorIntro){
+		bandera = true;
+	}
+}
+
+if (bandera == true){
+	console.log("El color introducido esta en el array y es: " + colorIntro);
+}
+else{
+	console.log("Color no encontrado en el array");
+}
+*/
+	
+// Banderas para marcar si es true o false una condicion Flags
+/*
+let nums = new Array(1,4,5,7,8,9,12,14,15,16,);
+let n = parseInt(prompt());
+
+let encontrado = false;
+for (let i = 0; i < nums.length && encontrado == false; i++){
+	if (nums[i] == n){
+		encontrado = true;
+	}
+	console.log(i);
+}
+
+if(encontrado == true){
+	console.log("Encontrado");
+} 
+else{
+	console.log("No Encontrado");
+}
+*/
+/*
+let color = new Array ("azul","amarillo","rojo","verde","negro","gris");
+let indicaColor = prompt("introduce un color");
+let encontrado = false;
+for( let i = 0; i < color.length && encontrado == false; i++){
+	if(color[i] == indicaColor){
+		encontrado = true;
+	}
+}
+if ( encontrado == true){
+	console.log("color encontrado");
+}
+else {
+	console.log("color no encontrado");
+}
+*/
+/*
+6 - Crear un script en el que dados dos arrays de números, si ambos tienen 
+la misma cantidad de elementos, mostrar un array que contenga la suma de 
+cada elemento que se encuentre en la misma posición en los dos arrays. 
+Ejemplo: [1,2,3] + [2,3,4] = [3,5,7]
+
+*/
+/*
+
+let vector1 = new Array (1,2,3,4,5);
+let vector2 = new Array (1,2,3,4,5);
+let resultado = new Array ( 1 );
+if(vector1.length == vector2.length){
+for( let i = 0; i < vector1.length; i++){
+	resultado[i] = vector1[i] + vector2[i];
+  }
+}
+let acum = "  ";
+for( let i = 0; i < resultado.length; i++){
+	if (i == 0){
+	acum +=  resultado[i];
+	}
+	else{
+	acum += "," + resultado[i];
+	}
+}
+console.log(acum);
+*/
+
+/*
+7- Dados dos arrays, cada uno con 3 elementos, generar un nuevo array con la 
+unión de ambos elementos, (Ejemplo: [1,2,3] unión [1,2,4] = [1,1,2,2,3,4]
+*/
+/*
+let vector1 = new Array (1,2,3);
+let vector2 = new Array (1,2,4);
+let resultado = new Array (6);
+for( let i = 0, j = 0, k = 0; i < resultado.length;i++  ){
+	if(i % 2 == 0 ){
+		resultado[i] = vector1[j];
+		j++
+	}
+	else{
+		resultado[i] = vector2[k]
+		k++
+	}
+}
+let acum = "";
+for (let i=0; i < resultado.length; i++){
+	if (i == 0){
+	acum += resultado[i]
+	}
+	else {
+	acum += "," + resultado[i];
+	}
+}
+console.log(acum);
+*/
+
+/*-----------------------------------------------------------------------
+ 8- Hacer un programa que simule el lanzamiento de un dado 10.000 veces. 
+Almacenar en un array de 6 posiciones el número de veces que salió cada 
+tirada, escribiendo a continuación el número de veces que salió cada cara 
+del dado.
+-----------------------------------------------------------------------*/
+// Retorna un entero aleatorio entre min (incluido) y max (excluido)
+
+/*
+function crearAleatorioEntero(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+let tirada ="";
+let acum1 = 0;
+let acum2 = 0;
+let acum3 = 0;
+let acum4 = 0;
+let acum5 = 0;
+let acum6 = 0;
+for ( let i = 0; i < 10000; i++){
+	tirada = crearAleatorioEntero(1,7);
+	switch (tirada) {
+		case 1:
+			acum1++
+			break;
+		case 2:
+			acum2++
+			break;
+		case 3:
+			acum3++
+			break	
+		case 4:
+			acum4++
+			break		
+		case 5:
+			acum5++
+			break	
+		case 6:
+			acum6++
+			break	
+		default:
+			console.log("condicion fuera de rango");
+	
+	}
+}
+let resultados = new Array(6);
+resultados[0] = acum1;
+resultados[1] = acum2;
+resultados[2] = acum3;
+resultados[3] = acum4;
+resultados[4] = acum5;
+resultados[5] = acum6;
+
+let concatena = "";
+for (let i= 0; i < resultados.length; i++){
+	if (i == 0){
+	concatena += resultados[i];
+	}
+	else{
+	concatena += "," + resultados[i];
+	}
+}
+console.log(concatena);
+
+for(let i = 0;i < resultados.length; i++){
+		switch (i) {
+		case 0:
+			console.log("El numero " + (i+1) + " en 10000 tiradas ha salido "+ 
+			resultados[i] + " veces");
+			break;
+		case 1:
+			console.log("El numero " + (i+1) + " en 10000 tiradas ha salido "+ 
+			resultados[i] + " veces");
+			break;
+		case 2:
+			console.log("El numero " + (i+1) + " en 10000 tiradas ha salido "+ 
+			resultados[i] + " veces");
+			break	
+		case 3:
+			console.log("El numero " + (i+1) + " en 10000 tiradas ha salido "+ 
+			resultados[i] + " veces");
+			break		
+		case 4:
+			console.log("El numero " + (i+1) + " en 10000 tiradas ha salido "+ 
+			resultados[i] + " veces");
+			break	
+		case 5:
+			console.log("El numero " + (i+1) + " en 10000 tiradas ha salido "+ 
+			resultados[i] + " veces");
+			break	
+		default:
+			console.log("condicion fuera de rango");
+	
+	}
+} 
+/*
+
+/*-------------------------------------------------------------------------
+9- Dado el siguiente array ["Banana", "Mango", "Manzana"], hacer: 
+
+●	Añadir el elemento "Kiwi"
+●	Borra "Mango"
+●	Ordenar alfabéticamente el array
+●	Concatenar el siguiente array: ["Pera", "Naranja", "Fresa"]
+
+-------------------------------------------------------------------------*/
+/*
+let frutas = new  Array("Banana", "Mango", "Manzana");
+let masFrutas = new Array("Pera", "Naranja", "Fresa");
+
+let longitudFrutas = frutas.length;
+let longitudMasFrutas = masFrutas.length;
+console.log (longitudFrutas);
+console.log (longitudMasFrutas);
+//adding one element la longitud no tiene en consideracion el 0
+frutas[longitudFrutas] = "Kiwi";
+console.log(frutas[longitudFrutas]);
+console.log(frutas.length);
+console.log(frutas);
+// creamos un nuevo array borrando un elemento Mango
+let newFrutas = new Array (longitudFrutas);
+console.log(newFrutas.length);
+for (let i =0, j =0; i < newFrutas.length;i++){
+	if (frutas[j] != "Mango"){
+	newFrutas[i] = frutas[j];
+	j++
+	}
+	else{
+	j++
+	newFrutas[i] = frutas[j];
+	j++
+	}
+}
+console.log(newFrutas);
+//Ordenar alfabeticamente el Array
+console.log(newFrutas.sort());
+
+//ordenamos con algoritmo quicksort
+function swap(newFrutas, leftIndex, rightIndex){
+    let temp = newFrutas[leftIndex];
+    newFrutas[leftIndex] = newFrutas[rightIndex];
+    newFrutas[rightIndex] = temp;
+}
+function partition(newFrutas, left, right) {
+    let pivot   = newFrutas[Math.floor((right + left) / 2)], //middle element
+    let  i       = left, //left pointer
+    let j       = right; //right pointer
+    while (i <= j) {
+        while (newFrutas[i] < pivot) {
+            i++;
+        }
+        while (newFrutas[j] > pivot) {
+            j--;
+        }
+        if (i <= j) {
+            swap(newFrutas, i, j); //swapping two elements
+            i++;
+            j--;
+        }
+    }
+    return i;
+}
+
+function quickSort(newFrutas, left, right) {
+    let index;
+    if (newFrutas.length > 1) {
+        index = partition(newFrutas, left, right); //index returned from partition
+        if (left < index - 1) { //more elements on the left side of the pivot
+            quickSort(newFrutas, left, index - 1);
+        }
+        if (index < right) { //more elements on the right side of the pivot
+            quickSort(newFrutas, index, right);
+        }
+    }
+    return newFrutas;
+}
+// call to quickSort function
+var sortedArray = quickSort(newFrutas, 0, newFrutas.length - 1);
+console.log(sortedArray); 
+
+//concatenamos segundo array
+longitudSortedArray = sortedArray.length;
+console.log(longitudSortedArray);
+
+let concatenadoArray = new Array (longitudSortedArray+longitudMasFrutas);
+console.log(concatenadoArray);
+for(let i=0, j =0;i<concatenadoArray.length;i++){
+	if (i<longitudSortedArray){
+	concatenadoArray[i]=sortedArray[i];
+	}
+	else{
+	concatenadoArray[i] = masFrutas[j];
+	j++
+	}
+
+}
+console.log(concatenadoArray);
+ */    
+
+/*-------------------------------------------------------------------------
+10- Crear un código que, utilizando una función donde consideres más correcto, 
+busque el elemento mayor de un array. Tendrá que leer todos los elementos del 
+array y obtener aquel que tenga el mayor valor, descartando valores que no sean 
+numéricos. 
+Ejemplo: Dado [1, 38, “a”, “pepe5”, 18, “zz-top”, “54”, 6], el mayor será 54
+-------------------------------------------------------------------------*/
+/*
+let vectorMixto = new Array (1, 38, "a", "pepe5", 18, "zz-top", "54", 6);
+
+for(i=0;i<vectorMixto.length;i++){
+	vectorMixto[i]=parseInt(vectorMixto[i]);
+}
+
+//crer nuevo array con los numeros quitar los isNaN 
+
+//ordenar de menor a mayor y el mayor sera la posicion length -1 del array
+
+qq (let i=0, j=0;i < vectorMixto.length;i++){
+	if (isNaN(vectorMixto[i]) == false){
+		vectorReducido[j] = vectorMixto[i];
+		j++
+	}
+	
+}
+console.log(vectorReducido);
+//programamos un algoritmo de ordenacion
+let valorLimite = vectorReducido.length;
+console.log(valorLimite);
+
+// la longitud es 5 establecemos valor absoluto a valorLimite
+for (let i =0; i<valorLimite; i++){
+	let pivote =0;
+	if (vectorReducido[i]<vectorReducido[i+1] ){
+	}
+	else if (i<valorLimite-1){
+		pivote = vectorReducido[i+1];
+		vectorReducido[i+1] = vectorReducido[i];
+		vectorReducido[i] = pivote;
+	}
+}
+let ultimoValorArray =  vectorReducido.length - 1
+console.log("el numero mayor es " + vectorReducido[ultimoValorArray]);
+*/
+</script>
+</head>
+
+<body>
+</body>
+</html>

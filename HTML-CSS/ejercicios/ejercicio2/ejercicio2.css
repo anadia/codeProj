@@ -1,0 +1,31 @@
+.color1{
+    background:linear-gradient(red,blue);
+    height: 90px;
+    width: 90px;
+}
+.color2{
+    background:linear-gradient(green,yellow);
+    height: 90px;
+    width: 90px;
+}
+.color3{
+    background:linear-gradient(pink,brown);
+    height: 90px;
+    width: 90px;
+}
+.color4{
+    background:linear-gradient(cyan,magenta);
+    height: 90px;
+    width: 90px;
+}
+.color5{
+    background:linear-gradient(black,gold);
+    height: 90px;
+    width: 90px;
+
+}
+.color6{
+    background:linear-gradient(orange,purple);
+    height: 90px;
+    width: 90px;
+}

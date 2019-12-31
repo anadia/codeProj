@@ -1,0 +1,428 @@
+<html>
+<head>
+<script>
+/* Ejercicio 1
+Hacer un código que calcule y escriba la suma de los números pares por un 
+lado, y de los impares por otro, de los números 
+comprendidos entre 1 y 1000. Debe ser resuelto usando un único bucle.
+*/
+/*
+let sumaTotalPares = 0;
+let sumaTotalImpares = 0;
+
+for (let i = 1; i <= 1000; i++){
+	if (i % 2 == 0){
+	sumaTotalPares = sumaTotalPares + i;
+	}
+	else{
+	sumaTotalImpares = sumaTotalImpares + i;
+	}
+	
+}
+	
+
+console.log("La suma de los pares es: " + sumaTotalPares);
+console.log("La suma de los impares es: " + sumaTotalImpares);
+
+*/
+/*
+let sumaTotalPares = 0;
+let sumaTotalImpares = 0;
+for (let i = 1; i < 1001; i++){
+	if (i % 2 == 0) {
+		//console.log((sumaTotalPares + i) + " = " + sumaTotalPares + " + " + i);
+		sumaTotalPares = sumaTotalPares + i; // sumaTotalPares += i;
+	}
+	else {
+		//console.log((sumaTotalImpares + i) + " = " + sumaTotalImpares + " + " + i);
+		sumaTotalImpares = sumaTotalImpares + i; // sumaTotalImpares += i;
+	}
+}
+console.log("Suma total pares " + sumaTotalPares);
+console.log("Suma total impares " + sumaTotalImpares);
+
+
+*/
+
+// Ejercicio 2
+/* Leer por teclado 5 números enteros (positivos o negativos), y escribir cuál 
+fue el mayor de los números introducidos. Hay que controlar que el usuario no 
+introduzca otro texto, si se da esta circunstancia se ignora el dato 
+introducido.
+*/
+
+/*
+let num;
+let mayor;
+for (let i = 0; i < 5; ){
+	num = parseInt(prompt("Introduce num : "));
+		if (isNaN(num) == false){
+			if (i == 0){
+			mayor = num;
+			}
+			if (num > mayor ){
+				mayor = num;
+			}
+			i++;
+				
+		}
+			
+			
+			
+	
+}
+
+console.log ("El mayor es :" + mayor);
+*/
+/*
+let mayor;
+let i = 0;
+do {
+	let num = parseInt(prompt());	
+	if (isNaN(num) == false){
+		if (i == 0){ //primera vez
+			console.log("El valor inicial de mayor es " + num);
+			mayor = num;
+		}
+		if (num > mayor){
+			mayor = num;
+			console.log("Ahora el mayor es " + mayor);
+		}
+		i++;
+	}
+} while (i < 5);
+console.log("FINAL El mayor es: " + mayor);
+*/
+/*
+Ejercicio 3
+Crear un código que dibuje por pantalla el siguiente patrón, en función del 
+número que el usuario introduzca por teclado, en este caso para un 4 sería:
+*/
+/*
+
+let num = parseInt(prompt("introduce un numero"));
+for(let i = 0;i < num;i++){
+  linea = "";
+  let j=0;
+  while(j<= i){
+        linea = linea + "*";
+        j++;
+}
+console.log(linea);
+}
+
+/*
+let simbolo = "*";
+let filas = parseInt(prompt());
+for (let i = 0; i < filas; i++){
+	let textoAcum = "";
+	for (let j = 0; j <= i; j++){
+		textoAcum += simbolo; //textoAcum = textoAcum + simbolo;
+	}
+	console.log(textoAcum);
+}
+
+
+*/
+
+
+
+
+/*
+4- Crear una función que sirva para hacer potencias. Una potencia es una 
+operación matemática entre dos términos denominados: base a y exponente n, 
+como en an, en la que se multiplica la base por el número de veces que diga 
+el exponente. Como en el siguiente ejemplo:
+*/
+/*
+let b = parseInt(prompt("introduce una base :"));
+let e = parseInt(prompt("introduce un exponente :"));
+let potencia = 1;
+let acum = "";
+
+function hacerPotencias(base,exponente){
+	
+	for(let i = 0; i < exponente; i++){
+		potencia *= base;	
+	}
+	return potencia;
+}
+
+for (let j = 0; j < exponente; j++){
+	
+	if (j < exponente - 1){
+		acum += base + "*";
+	}
+	
+	else {
+		acum += base;
+	}
+}
+let resultado = hacerPotencias(b, e);
+
+console.log("El calculo de la potencia para la base introducida y su exponente es:");
+console.log(base + "^" + exponente + " = " + acum + " = " + resultado);
+*/
+/*
+let b = 2;
+let e = 20;
+let res = calcularPotencia(b, e);
+console.log(res);
+function calcularPotencia(base, exponente){
+	let multiplicacion = 1;
+	let texto = "";
+	for (let i = 0; i < exponente; i++){
+		multiplicacion *= base; //multiplicacion = multiplicacion * base;
+		if (i != 0){
+			texto += " * ";
+		}
+		texto += base;
+	}
+	return base + "^" + exponente + " = " + texto + " = " + multiplicacion;	
+}
+*/
+
+//EJERCICIO 5
+/*Crear una función que dado un número introducido por teclado, y otro 
+indicando el número de repeticiones cree y sume una serie como la siguiente:
+Número: 9
+Número de repeticiones: 5
+Salida del programa: 
+9 99 999 9999 99999
+La suma de la serie es: 111105
+*//* MAL
+let numero = parseInt(prompt("Introduce numero"));
+let repeticiones = parseInt(prompt("Introduce repeticiones"));
+let acum = 0;
+let suma = 0;
+function pintarSerieYSuma (numero, repeticiones){
+		for(let i = 0; i < repeticiones; i++){
+			acum = acum + numero + ""
+			suma = suma + numero;
+			console.log(acum);
+		}
+		console.log(suma);
+}
+pintarSerieYSuma(numero,repeticiones);
+*/
+
+
+/*
+let nBase = 9;
+let nRepeticiones = 5;
+calcularRepeticiones(nBase, nRepeticiones);
+function calcularRepeticiones(base, repeticiones) {
+	let texto = "";
+	let suma = 0;
+	for (let i = 0; i < repeticiones; i++){
+		let repeticionInterna = "";
+		for (let j = 0; j <= i; j++){
+			repeticionInterna += base;
+		}
+		console.log(repeticionInterna);
+		texto += repeticionInterna + " ";
+		suma += parseInt(repeticionInterna);
+	}
+	console.log("Salida del programa: " + texto);
+	console.log("La suma de la serie es: " + suma);	
+}
+*/
+/* 
+
+let num = 9;
+	let rep = 5;
+	let resultado = "";
+	let acum = "";
+	let suma = 0;	
+	for(let i = 0; i < rep; i++){
+		resultado += num;		
+		acum += resultado + " ";
+		suma += parseInt(resultado);
+		console.log("resultado: " + resultado);
+		console.log("acum: " + acum);
+		console.log("suma: " + suma);		
+	}	
+	console.log("Número: " + num);
+	console.log("Número de repeticiones: " + rep);
+	console.log(acum);
+	console.log("La suma de la serie es:  " + suma);
+
+*/
+
+//EJERCICIO 6
+/*
+6.- Crear un código que dibuje por pantalla el siguiente patrón el número de veces que el usuario introduzca por teclado, en este caso si introduce un 5:
+
+....1 
+...22 
+..333 
+.4444 
+55555
+
+
+*/
+/*
+
+Carlos Yáñez 10:55
+let ancho = 5;
+for (let fila = 0; fila < ancho; fila++) {
+	let resultado = "";
+	for (let columna = 0; columna < ancho; columna++) {
+		if (columna < ancho - (fila + 1)) {
+			resultado += ".";
+		}
+		else {
+			resultado += fila + 1;
+		}
+	}	
+	console.log(resultado);
+}
+*/
+/*
+
+let repeticiones = 8;
+for (let fils = 0; fils < repeticiones; fils++){
+	let texto = "";
+	for (let cols = 0; cols < repeticiones; cols++){		
+		if ((fils + cols) % 2 == 0) {
+			texto += "_";
+		}
+		else {
+			texto += "#";
+		}	
+	}		
+	console.log(texto);	
+}
+*/
+
+// EJERCICIO 8
+/*
+8- Crear un código que utilizando un bucle dibuje la secuencia de fibonacci del 
+valor N. La secuencia de Fibonacci consiste en la suma de los dos números 
+anteriores, partiendo de 1, 1, 2, 3, 5, 8, 13, 21... 
+Por ejemplo:
+ la secuencia para N=5 de Fibonacci será: 1, 1, 2, 3, 5
+ la secuencia para N=7 de Fibonacci será: 1, 1, 2, 3, 5, 8, 13
+
+*/
+//MAL
+/*
+let numero = 0;
+let repeticiones = 5
+let acum = 1;
+let suma= 0;
+for (let i=0;i < repeticiones;i++){
+ if (i == 0){
+ suma = suma + acum;
+ }
+ else{
+ acum = acum + i;
+}
+ console.log(acum);
+
+} */
+
+//EJERCICIO 9
+/*
+9- Recrea dinámicamente la siguiente forma:
+*/
+/*
+let max = 10;
+for (let i = 0; i < max; i++){
+	let texto = "";	
+	let ancho = (max - i) * 2;	//mitad inferior
+	if (i < max / 2){
+		ancho =  (i + 1) * 2;//mitad superior
+	}
+	for (let j = 0; j < ancho; j++){
+		let simbolo = "";
+		if (j < ancho / 2){ //izquierda
+			simbolo = "C";	
+			if (i < max / 2){
+				simbolo = "A";			
+			}
+		}
+		else { //derecha
+			simbolo = "D";	
+			if (i < max / 2){
+				simbolo = "B";			
+			}
+		}		
+		texto += simbolo;
+	}
+	console.log(texto);
+}
+*/
+
+//EJERCICIO 10
+// let numeros = new Array(1046, 11718, 11, 1423, 1165, 1718, 1911, 110156, 1173, 1463, 1111,1222, 5, 8,22,346,191,758);
+/*
+for (i = 0; i < numeros.length; i++){
+	numeros[i] +=  1;
+	console.log(numeros[i]);
+}
+*/
+
+/*
+for (i = 0; i < numeros.length; i++){
+	numeros[i] *=  5;
+	console.log(numeros[i]);
+}
+*/
+/*
+for (i = 0; i < numeros.length; i++){
+	console.log(numeros[i]);
+}
+*/
+// solo muestra no cambia
+/*
+for (i = 0; i < numeros.length; i++){
+	console.log(numeros[i]+1);
+}
+*/
+//ultima posicion del array
+/*
+for (i = 0; i < numeros.length; i++){
+	console.log(numeros[numeros.length]);
+}
+console.log(numeros[numeros.length-1]);
+*/
+/*
+let textos = new Array("Hola", "me", "llamo", "Jose", "Miguel");
+	let frase = "";
+for (let i = 0; i < textos.length; i++){
+
+	frase = frase + textos[i] + " ";
+
+}
+	console.log(frase);
+	*/
+/*	
+let datos = new Array(1 ,5, 7, 15);
+let datos2 = new Array(4);
+
+for (let i = 0; i < datos2.length; i++){
+
+	datos2[i] = datos[i] / 2;
+}
+console.log(datos); // estaria mal hacerlo en un bucle
+*/
+/*
+let nums2 = new Array(5, "Hola", 85, 4, "Pepe");
+let acum = "";
+for (i = 0; i < nums2.length; i++){
+	if (i =! 0){
+		acum = acum + ", ";
+	}
+	acum = acum + nums2[i];
+} 
+	console.log(acum);
+*/
+
+
+</script>	
+</head>
+<body>
+
+</body>
+</html>

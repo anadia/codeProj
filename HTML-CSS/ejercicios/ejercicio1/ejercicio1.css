@@ -1,0 +1,11 @@
+.contenedor1{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient (green,  red,yellow);
+    background: linear-gradient(blue,red);
+}
+p {
+    color:red;
+    font-size:25px;
+    border: 2px solid black;
+}

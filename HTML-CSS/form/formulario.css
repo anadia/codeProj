@@ -1,0 +1,69 @@
+.padre{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.linea1{
+    height: 100px;
+    width: 800px; 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.cajaFea{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(83, 146, 204);
+    flex-wrap: wrap;
+    border-radius: 15%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.redonda{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: gray;
+  
+}
+.linea2{
+    height: 100px;
+    width: 800px; 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 180px;
+}
+.centrado{
+    text-align:center;
+
+}
+.button {
+    background-color: rgb(83, 146, 204);
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15%;
+    font-size: 16px;
+  }
+  .classInput{
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom-color: white;
+    text-decoration: none; 
+    color: white; 
+    font-size: 16px;
+  }
+  h1{
+      color:white;
+      font-family:"fantasy"
+  }
