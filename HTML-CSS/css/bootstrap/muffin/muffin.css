@@ -27,6 +27,10 @@ ul{
     margin-top: 15px;
 }
 
+.inferior{
+    z-index: 1;
+}
+
 .choco{
     background-color: rgba(142, 202, 226, 0.561);
 }

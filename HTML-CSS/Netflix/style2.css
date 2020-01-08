@@ -1,0 +1,246 @@
+.container-fluid{
+    padding-right: 0px;
+}
+.navigation{
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black!important;
+}
+
+.logo{
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    margin-left: 25px;
+    justify-content: space-between;
+}
+
+.left20{
+    margin-left: 20px;
+}
+
+.btn{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 34px;
+    width: 34px;
+}
+a:hover{
+    color:white!important;
+}
+
+@media(max-width:768px){.clearfix-xs:after{
+	visibility: hidden;
+	display: inline-flexbox;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+}
+
+#search-form{
+    visibility: hidden;
+}
+
+.hide{
+    opacity: 0;
+    max-height: 0;
+
+}
+
+#trigger{
+  position: relative;
+  left: -999em;
+}
+
+#ct{
+    display: inline-flex;
+    align-items: center; 
+}
+
+input{
+    max-height: 99em;
+    opacity: 70%;
+  
+    height: auto;
+    overflow: hidden;
+    margin-right: 0px;
+    border-radius: 1%;
+}
+
+#ct input[type="checkbox"]:checked + div{
+  max-height: 99em;
+  opacity: 70%;
+  height: auto;
+  overflow: hidden;
+  margin-right: 0px;
+  border-radius: 1%;
+}
+
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+.wh{
+    color:white;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: -0.5;
+}
+
+.sp{
+    margin-right: 20px;  
+}
+
+.pdlf{
+    padding-left: 5px;
+    align-items: center;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.toleft{
+    right: 1px;
+    left: auto;
+}
+
+.toright{
+    padding-right: 0px!important;
+    padding-left: 0px;
+}
+
+.main-inlineblocks{
+    display: inline-block;
+}
+
+body{
+    background-color: #181818;
+    color: white;
+}
+
+
+.degrade{
+    background: linear-gradient(to right, #171717 0%, rgba(23, 23, 23, 0.98) 20%, rgba(23, 23, 23, 0.97) 25%, rgba(23, 23, 23, 0.95) 35%, rgba(23, 23, 23, 0.94) 40%, rgba(23, 23, 23, 0.92) 45%, rgba(23, 23, 23, 0.9) 50%, rgba(23, 23, 23, 0.87) 55%, rgba(23, 23, 23, 0.82) 60%, rgba(23, 23, 23, 0.75) 65%, rgba(23, 23, 23, 0.63) 70%, rgba(23, 23, 23, 0.45) 75%, rgba(23, 23, 23, 0.27) 80%, rgba(23, 23, 23, 0.15) 85%, rgba(23, 23, 23, 0.08) 90%, rgba(23, 23, 23, 0.03) 95%, rgba(23, 23, 23, 0) 100%)!important;
+/*     padding: 1% 10%;
+    height: 671px;
+    position: relative;
+    width: 1110px;
+    right: 34%; */
+ 
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: -200px;
+    left: 0;
+    z-index: -1;
+}
+.logosman{
+    content: "";
+    position: relative;
+    height: auto;
+    width: 450px;
+    top: -647px;
+    bottom: 0px;
+    right: -200px;
+    left: 0;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 599px){
+    .section-hero .logos {
+    width: 100%;
+    max-width: 500px;
+    }
+}
+@media (min-width: 992px){
+    .container-sm {
+    max-width: 450px;
+    }
+}
+
+.logos{
+    top: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right-width: 15px;
+}
+.section-hero .logos {
+    width: 100%;
+    height: auto;
+}
+
+.box-card {
+    margin: 50px 0 0 25px;
+    height: auto;
+    position: relative;
+    width: auto;
+    margin-left: 0px;
+  }
+  
+  .banner{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+  @media (max-width: 600px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+        display: block!important;
+    }
+  }
+  
+   .dos40{
+    width: 345px;
+    padding-left: 12px;
+  } 
+  .topete{
+      top: 360px;
+      width:360px;
+  }
+  .topeteplus{
+    top: 480px;
+    width:360px;
+    padding-left: 12px;
+}
+
+.topeteplusplus{
+    padding-top: 600px;
+}
+
+
+
+
+
+.boton{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.466);
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    color:white;
+    margin-right:7px;
+    height: 40px;
+    width: 105px;
+
+}
+
+.carro{
+    height: 800px;
+    background-color: teal;
+    padding-bottom: 100px;
+}
+

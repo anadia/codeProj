@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <link rel="apple-touch-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="body-wrapper">
+
+        <header>
+            <div class="container-fluid " id="navigation-bar">
+
+                <nav class=" navbar-expand-lg navbar-light bg-dark">
+
+                    <div class="row">
+                        <div class="col-lg box4" id="logo">
+
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                          </button>
+                        
+                          <a class="navbar-brand" href="#">
+                            <img src="./img/netflix.svg"  width="110" height="40" alt="Netflix Logo">
+                          </a>
+                        
+                        </div>
+
+                        <div class="col-lg-5 box4" id="menu-ppal">
+
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active wh bd" href="#">Inicio <span
+                                        class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link active wh bd" href="#">Series TV</a>
+                                <a class="nav-item nav-link active wh bd" href="#">Peliculas</a>
+                                <a class="nav-item nav-link active wh bd" href="#" tabindex="-1" aria-disabled="true">Añadido
+                                    recientemente</a>
+                            </div>
+                        </div>
+
+                        </div>
+
+                        <div class="col-lg " id="void"></div>
+
+                        <div class="col-4 lft box4" id="menu-user">
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="" id="ct">
+                                <label for="trigger">
+                                    <span class="fa fa-search wh">
+                                    </span>
+                                </label>
+                                <input type="checkbox" id="trigger">
+                                <div class="hide order-first">
+                                    <form class="form-control-sm form-inline">
+                                        <input type="text" name="search" placeholder="Buscar..">
+                                    </form>
+                                </div>
+                                <label class="wh sp bd">ÓSCAR</label>
+                                <a class="notificacion" href="#">
+                                    <img src="./img/notificacion.svg" class="wh sp" width="25" height="25" alt="">
+                                </a>
+                                <img src="./img/usuario.svg" class="" width="30" height="30" alt="">
+                                <div class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle wh pdlf bd" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu toleft" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Mi cuenta</a>
+                                        <a class="dropdown-item" href="#">Facturación</a>
+                                        <a class="dropdown-item" href="#">Desconectar</a>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </header>
+
+        <main>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+
+
+
+
+    </div>
+
+<div class="scripts-finales">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type='text/javascript'>
+        // When your page loads
+        $(function () {
+            // When the toggle areas in your navbar are clicked, toggle them
+            $("#search-button, #search-icon").click(function (e) {
+                e.preventDefault();
+                $("#search-button, #search-form").toggle();
+            });
+        })  
+    </script>
+        <script type='text/javascript'>
+            // When your page loads
+            $(function () {
+                // When the toggle areas in your navbar are clicked, toggle them
+                $('.carousel').carousel({
+                    interval: 8000
+                })
+            })  
+        </script>
+
+</div>
+
+</body>
+</html>
