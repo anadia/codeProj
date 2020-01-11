@@ -298,9 +298,53 @@ function quickSort(vector1, left,right) {
 }
 let sortedArray = quickSort(vector, 0, vector.length - 1);
 console.log(sortedArray); 
+
+
+array reference
+https://www.w3schools.com/jsref/jsref_obj_array.asp(
+
+//ordenar arrays de numeros con sort
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return b-a});    // Sort the numbers in the array in descending order
+// The first item in the array (points[0]) is now the highest value
+
+
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a-b});    // Sort the numbers in the array in ascending order
+// The first item in the array (points[0]) is now the lowest value
+
+
+//arrays multidimensionales
+
+let datos = new Array(
+	new Array("A","B","C","D","E","F"),
+	new Array("a","b","c","d","e","f"),
+	new Array("do","re","mi","fa","sol","la"),
+	new Array(1,2,3,4,5,6),
+	new Array(11,22,33,44,55,66),
+	new Array("X1","X2","X3","X4","X5","X6")
+);
+
+for(let i=0;i < datos.length;i++){
+	let d="";
+	for(let j=0;j < datos[i].length;j++){
+		d += datos[i][j] + " ";
+	}
+	console.log(d);
+}
+console.log("---------------");
+
+for(let i=0;i < datos.length;i++){
+	let d="";
+	for(let j=0;j < datos[i].length;j++){
+		d += datos[j][i] + " ";
+	}
+	console.log(d);
+}
+
 </script>	
 </head>
 <body>
 Hola
 </bodvector1y>
-</html>
+</html>==

@@ -33,10 +33,17 @@ si el valor se encuentra dentro del array, y false en otro caso.
 let vector = new Array (32,45,12,23,884,1,2455);
 let valor1 = 2;
 let valor2 = 32;
+let encontrado =  trueOrNotInside (vector);
 
+if (encontrado == true){
+	console.log("elemento encontrado");
+}
+else {
+	console.log("elemento no encontrado");
+}
 function trueOrNotInside (vector1, valor){
 	bandera = false;
-	for (let i=0;i<vector1.length;i++){
+	for (let i=0;i<vector1.length && bandera == false;i++){
 		if (vector1[i] == valor){
 			bandera = true;
 		}
@@ -45,6 +52,10 @@ function trueOrNotInside (vector1, valor){
 }
 console.log(trueOrNotInside (vector, valor1));
 console.log(trueOrNotInside (vector, valor2));
+*/
+
+/*
+
 */
 
 /*
@@ -60,6 +71,18 @@ function calcLongArray (vector1){
 	console.log("La longitud del array es de " +long +" elementos");
 }
 calcLongArray (vector);
+*/
+
+/*
+let nums = new Array (20, 5, 9, 63, 28, 27,2);
+console.log("El tamaño es: " + getArraySize(nums));
+function getArraySize(datos){
+	let i = 0;
+	while (datos[i] != undefined) {
+		i++;
+	}
+	return i;
+}
 */
 
 /*
@@ -88,6 +111,24 @@ let vector = new Array (32,45,12,23,884,1,2455);
 let posicion = 4;
 console.log(eliminaEnArray (vector,posicion));
 */
+
+/*
+function deleteData(datos, posicion){
+	return datos.splice(posicion, 1);
+}
+function borrarDato(datos, posicion){
+	let aux = new Array();
+	for (let i = 0; i < datos.length; i++){
+		if (i != posicion){
+			aux.push(datos[i]);
+		}
+	}
+	return aux;
+}
+let numeros = new Array (3, 5, 12, 20, 3, 11);
+console.log("El array es: " + numeros);
+console.log("El dato borrado es: " + borrarDato(numeros, -1));
+*/
 /*
 ------------------------------------------------------------------
 5- Crear un código que realice una copia del un array completo sin 
@@ -96,13 +137,17 @@ utilizar funciones.
 */
 /*
 let vector = new Array (32,45,12,23,884,1,2455);
-let copia = new Array(1);
-for (i=0;i<vector.length;i++){
+let copia = new Array(vector.length);
+for (let i = 0; i < vector.length; i++){
 	copia[i] = vector[i];
 }
-console.log(copia);
-*/
+copia[3]= "pepe";
+console.log(copia.toString());
 
+copia = vector.slice (0, vector.length);
+
+console.log(copia.toString());
+*/
 /*
 ------------------------------------------------------------------
 6- Crear una función que devuelva el valor máximo de un array.
@@ -127,6 +172,19 @@ function higherOnArray(vector1){
 }
 console.log("El valor mas alto del array es :" + higherOnArray(vector));
 console.log("El valor mas alto del array es :" + higherOnArray(vector2));
+*/
+/*
+let vector = new Array (32,45,12,23,884,undefined,1,25);
+function maxOnArray(vector1){
+let mayor = vector1[0];
+	for (let i = 0; i < vector1.length;i++){
+		if (vector1[i] > mayor){
+			mayor = vector1[i];
+		}
+	}
+	return mayor;
+}
+console.log("El mayor valor del array es : " + maxOnArray(vector));
 */
 /*
 ------------------------------------------------------------------
@@ -154,6 +212,33 @@ function invertArray(vector1){
 console.log(invertArray(vector));
 console.log(invertArray(vector3));
 */
+
+/*
+function invertirArray(num) {
+	let aux = new Array(num.length);
+	for (let i = num.length - 1; i > -1; i--) {
+		aux[i] = num[num.length - 1 - i];
+		console.log(aux.toString());
+	}
+	return aux;
+}
+let numeros = new Array(1, 2, 3, 4, 5);
+numeros = invertirArray(numeros);
+console.log(numeros.toString());
+let vector = new Array (1,2,3,4,5);
+let vector3 = new Array (34,21,11,8,4,2);
+let vectorInverse = new Array (1);
+function invertArray(vector1){
+	let vector2 = new Array(1);
+	let top = vector1.length -1;
+	for (let i = 0; i < vector1.length;i++){
+		vector2[top - i] = vector1[i];
+	}
+	return vector2;
+}
+console.log(invertArray(vector));
+console.log(invertArray(vector3));
+*/
 /*
 ------------------------------------------------------------------
 8- Crear una función que devuelva un array que sea la concatenación 
@@ -171,6 +256,37 @@ function concatenarArrays(vector1,vector2){
 	}
 	for (let i=0; i < vector2.length;i++){
 		concatenacion[top+i] = vector2[i];
+	}
+	return concatenacion;
+}
+console.log(concatenarArrays(vector,vector3));
+*/
+
+/*
+let vector = new Array (1,2,3,4,5);
+let vector3 = new Array (34,21,11,8,4,2);
+/*
+function concatenarArrays(vector1,vector2){
+	let top = vector1.length;
+	let concatenacion = new Array (vector1.length + vector2.length);
+	for (let i=0; i < vector1.length;i++){
+		concatenacion[i] = vector1[i];
+	}
+	for (let i=0; i < vector2.length;i++){
+		concatenacion[top+i] = vector2[i];
+	}
+	return concatenacion;
+}
+/*
+function concatenarArrays(vector1,vector2){
+	let concatenacion = new Array (vector1.length + vector2.length);
+	for (let i=0; i < vector1.length + vector2.length;i++){
+		if (i < vector1.length){
+			concatenacion[i] = vector1[i];
+		}
+		else {
+			concatenacion[i] = vector2[i-vector1.length];
+		}
 	}
 	return concatenacion;
 }
@@ -354,9 +470,9 @@ Ejemplos de DNI:
 */
 /*
 
-let dni = prompt("Indica un DNI :");
+let dni = parseInt(prompt("Indica un DNI :"));
 function calcularLetraDni (dni1){
-	let comparador = dni1 % 23;
+	let comparador = parseInt(dni1 % 23);
 	let letraDni = new Array ("T","R","W","A","G","M","Y","F","P","D",
 	"X","B","N","J","Z","S","G","V","H","L","C","K","E");
 	let letra = letraDni[comparador];

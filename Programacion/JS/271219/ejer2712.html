@@ -44,6 +44,34 @@ else{
 	console.log("No Encontrado");
 }
 */
+
+/*
+let datos = new Array(1,2,3,4,5,6);
+let i = 0;
+while (i < datos.length){
+    console.log(datos[i]);
+    i++;
+}
+for (let i = 0; i < datos.length; i++ ){
+    console.log(datos[i]);
+}
+for (let i = 0; i < datos.length; i++ ){
+    console.log(datos[i] + 1);
+}
+let nums = new Array (1,2,3,4,5,6);
+let numsCopy = new Array(5);  //new array vacio
+for(let i = 0; i < nums.length; i++){
+    let currentNumber = nums[i] + 1;
+	numsCopy[i] = currentNumber;
+}
+console.log(numsCopy.toString());
+let sumatorio = 0;
+for(let i = 0; i < nums.length; i++){
+    sumatorio += nums[i];	
+}
+console.log("Media: " + sumatorio / nums.length);
+
+*/
 /*
 let color = new Array ("azul","amarillo","rojo","verde","negro","gris");
 let indicaColor = prompt("introduce un color");
@@ -59,6 +87,20 @@ if ( encontrado == true){
 else {
 	console.log("color no encontrado");
 }
+*/
+
+/*
+let colores = new Array("azul", "amarillo", "rojo", "verde", "negro", "gris");
+let color = prompt();
+let found = false;
+for (let i = 0; i < colores.length && found == false; i++){	
+	if (colores[i] == color){
+		found = true;
+	}		
+	console.log(i+1);
+}
+let result = found == true ? "Encontrado": "No encontrado";
+console.log(result);
 */
 /*
 6 - Crear un script en el que dados dos arrays de números, si ambos tienen 
@@ -88,6 +130,21 @@ for( let i = 0; i < resultado.length; i++){
 }
 console.log(acum);
 */
+/*
+let vector1 = new Array (1,2,3,4,5);
+let vector2 = new Array (3,5,8,9,4);
+if(vector1.length == vector2.length){
+	let resultado = new Array (vector1.length);
+	for( let i = 0; i < vector1.length; i++){
+		resultado[i] = vector1[i] + vector2[i];
+	}
+	console.log(resultado.toString());
+}
+else {
+	console.log("No se pueden sumar pq no tienen el mismo tamaño");
+}
+*/
+
 
 /*
 7- Dados dos arrays, cada uno con 3 elementos, generar un nuevo array con la 
@@ -117,6 +174,37 @@ for (let i=0; i < resultado.length; i++){
 	}
 }
 console.log(acum);
+*/
+
+/*
+let datos1 = new Array(1,3,5,7,9);
+let datos2 = new Array(2,4,6,8,10);
+let acum = new Array(datos1.length + datos2.length);
+for (let i = 0, j = 0; i < acum.length; i++){
+	if (i % 2 == 0){
+		acum[i] = datos1[i/2];
+	}
+	else {
+		acum[i] = datos2[j];
+		j++;
+	}
+}
+console.log(acum.toString());
+
+-------------------
+let datos1 = new Array(1,3,5,7,9);
+let datos2 = new Array(2,4,6,8,10);
+let acum = new Array(datos1.length + datos2.length);
+for (let i = 0; i < acum.length; i++){
+	if (i % 2 == 0){
+		acum[i] = datos1[i/2];
+	}
+	else {
+		acum[i] = datos2[parseInt(i/2)];
+	}
+}
+console.log(acum.toString());
+
 */
 
 /*-----------------------------------------------------------------------
@@ -215,6 +303,19 @@ for(let i = 0;i < resultados.length; i++){
 	}
 } 
 /*
+
+/*
+let dato = new Array(0, 0, 0, 0, 0, 0);
+for (let i = 0; i < 10000; i++) {
+	let numeroDado = obtenerNumeroAleatorio(0, 5);
+	dato[numeroDado]++;
+	console.log(numeroDado + " -> " + dato.toString());
+}
+console.log(dato.toString());
+function obtenerNumeroAleatorio(min, max) {
+	return parseInt(Math.random() * ((max + 1) - min) + min);
+}
+*/
 
 /*-------------------------------------------------------------------------
 9- Dado el siguiente array ["Banana", "Mango", "Manzana"], hacer: 
@@ -336,7 +437,7 @@ for(i=0;i<vectorMixto.length;i++){
 
 //ordenar de menor a mayor y el mayor sera la posicion length -1 del array
 
-qq (let i=0, j=0;i < vectorMixto.length;i++){
+(let i=0, j=0;i < vectorMixto.length;i++){
 	if (isNaN(vectorMixto[i]) == false){
 		vectorReducido[j] = vectorMixto[i];
 		j++
@@ -361,6 +462,24 @@ for (let i =0; i<valorLimite; i++){
 }
 let ultimoValorArray =  vectorReducido.length - 1
 console.log("el numero mayor es " + vectorReducido[ultimoValorArray]);
+*/
+
+/*
+function buscarMayor(num, m){
+    if(num > m){
+        m = num;
+    }
+	return m;
+}
+let macedonia = new Array(1, 38, "a", "pepe5", 18, "zz-top", "54", 6);
+let mayor = macedonia[0];
+for(let i = 0; i < macedonia.length; i++){
+    if(isNaN(macedonia[i]) == false){
+        mayor = buscarMayor(parseInt(macedonia[i]), mayor);
+    }
+}
+console.log(mayor);
+
 */
 </script>
 </head>
