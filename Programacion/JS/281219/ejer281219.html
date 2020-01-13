@@ -26,6 +26,47 @@ function concatenaArrays (vector){
 let vector1 = new Array ("pera", "coche", "gato", 45.2, 2, undefined, null);
 console.log(concatenaArrays(vector1));
 */
+
+/*
+function aTexto(data){
+	let texto = "";
+	for (let i = 0; i < data.length; i++){
+		texto += data[i];
+		if (i < data.length - 1){
+			texto += ",";
+		}
+	}
+	return texto;
+}
+let datos = new Array(1,2,43,5);
+console.log(datos.toString());
+console.log(aTexto(datos));
+*/
+/*
+function concatenaSinFor(arr) {
+	return arr.join(",");
+}
+let datos1 = new Array(1,2,3,4);
+console.log("Sin bucle for: ", concatenaSinFor(datos1));
+*/
+
+/*
+function ponerComas(data){
+	let aux = "";
+	for (let i=0; i < data.length; i++){
+		if (data[i] != ""){
+			aux += data[i] + ",";
+		}else{
+			console.log("datos no legibles");
+		}
+	}
+	return aux;
+}
+let datos = new Array ("", "", 7, "siete", 6.54524585, "treinta", 29, "doce");
+console.log(datos);
+datos = ponerComas(datos);
+console.log(datos)
+*/
 /*
 --------------------------------------------------
 2- Crea una función que compruebe si un array tiene 
@@ -38,8 +79,8 @@ uno o varios no sean números.
 /*
 function compruebaArraysNum (vector){
 	let bandera = true;
-	for(let i =0; i < vector.length;i++){
-		if (isNaN(vector[i]) == true || vector[i] == null){
+	for(let i =0; i < vector.length && let bandera = true;i++){
+		if (isNaN(vector[i]) == true  || vector[i] == null || vector[i] == ""){
 			bandera = false;
 		}
 	}
@@ -50,10 +91,28 @@ let vector1 = new Array ("pera", "coche", "gato", 45.2, 2, undefined, null);
 console.log(compruebaArraysNum (vector1));	
 let vector2 = new Array (1, 6, 8, 45.2, 2, 10, null);
 console.log(compruebaArraysNum (vector2));	
-let vector3 = new Array (1, 6, 8, 45.2, 2, 10, 55);
+let vector3 = new Array (1, 6, 8, 45.2, 2, "10", 55, 2);
 console.log(compruebaArraysNum (vector3));	
+
 */
 
+/*
+et datos = new Array(1,2,3,4,5,6);
+let datos2 = new Array(1,"22","3",4,"5",6);
+let datos3 = new Array(1,"2x","3",4,"5",6);
+function esNumerico(data){
+	let esNumero = true;	
+	for (let i = 0; i < data.length && esNumerico == true; i++){
+		if (data[i] == null || data[i] == "" || isNaN(data[i]) == true){
+			esNumero = false;
+		}
+	}
+	return esNumero;
+}
+console.log(esNumerico(datos));
+console.log(esNumerico(datos2));
+console.log(esNumerico(datos3));
+*/
 /*
 ------------------------------------------------------------------
 3- Crea un función que, dado un array que tenga sólo números en su 

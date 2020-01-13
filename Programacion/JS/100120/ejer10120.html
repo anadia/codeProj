@@ -140,6 +140,213 @@ for (let i = 0; i < dato.length;i++){
 	}
 }
 */
+/*
+-----------------------------------------
+1- Crea manualmente (estáticamente) un array con los siguientes datos, y muestra el array en ese mismo orden por pantalla:
+10	12	43	20
+11	95	40	8
+71	66	44	92
+------------------------------------------
+*/
+/*
+let vectorM = new Array(
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+
+for(let i=0;i < vectorM.length;i++){
+	let d="";//acumulador fila
+	for(let j=0;j < vectorM[i].length;j++){
+		d += vectorM[i][j] + " ";
+	}
+	console.log(d);
+}
+*/
+
+/*---------------------------------------
+2- Calcula la media de los valores del ejercicio anterior
+-----------------------------------------
+*/
+/*
+let vectorM = new Array(
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+let d=0;//acumulador suma
+for(let i=0;i < vectorM.length;i++){
+	//console.log(vectorM.length); //el length es 3 se cunta numero de arrays no componentes
+	for(let j=0;j < vectorM[i].length;j++){
+		d += vectorM[i][j];
+		
+	}	
+}
+console.log(d + " es la suma de los elementos de los array");
+
+let media = Math.round(d/12);
+console.log(media+ " es la media de los elementos del array");
+*/
+
+/*
+3- Súmale 1 a todos los valores del primer ejercicio, y muestra el array en ese mismo orden por pantalla.
+*/
+/*
+let vectorM = new Array(
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+let d=0;//acumulador suma
+for(let i=0;i < vectorM.length;i++){
+	let d=""; //acumulador fila
+	//console.log(vectorM.length); //el length es 3 se cunta numero de arrays no componentes
+	for(let j=0;j < vectorM[i].length;j++){
+		vectorM[i][j] =vectorM[i][j]+1
+		d += vectorM[i][j]+ " ";
+	}	
+	console.log(d);
+}
+*/
+
+/*
+4- Crea una función que devuelva la suma de los números de la primera fila del array (suma 85)
+*/
+/*
+let vectorM = new Array(
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+function sumFirstFileArray(vectorM1){
+	let d=0;//acumulador suma
+	for(let i=0;i < 1;i++){
+		for(let j=0;j < vectorM1[i].length;j++){
+			d += vectorM1[i][j];
+		}//recorremos las filas
+	}
+	return d;
+}
+let suma = sumFirstFileArray(vectorM);
+console.log("La suma de los elementos de la primera fila del array es: "+suma);
+*/
+
+/*
+5- Crea una función que devuelva la suma de los números de la primera columna del array (suma 92)
+*/
+/*
+let vectorM = new Array(
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+function sumFirstColArray(vectorM1){
+	let d=0;//acumulador suma
+	for(let i=0;i < vectorM.length;i++){
+		for(let j=0;j < 1;j++){
+	
+			d += vectorM1[i][j];
+		}//recorremos las filas
+	}
+	return d;
+}
+let sumaC = sumFirstColArray(vectorM);
+console.log("La suma de los elementos de la primera columna del array es: "+sumaC);
+*/
+
+/*
+6- Crea una función que devuelva el mayor valor que aparece en el array del primer ejercicio. La función debe ser válida para cualquier conjunto de valores y cualquier array mono o multidimensional.
+*/
+/*
+let vectorM = new Array(
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+function buscarMayorArray(vectorM1){
+let mayor=0;
+	for(let i=0;i < vectorM.length;i++){
+		for(let j=0;j < vectorM[i].length;j++){
+			if (vectorM1[i][j] != undefined){
+				if(vectorM1[i][j]>mayor){
+				mayor = vectorM1[i][j];
+				}
+			}
+			else{
+				if(vectorM1[i]>mayor){
+				mayor = vectorM1[i];
+				}
+			}
+		}
+	}
+	return mayor;
+}
+
+let mayorA = buscarMayorArray(vectorM);
+console.log("El mayor elemento del array vectorM es: " +mayorA);
+
+let vectorPlano = new Array(10,12,43,20);
+let mayorB = buscarMayorArray(vectorPlano);
+console.log("El mayor elemento del array vectorPlano es: " +mayorB);
+*/
+
+/*
+7- Crea dinámicamente un array multidimensional con los siguientes valores:
+5	6	7
+8	9	10
+
+*/
+/*
+let datos = new Array(
+	new Array(3),
+	new Array(3)
+);
+let c = 5;
+for(let i=0;i < datos.length;i++){
+	let d="";
+	for(let j=0;j < datos[i].length;j++){
+		datos[i][j]=c;
+		c++
+		d += datos[i][j] + " ";
+	}
+	console.log(d);
+}
+*/
+/*
+8- Crea dinámicamente un array multidimensional con los siguientes valores:
+5	7	9
+6	8	10
+
+*/
+/*
+let datos = new Array(
+	new Array(3),
+	new Array(3)
+);
+let c = 5;
+
+for(let i=0;i<datos.length < 1;i++){
+	let d="";
+	if(i==0){
+		for(let j=0;j < datos[i].length;j++){
+			datos[i][j]=c;
+			c=c+2
+			d += datos[i][j] + " ";
+		}
+	console.log(d);
+	}
+	if(i==1){
+		c = 6;
+		for(let j=0;j < datos[i].length;j++){
+			datos[i][j]=c;
+			c=c+2
+			d += datos[i][j] + " ";
+		}
+	console.log(d);
+	}
+	
+}
+*/
 </script>
 
 </head>
