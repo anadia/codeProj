@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title>Javascript Clase example</title>
+<script type="text/javascript"  src="js/classes/Movie.js" charset="UTF-8"></script>
+<script>
+
+
+let poltergeist = new Movie("Poltergeist", "Tobe Hooper", 1982, Movie.TERROR);
+console.log(poltergeist.getYear());
+console.log(poltergeist.getDirector());
+poltergeist.setDirector("Steven Spielberg");
+console.log(poltergeist.getDirector());
+poltergeist.lend();
+console.log(poltergeist.getMovieInfo());
+poltergeist.return();
+console.log(poltergeist.getMovieInfo());
+
+let gladiator = new Movie("Gladiator", "Ridley Scott", 1999, Movie.ACCION);
+console.log(gladiator.getYear());
+gladiator.setYear(2000);
+console.log(gladiator.getYear());
+
+</script>	
+</head>
+<body>
+Hola
+</body>
+</html>

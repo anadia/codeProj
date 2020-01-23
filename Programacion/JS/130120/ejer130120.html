@@ -1,0 +1,283 @@
+<html>
+<head>
+<script>
+//crear un objeto libro que tenga titulo y numero de paginas
+/*
+function Libro(titulo,paginas, isbn){
+	this.titulo = titulo;
+	this.paginas = paginas;
+	this.isbn = isbn;
+	
+	Libro.prototype.gettitulo = function(){
+		return this.titulo ;
+	}
+	
+	Libro.prototype.getpaginas = function(){
+		return this.paginas;
+	}
+	
+	Libro.prototype.getisbn = function(){
+		return this.isbn;
+	}
+}
+
+let libro1 = new Libro("El Quijote", 1598,221438);
+console.log(libro1.getTitulo());
+console.log(libro1.getPaginas());
+console.log(libro1.getIsbn());
+
+console.log(Libro);
+
+let libro2 = new Libro("El aleph", 434,321438);
+console.log(libro2.getPaginas());
+console.log(libro2.getTitulo());
+console.log(libro1.getIsbn());
+
+console.log(Libro);
+*/
+/*
+function Libro(titulo, numPaginas){
+	this.titulo = titulo;
+	this.numPaginas = numPaginas;
+	Libro.prototype.getTitulo = function() {
+		return this.titulo;
+	}
+	Libro.prototype.getNumPaginas = function() {
+		return this.numPaginas;
+	}
+}
+let l1 = new Libro("Romeo & Julieta", 321);
+let l2 = new Libro("Kamasutra", 69);
+let l3 = new Libro("El secreto", 221);
+let libros = new Array(l1, l2, l3);
+let l4 = new Libro("El alepth", 414);
+libros.push(l4);
+for (let i = 0; i < libros.length; i++) {
+	console.log(libros[i].getTitulo() + " - "
+		+ libros[i].getNumPaginas());
+}
+for (let i = 0; i < libros.length; i++) {
+	console.log(libros[i]);
+} 
+*/
+// color, numero de varas,estado de un objeto paraguas
+/*
+function Paraguas(color,varas,estado){
+	this.color = color;
+	this.varas = varas;
+	this.estado = false;
+	
+	Paraguas.prototype.getColor = function(){
+		return this.color ;
+	}
+	
+	Paraguas.prototype.getVaras = function(){
+		return this.varas;
+	}
+	
+	Paraguas.prototype.abrir = function(){
+		this.estado = true;
+		console.log("esta abierto");
+	}
+	
+	Paraguas.prototype.cerrar = function(){
+		this.estado = false;
+		console.log("esta cerrado");
+	}
+	
+	
+	Paraguas.prototype.getEstado = function(){
+		return this.estado;
+	}
+}
+let paraguas1 = new Paraguas("rojo",20, "abierto");
+console.log(paraguas1.getColor());
+console.log(paraguas1.getVaras());
+console.log(paraguas1.getEstado());
+paraguas1.abrir();
+console.log(paraguas1.getEstado());
+console.log("El paraguas es " + paraguas1.getColor() + " y tiene " + paraguas1.getVaras() + " varillas");
+
+*/
+
+/*
+function Paraguas (color, numVaras){
+	this.color = color;
+	this.numVaras = numVaras;
+	this.abierto = false;
+	Paraguas.prototype.getInfo = function(){
+		return this.color + " - " + this.numVaras;
+	}
+	Paraguas.prototype.abrir = function(){
+		this.abierto = true;
+	}
+	Paraguas.prototype.cerrar = function(){
+		this.abierto = false;
+	}
+	Paraguas.prototype.getEstado = function(){
+		return this.abierto == true ? "Abierto" : "Cerrado";
+	}
+}
+let p1 = new Paraguas("Transparente", 4);
+console.log(p1.getInfo());
+console.log(p1.getEstado());
+p1.abrir();
+console.log(p1.getEstado());
+*/	
+
+/*
+1- Dado el objeto de ejemplo, escribe un script que liste las propiedades del objeto.
+Estudiante { nombre : “Luis Vargas”, edad : 21, estadoCivil: “soltero” };
+
+*/
+
+/*
+function Estudiante (nombre, edad, estadoCivil){
+	this.nombre = nombre;
+	this.edad= edad;
+	this.estadoCivil = estadoCivil;
+	
+	Estudiante.prototype.getNombre = function(){
+		return this.nombre;
+	}
+	
+	Estudiante.prototype.getEdad = function(){
+	return this.edad;
+	}
+	
+	Estudiante.prototype.getEstadoCivil = function(){
+	return this.estadoCivil;
+	}
+}	
+let alumno1 = new Estudiante("Luis Vargas",21,"soltero");
+console.log("nombre : " + alumno1.getNombre() + ", edad : " +
+ alumno1.getEdad() + ", estadoCivil: " + alumno1.getEstadoCivil());
+console.log(alumno1);
+*/
+/*
+function Estudiante(nombre,edad,estadoCivil){
+	this.nombre = nombre;
+	this.edad = edad;
+	this.estadoCivil = estadoCivil;
+	Estudiante.prototype.getInfo = function(){
+		return "Nombre: " + this.nombre + " Edad: " + this.edad + " Estado civil: " + this.estadoCivil;
+	}
+}
+let est1 = new Estudiante("paco |","24 |","Soltero");
+console.log(est1.getInfo());
+*/
+
+
+/*
+2- Crea un código que muestre el nombre y el titulo de los siguientes libros que deberán
+ser tratados cada uno como un objeto de tipo Libro con las siguientes propiedades:
+Libro 1:
+autor: “Bill Gates”,
+titulo: “The Road Ahead”
+Libro 2:
+autor: “Steve Jobs”,
+titulo: “Walter Isaacson”
+Libro 3:
+autor: “Suzanne Collins”,
+titulo: “Mockingjay: The Final Book of The Hunger Games”
+
+*/ 
+
+/*
+function Libro(autor, titulo){
+	this.autor = autor;
+	this.titulo = titulo;
+	
+	Libro.prototype.getAutor = function() {
+		return this.autor;
+	}
+	Libro.prototype.getTitulo = function() {
+		return this.titulo;
+	}
+}
+let libro1 = new Libro("Bill Gates", "The Road Ahead");
+let libro2 = new Libro("Steve Jobs", "Walter Isaacson");
+let libro3 = new Libro("Suzanne Collins", "Mockingjay: The Final Book of The Hunger Games");
+
+let libros = new Array(libro1, libro2, libro3);
+for (let i = 0; i < libros.length; i++) {
+	console.log(libros[i].getAutor() + " - "
+		+ libros[i].getTitulo());
+}
+for (let i = 0; i < libros.length; i++) {
+	console.log(libros[i]);
+} 
+*/
+
+/*
+
+3- Necesitamos almacenar en un programa todas las películas que tenemos en casa.
+Ahora que sabemos crear nuestros propios objetos es el mejor modo de guardar esta información.
+Crea una clase “Pelicula” que almacene la siguiente información:
+- Nombre.
+-  Director.
+-  Año de estreno.
+-  Tipo de película (podrá ser “drama”, “comedia”, “acción” o “indie”);
+-  Prestado: almacenará un valor booleano. Por defecto será false.
+Además tendrá los siguientes métodos:
+-	 El constructor tendrá parámetros (se pasarán solo las 4 primeras propiedades; la propiedad prestado será false por defecto).
+-	Un método que permitirá modificar el año de estreno.
+-	Un método que permitirá cambiar la propiedad Prestado.
+-	Un método que muestre toda la información de una película por pantalla.
+
+*/
+//incompleto
+/*
+function Movies (name, director, year, type){
+
+	this.name = name;
+	this.director = director;
+	this.year = year;
+	this.type = type;
+	this.borrowed = false;
+	
+	Movies.prototype.setYear = function (year){
+		this.year = year;
+	}
+	
+	Movies.prototype.borrowed = function (){
+	this.borrowed = true;
+	}
+	
+	Movies.prototype.borrowed = function (){
+	this.borrowed = false;
+	}
+	
+	
+	Movies.prototype.getMovie = function (){
+	return console.log(name + " - " + director + " - " + year + " - " + 
+		type + " - Prestado: " + this.borrowed);
+	}					
+}
+
+let pel1 = new Movies ("El resplandor","kubrick",1987, "Terror");
+let pel2 = new Movies ("Back to Future","Zemekis",1983, "Ciencia Ficción");
+let pel3 = new Movies ("Avatar","Cameron",2012, "Familiar");
+
+let pelis = new Array(pel1, pel2, pel3);
+
+for (let i = 0; i < pelis.length; i++) {
+	console.log(pelis.getMovie);
+}
+
+pelis[0].borrowed = true;
+
+for (let i = 0; i < pelis.length; i++) {
+	console.log(pelis[i]);
+} 
+
+*/
+
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

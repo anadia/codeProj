@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript" src="./js/classes/Producto.js" charset="UTF-8"/>
+</script>
+<script type="text/javascript" src="./js/classes/Lista.js" charset="UTF-8"/>
+</script>
+<script>
+
+let p1 = new Producto("Manzanas", 10);
+let p2 = new Producto("Zanahorias", 2);
+let p3 = new Producto("Humus", 1);
+let p4 = new Producto("Masa Pizza", 2);
+let p5 = new Producto("phoskitos", 1);
+
+let listaDeHoy = new Lista();
+listaDeHoy.addProduct(p1);
+listaDeHoy.addProduct(p2);
+listaDeHoy.addProduct(p3);
+listaDeHoy.addProduct(p4);
+listaDeHoy.addProduct(p5);
+
+let cosas = listaDeHoy.getProducts();
+for (let i =0; i < cosas.length; i++){
+	console.log(cosas[i].getName() + " - " + cosas[i].getQuantity());
+}
+
+console.log("----------------");
+listaDeHoy.removeProduct(p3); //quitamos un elemento
+
+cosas = listaDeHoy.getProducts();
+for (let i =0; i < cosas.length; i++){
+	console.log(cosas[i].getName() + " - " + cosas[i].getQuantity());
+}
+</script>
+
+</head>
+
+<body>
+Hola
+</body>
+</html>

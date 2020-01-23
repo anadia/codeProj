@@ -1,0 +1,255 @@
+body {
+  background-color: rgba(0, 0, 0, 0.712) !important;
+  color: #e0dbbe !important;
+}
+
+.col-12 {
+  padding: 0 !important;
+}
+
+.navbarfit {
+  background-color: #2e26268c !important;
+  z-index: 9;
+}
+.navbarfit .col-12 {
+  padding: 0 !important;
+  border: 1px solid #693232;
+  position: absolute !important;
+}
+.navbarfit .navbar-dark .navbar-toggler {
+  color: #e0dbbe !important;
+}
+.navbarfit .logoFit {
+  color: #e0dbbe !important;
+  font-size: 25px;
+}
+.navbarfit li a {
+  font-size: 20px !important;
+  color: #e0dbbe !important;
+}
+
+.carouselGym1 {
+  background-image: url(../img/gym1.jpg);
+  background-color: rgba(24, 23, 23, 0.212);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.carouselGym1 .content1 {
+  background-color: rgba(0, 0, 0, 0.219);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carouselGym1 .content1 .contentFondo {
+  background-color: rgba(0, 0, 0, 0.219);
+}
+.carouselGym1 .content1 .contentFondo h1 {
+  color: #e0dbbe !important;
+}
+.carouselGym1 .content1 .contentFondo .running {
+  text-align: center;
+}
+.carouselGym1 .content1 .contentFondo .running p {
+  color: #e0dbbe !important;
+}
+.carouselGym1 .content1 .contentFondo .running button {
+  background-color: transparent;
+  border: 1px solid #e0dbbe !important;
+  border-radius: 15px;
+  color: #e0dbbe !important;
+}
+
+.carouselGym2 {
+  background-image: url(../img/gym2.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.carouselGym2 .content1 {
+  background-color: rgba(0, 0, 0, 0.219);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carouselGym2 .content1 .contentFondo {
+  background-color: rgba(0, 0, 0, 0.219);
+}
+.carouselGym2 .content1 .contentFondo h1 {
+  color: #e0dbbe !important;
+}
+.carouselGym2 .content1 .contentFondo .running {
+  text-align: center;
+}
+.carouselGym2 .content1 .contentFondo .running p {
+  color: #e0dbbe !important;
+}
+.carouselGym2 .content1 .contentFondo .running button {
+  background-color: transparent;
+  border: 1px solid #e0dbbe !important;
+  border-radius: 15px;
+  color: #e0dbbe !important;
+}
+
+.carouselGym3 {
+  background-image: url(../img/gym3.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.carouselGym3 .content1 {
+  background-color: rgba(0, 0, 0, 0.219);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carouselGym3 .content1 .contentFondo {
+  background-color: rgba(0, 0, 0, 0.219);
+}
+.carouselGym3 .content1 .contentFondo h1 {
+  color: #e0dbbe !important;
+}
+.carouselGym3 .content1 .contentFondo .running {
+  text-align: center;
+}
+.carouselGym3 .content1 .contentFondo .running p {
+  color: #e0dbbe !important;
+}
+.carouselGym3 .content1 .contentFondo .running button {
+  background-color: transparent;
+  border: 1px solid #e0dbbe !important;
+  border-radius: 15px;
+  color: #e0dbbe !important;
+}
+
+.carouselGym4 {
+  background-image: url(../img/gym4.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.carouselGym4 .content1 {
+  background-color: rgba(0, 0, 0, 0.219);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carouselGym4 .content1 .contentFondo {
+  background-color: rgba(0, 0, 0, 0.219);
+}
+.carouselGym4 .content1 .contentFondo h1 {
+  color: #e0dbbe !important;
+}
+.carouselGym4 .content1 .contentFondo .running {
+  text-align: center;
+}
+.carouselGym4 .content1 .contentFondo .running p {
+  color: #e0dbbe !important;
+}
+.carouselGym4 .content1 .contentFondo .running button {
+  background-color: transparent;
+  border: 1px solid #e0dbbe !important;
+  border-radius: 15px;
+  color: #e0dbbe !important;
+}
+
+.flexin {
+  display: inline;
+}
+.flexin .col-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.cardHeight {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  height: 60vh;
+}
+
+.rightt {
+  height: 50vh !important;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(43, 46, 46, 0.835) !important;
+  color: #e0dbbe !important;
+  text-align: center;
+}
+
+.leftt {
+  height: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(43, 46, 46, 0.835) !important;
+  color: #e0dbbe !important;
+}
+
+.adaptx {
+  width: 100%;
+  height: 100vh;
+}
+
+.heix {
+  height: 56vh;
+}
+
+.col-md-6 {
+  height: 35vh !important;
+}
+
+.info {
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .infoContact {
+  color: #e0dbbe !important;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.infoContact2 {
+  text-transform: uppercase;
+  width: 75%;
+  text-align: center;
+  text-align-last: center;
+}
+
+.labelx {
+  padding: 0;
+}
+
+.pdlf0 {
+  padding-left: 0px;
+}
+
+.traspx {
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom-color: white !important;
+  border-color: transparent;
+}
+
+.btnct {
+  background-color: rgba(24, 23, 23, 0.212) !important;
+  border-color: #e0dbbe;
+  color: #e0dbbe;
+}

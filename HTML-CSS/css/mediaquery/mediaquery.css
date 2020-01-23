@@ -1,0 +1,61 @@
+.caja1{
+background-color: red;
+height: 60px;
+width: 60px;
+}
+
+
+.caja2{
+    background-color: blue;
+    height: 60px;
+    width: 60px;
+}
+/*se  ordena de mayor amenor ya que propiedades se sobreescriben. Los media query se indican al final del CSS
+*/
+/*
+@media only screen and (max-width:900px){ //este llega hasta 900 ordenamos de mayor a menor
+
+    .caja1{
+        background-color: green;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+
+    .caja1{
+        background-color: gold;
+        width: 400px;
+        height: 400px;
+    }
+    .caja1 p{
+        font-size: 75px;
+        color:red;
+    }
+}
+*/
+/* minimamente tiene que tener estos pixeles para quelo haga ahora ordenamos de menor a mayor*/
+
+@media only screen and (min-width:700px){
+
+    .caja1{
+        background-color: green;
+     
+    }
+    .caja1 p{
+        
+        color:red;
+    }
+}
+
+@media only screen and (min-width:900px){
+
+    .caja1{
+        background-color: gold;
+     
+    }
+    .caja1 p{
+        
+        color:red;
+    }
+}

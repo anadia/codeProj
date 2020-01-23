@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript"  src="js/classes/Book.js" charset="UTF-8"></script>
+
+<script>
+
+let l1 = new Book(null, "Platero y yo", "Juan Ramon Jimenez");
+let l2 = new Book(null,"El Principito", "Antoine de sant Exupery");
+console.log(l1); // esto es un libro
+/* //PASO1
+let jBook = l1.toJSONObject(); //esto es objeto generico
+console.log(jBook);
+jBook = JSON.stringify(jBook); //pasamos a texto
+console.log(jBook);
+
+sessionStorage.setItem("libro", jBook);
+*/
+  //PASO 2
+let jBook = sessionStorage.getItem("libro");
+jBook = JSON.parse(jBook);
+console.log(jBook);
+let pX = new Book(jBook);
+console.log(pX);
+
+</script>	
+</head>
+<body>
+Hola
+</body>
+</html>

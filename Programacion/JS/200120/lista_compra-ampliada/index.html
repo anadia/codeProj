@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript"  src="js/classes/Producto.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Lista.js" charset="UTF-8"></script>
+<script>
+/*
+let p1 = new Producto(null, "Manzanas", 10);
+let p2 = new Producto(null, "Zanahorias", 2);
+let p3 = new Producto(null, "Humus", 1);
+let p4 = new Producto(null, "Masa Pizza", 2);
+let p5 = new Producto(null, "Tampax", 3);
+
+
+let listaDeHoy = new Lista();
+listaDeHoy.addProduct(p1);
+listaDeHoy.addProduct(p2);
+listaDeHoy.addProduct(p3);
+listaDeHoy.addProduct(p4);
+listaDeHoy.addProduct(p5);
+
+let jList = listaDeHoy.toJSONObject();
+console.log(jList);
+jList = JSON.stringify(jList);
+console.log(jList);
+
+localStorage.setItem("lista1", jList);
+*/
+
+//recuperar de localstorage
+
+let jLista = localStorage.getItem("lista");
+console.log(jLista);
+jLista = JSON.parse(jLista);
+console.log(jLista);
+let l1 = new Lista(jLista);
+console.log(l1);
+l1.removeProduct(l1.getProducts()[0]);
+console.log(l1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>	
+</head>
+<body>
+Hola
+</body>
+</html>

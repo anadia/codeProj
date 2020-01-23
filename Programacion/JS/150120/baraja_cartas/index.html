@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title> Baraja</title>
+<script type="text/javascript" src="js/classes/Carta.js" charset="UTF-8"/>
+</script>
+<script type="text/javascript" src="js/classes/Baraja.js" charset="UTF-8"/>
+</script>
+
+<script>
+/*
+2- Se pide modelar una baraja de 40 cartas. Habrá 10 cartas: 1-7, sota (10), caballo (11) y rey (12) para cada uno de los cuatro palos: copas, oros, bastos y espadas. Cada carta almacenará su número y su palo.
+
+Al crear la baraja se generarán las cartas ordenadas de menor a mayor para cada uno de los palos, y contendrá funcionalidades para mostrar todas las cartas por pantalla, barajar. Se podrá también marcar una carta como repartida, esa carta será aleatoria y tendrá una marca que indicará si la carta está repartida o no.
+*/
+
+/*let c1b = new Carta("bastos",1);
+let c2b = new Carta("bastos",2);
+let c7b = new Carta("bastos",7);
+let c10b = new Carta("bastos",10);
+let c11b = new Carta("bastos",11);
+let c12b = new Carta("bastos",12);
+*/
+/*
+let bastos = new Array(10);
+let j = 10;
+for (let i=0; i<10;i++){
+	if(i<7){
+		bastos[i] = "cb" +(i+1);
+	}
+	
+	else{
+	bastos[i] = "cb" +j;
+	++j;
+	}
+}
+
+*/
+
+
+
+/*bastos nomenclatura "c" carta "b" bastos "n" numero*/
+/*
+let cb1 = new Carta("bastos",1);
+let cb2 = new Carta("bastos",2);
+let cb3 = new Carta("bastos",3);
+let cb4 = new Carta("bastos",4);
+let cb5 = new Carta("bastos",5);
+let cb6 = new Carta("bastos",6);
+let cb7 = new Carta("bastos",7);
+let cb10 = new Carta("bastos",10);
+let cb11 = new Carta("bastos",11);
+let cb12 = new Carta("bastos",12);
+
+console.log(cb11.palo);
+console.log(cb11.numero);
+console.log(cb11);
+*/
+/*
+
+function crearPalo(nombre, letra){
+nombre = new Array(10);
+let j = 10;
+	for (let i=0; i<10;i++){
+		if(i<7){
+			nombre[i] = "c"+letra +(i+1);
+		}
+	
+		else{
+		nombre[i] = "c"+letra +j;
+		++j;
+		}
+	}
+	return nombre;
+}*/
+function crearPaloArrayObjetos(palo,letra){
+palod = new Array(10);
+let j = 10;
+	for (let i=0; i<10;i++){
+		if(i<7){
+			palod[i] = "c"+letra +(i+1);
+			palod[i] = new Carta(palo,i+1)
+		}
+	
+		else{
+		palod[i] = "c"+letra +j;
+		palod[i] = new Carta(palo,j)
+		++j;
+		}
+	}
+	return palod;
+}
+
+
+
+
+let bastos = "bastos";
+let b = "b";
+cartasBastos = crearPaloArrayObjetos(bastos,b);
+console.log(cartasBastos);
+console.log(cartasBastos[0]);
+
+
+let oros = "oros";
+let o = "o";
+cartasOros = crearPaloArrayObjetos(oros,o);
+console.log(cartasOros);
+ 
+let copas = "copas";
+let c = "c";
+cartasCopas = crearPaloArrayObjetos(copas,c);
+console.log(cartasCopas);
+
+let espadas = "espadas";
+let e = "e";
+cartasEspadas = crearPaloArrayObjetos(espadas,e);
+console.log(cartasEspadas);
+
+
+
+let baraja = new Array(4);
+baraja[0] = cartasBastos;
+baraja[1] = cartasOros;
+baraja[2] = cartasCopas;
+baraja[3] = cartasEspadas;
+
+console.log(baraja);
+
+console.log(cartasBastos[0]);
+
+console.log(baraja[0]);
+
+barajaCompleta = new Baraja(baraja1);
+console.log("hola");
+barajaCompleta.getCarta;
+barajaCompleta.getInfo;
+
+</script>
+
+</head>
+
+<body>
+Hola
+</body>
+</html>

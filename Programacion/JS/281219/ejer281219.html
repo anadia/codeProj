@@ -168,7 +168,7 @@ podido encontrarlo.
 /*
 let posicion = -1;
 function buscaEnArray(vector, elemento){
-	for(let i = 0;i < vector.length;i++){
+	for(let i = 0;i < vector.length && posicion ==-1;i++){
 		if (vector[i] == elemento){
 			posicion = i;
 		}
@@ -178,6 +178,26 @@ function buscaEnArray(vector, elemento){
 let vector1 = new Array ("pera", "coche", "gato", 45.2, 2, undefined, null);
 let elemento1 = "gato";
 console.log(buscaEnArray(vector1,elemento1));
+*/
+
+/*
+let position = -1;
+10:45
+function findElement(datos, elemento){
+	let position = -1;
+	for (let i = 0; i < datos.length && position == -1; i++){
+		if (datos[i] == elemento){
+			position = i;
+		}
+	}
+	return position;
+}
+let data = new Array(1,2,3,8,5,6,7,8,9,77,44,55,22,11);
+console.log(findElement(data, 8));
+let data2 = new Array("", "Manolo", "anegeles", "sofia", "pepe");
+console.log(findElement(data2, ""));
+let data3 = new Array(null, null, null);
+console.log(findElement(data3, null));
 */
 
 /*
@@ -201,6 +221,18 @@ function divideEntreDos (vectora,vectorb){
 divideEntreDos(vector1,vector2);
 */
 
+
+/*
+function dividirArray(data){
+	let result = new Array(data.length);
+	for (let i = 0; i < data.length; i++){
+		result[i] = data[i] / 2;		
+	}
+	return result;
+}
+let datos = new Array(2,3,4);
+console.log(dividirArray(datos).toString());
+*/
 /*
 --------------------------------------------------------------------
 6- Crear una función que, dado un array y un elemento, añada ese elemento 
@@ -212,11 +244,24 @@ añadido.
 function addElementArray (vector,element){
 	 let limit = vector.length;
 	 vector[limit]=element;
-	 console.log(vector);
+	 console.log(vector.toString());
 }
 let vector1 = new Array ("nube", "flor", "cielo");
 let elemento = "risa";
 addElementArray(vector1,elemento);
+*/
+
+/*
+let datos = new Array(1,2,3,4);
+console.log(addElement(datos, 8));
+function addElement(data, element){
+	let nuevo = new Array(data.length + 1);
+	for (let i = 0; i < data.length; i++){
+		nuevo[i] = data[i];
+	}
+	nuevo[nuevo.length - 1] = element;
+	return nuevo;	
+}
 */
 
 /*
@@ -232,6 +277,34 @@ function lastElementArray (vector){
 }
 let vector1 = new Array ("nube", "flor", "cielo");
 lastElementArray (vector1);   
+*/
+
+
+/**
+* devolverUltimoElemento busca y devuelve el ultimo elemento
+* en un array.
+* @params un array del que se desea obtener su ultimo elemento
+* @return el elemento que esté en la última posicion
+* o null en caso de que no tenga contenido.
+* @author Carlos
+*/
+/*
+function devolverUltimoElemento(datos){
+	let result = null;	
+	if (datos.length > 0){
+		result = datos[datos.length - 1]
+	}
+	return result;
+}
+let data = new Array(5);
+let valor = devolverUltimoElemento(data);
+if (valor == null){
+	console.log("No hay nada que devolver");
+}
+else {
+	console.log(valor);
+}
+
 */
 
 /*
@@ -254,6 +327,25 @@ function inverseArray(vectora){
 let vector = new Array (2,5,8,9);
 inverseArray(vector);
 */
+
+/*
+function invertirArray(datos){
+	let nuevo = new Array(datos.length);
+	/*
+	for (let i = 0, j = datos.length - 1; i < datos.length; i++, j--){
+		nuevo[i] = datos[j];
+	}
+	*/
+/*
+	for (let i = 0; i < datos.length; i++){
+		nuevo[i] = datos[datos.length - i - 1];
+	}	
+	return nuevo;
+}
+let data = new Array(1,2,3,4,5,6);
+let invertido = invertirArray(data);
+console.log(invertido.toString());
+*/
 /*
 --------------------------------------------------------------------
 9- Crear una función que dado un array y una posición, devuelva el 
@@ -265,7 +357,7 @@ Ejemplo: [2,5,8,9,15]  corto por el 2 => [2,5,8] (corta en la posición
 */
 /*
 let vector =new Array (2,5,8,9,15);
-let posicion = 1;
+let posicion = 4;
 function cutArray (vector1, posicion1){
 	let vector2 =new Array(posicion1);
 	for (let i = 0; i < posicion1+1; i++){
@@ -274,6 +366,25 @@ function cutArray (vector1, posicion1){
 	console.log(vector2);
 }
 cutArray (vector,posicion);
+*/
+
+
+/*
+let datos = new Array(2, 5, 8, 9, 15);
+let posicionLeida = parseInt(prompt("Introduce una posicion"));
+datos = devuelveArray(datos, posicionLeida);
+console.log(datos);
+function devuelveArray(arr, posicion) {
+	let newArray = arr;
+	if (posicion > -1 && posicion +  1 < arr.length) {
+		newArray = new Array(posicion + 1);
+		for (let i = 0; i < newArray.length; i++) {
+			newArray[i] = arr[i];
+		}
+	}
+	return newArray;
+}
+
 */
 
 /*
@@ -293,7 +404,7 @@ Ejemplo: [2,5,8,9,15]  corto por el 8 => -1
 let vector =new Array (2,5,8,9,15);
 let posicion = 4;
 function cutArrayToEnd (vector1, posicion1){
-	let vector2 = new Array (1);
+	let vector2 = new Array ();
 	if (posicion < vector1.length){
 		for (let i = 0, j = 0; i < vector1.length; i++){
 				vector2[j] = vector1[i];
@@ -307,6 +418,21 @@ function cutArrayToEnd (vector1, posicion1){
 }		
 	
 cutArrayToEnd  (vector,posicion);
+*/
+
+/*
+function cortarArray(posicion, datos) {
+	let resultado = -1;
+	if (posicion >= 0 && posicion < datos.length) {
+		resultado = new Array(datos.length - posicion);	
+		for (let i = posicion; i < datos.length; i++) {
+			resultado[i - posicion] = datos[i];
+		}
+	}
+	return resultado;
+}
+let data = new Array(3,4,5,6,7,8);
+console.log(cortarArray(6, data));
 */
 </script>
 </head>

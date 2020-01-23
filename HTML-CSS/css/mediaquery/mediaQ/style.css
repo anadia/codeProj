@@ -1,0 +1,75 @@
+.rojo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.azul {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+p {
+    font-family: 'Fruktur', cursive;
+}
+
+
+/* si la orientacion de la pantalla esta en horizontal se le aplican estos estilos */
+
+@media only screen and (orientation: landscape) {
+    .azul {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+    }
+}
+
+
+/* CUANDO ES UN MEDIA QUERY (*** MAX ***) SE PONEN EN EL CSS DE MAYOR A MENOR */
+
+
+/*  en los media query max surje efecto los estilos que estan dentro del mismo cuando NO se supera el 
+numero de pixeles que hay definidos
+Max seria menos de esos pixeles incluido el que se ponga
+*/
+
+
+/* desde 600 hasta 992px se le aplica este media query */
+
+@media screen and (max-width: 992px) {
+    .rojo {
+        width: 50px;
+        height: 50px;
+        background-color: green;
+    }
+}
+
+
+/* desde 0 hasta 600px se le aplica este media query */
+
+
+/* @media screen and (max-width: 600px) {
+    .rojo {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+    }
+} */
+
+
+/*  en los media query max surje efecto los estilos que estan dentro del mismo cuando llega a ese numero
+de pixeles o  SI se supera el 
+numero de pixeles que hay definidos*/
+
+
+/* media query min seria mas de 992 pixeles */
+
+
+/* @media screen and (min-width: 992px) {
+    .rojo {
+        width: 50px;
+        height: 50px;
+        background-color: green;
+    }
+} */

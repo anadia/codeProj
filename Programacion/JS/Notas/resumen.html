@@ -326,10 +326,10 @@ let datos = new Array(
 );
 
 for(let i=0;i < datos.length;i++){
-	let d="";
+	let d=""; //acumulador fila
 	for(let j=0;j < datos[i].length;j++){
 		d += datos[i][j] + " ";
-	}
+	}//recorremos las filas
 	console.log(d);
 }
 console.log("---------------");
@@ -342,9 +342,210 @@ for(let i=0;i < datos.length;i++){
 	console.log(d);
 }
 
+//poo programacion orientada a objetos
+/clase Luz
+function Luz(){
+	//propiedades de la clase Luz
+	this.estado = false;
+	//métodos de la clase Luz
+	Luz.prototype.getEstado = function(){
+		return this.estado;
+	}
+	Luz.prototype.encender = function(){
+		this.estado = true;
+	}
+	Luz.prototype.apagar = function(){
+		this.estado = false;
+	}
+}
+//la variable luz1 es un objeto de tipo Luz,
+//es decir una instancia de la clase Luz
+let luz1 = new Luz();
+console.log(luz1.getEstado());
+luz1.encender();
+console.log(luz1.getEstado());
+let luz2 = new Luz();
+console.log(luz2.getEstado());
+luz2.encender();
+console.log(luz2.getEstado());
+let luz3 = new Luz();
+luz3.encender();
+console.log(luz3.getEstado());
+luz3.apagar();
+console.log(luz3.getEstado());
+
+Carlos Yáñez  15:29
+function Semaforo(calle){
+	this.luzRoja = true;
+	this.luzAmbar = false;
+	this.luzVerde = false;
+	this.calle = calle;
+	
+	Semaforo.prototype.pasarARojo = function (){
+		this.luzVerde = false;
+		for (let i = 0; i < 5; i++){
+			this.luzAmbar = true;
+			console.log(this.verEstado());
+			this.luzAmbar = false;
+			console.log(this.verEstado());
+		}
+		
+		
+		this.luzRoja = true;	  
+	}
+	Semaforo.prototype.pasarAVerde = function (){
+		this.luzRoja = false;
+		this.luzVerde = true;	  
+	}
+	Semaforo.prototype.verEstado = function (){
+		let textoVerde = this.luzVerde == true ? "Encendida" : "Apagada";
+		let textoAmbar = this.luzAmbar == true ? "Encendida" : "Apagada";
+		let textoRoja = this.luzRoja == true ? "Encendida" : "Apagada";
+		return "V: " + textoVerde + " | A: " + textoAmbar + " | R: " + textoRoja;
+	}
+	
+	Semaforo.prototype.getCalle = function (){
+		return this.calle;
+	}
+	
+}
+let semaf2 = new Semaforo("calle Alameda, 80");
+console.log(semaf2.verEstado());
+semaf2.pasarARojo();
+console.log(semaf2.verEstado());
+
+Carlos Yáñez  15:41
+function Ascensor(numPlantas){
+	this.numPlantas = numPlantas;
+	this.planta = 0;
+	this.ocupado = false;
+	Ascensor.prototype.llamarAlAscensor = function (planta){
+		this.ocupado = true;
+		if (planta <= this.numPlantas) {
+			this.planta = planta;
+		}
+		this.ocupado = false;
+	}
+	Ascensor.prototype.getPlanta = function (){
+		return this.planta;
+	}
+}
+let asc1 = new Ascensor(10);
+console.log(asc1.getPlanta());
+asc1.llamarAlAscensor(4);
+console.log(asc1.getPlanta());
+asc1.llamarAlAscensor(14);
+console.log(asc1.getPlanta());
+let asc2 = new Ascensor(10);
+asc2.llamarAlAscensor(2);
+console.log(asc2.getPlanta());
+
+Carlos Yáñez  16:11
+function Habitacion(numero, tipoCamas, precio){
+	this.numero = numero; //203, 105
+	this.tipoCamas = tipoCamas;
+	this.precio = precio;
+	Habitacion.prototype.getNumeroHabitacion = function(){
+		return this.numero;
+	}
+	Habitacion.prototype.getTipoDeCama = function(){
+		let texto = "";
+		switch(this.tipoCamas) {
+			case Habitacion.CAMA_SIMPLE:
+				texto = "Cama Simple";
+				break;
+			case Habitacion.CAMA_DOBLE:
+				texto = "Cama Doble";
+				break;
+			case Habitacion.CAMA_MATRIMONIO:
+				texto = "Cama Matrimonio";
+				break;
+		}
+		return texto;
+	}
+	Habitacion.prototype.getPrecio = function(){
+		return this.precio;
+	}
+}
+Habitacion.CAMA_SIMPLE = 1;
+Habitacion.CAMA_DOBLE = 2;
+Habitacion.CAMA_MATRIMONIO = 3;
+function Hotel (){
+	this.habitaciones = new Array(
+		new Array(5),
+		new Array(7),
+		new Array(1)
+	);
+	Hotel.prototype.getHabitaciones = function(){
+		return this.habitaciones;
+	}
+	Hotel.prototype.addHabitacion = function(habitacion){
+		let numHab = habitacion.getNumeroHabitacion();
+		numHab += "";
+		let piso = numHab.split("0")[0];
+		let puerta = numHab.split("0")[1];
+		piso = parseInt(piso) - 1;
+		puerta = parseInt(puerta) - 1;
+		this.habitaciones[piso][puerta] = habitacion;
+	}
+}
+let h203 = new Habitacion(207, Habitacion.CAMA_MATRIMONIO, 150);
+let overlook = new Hotel();
+overlook.addHabitacion(h203);
+console.log(h203);
+console.log(overlook);
+
+//comparaciones
+
+let x = false;
+if (!x){ // !false
+	console.log("Verdadero");
+}
+else {	
+	console.log("Falso");
+}
+let datos = [1,2,4,5,6,7];
+let encontrado = false;
+let incognita = 5;
+for (let i = 0; i < datos.length && !encontrado; i++){
+	if (datos[i] == incognita){
+		encontrado = true;
+	}
+	console.log(encontrado);
+}
+console.log("Final: " + encontrado);
+---------------------------------------
+function Playlist(name){
+    this.name ="New Playlist";
+    if (name){
+    this.name = name;
+    }
+}
+/*crea por defecto un nombre name is false por default*/
+
+/*generar id diferentes*/
+let cont = new date().getTime()); //lo incluimos en un acum porque en un milisegundo se realizan mas de 5 operaciones, por eso lo incrementamos en cada elemento.
+let s1 = new Song(cont++, "Monday", "Bangles", 214,4);
+
+// nuevo for
+let cont = new Date().getTime();
+let s1 = new Song(cont++, "I don't like mondays", "Boomtown Rats", 214, 4);
+let s2 = new Song(cont++, "Everyday is like monday", "The Smiths", 180, 5);
+let s3 = new Song(cont++, "Manic Monday", "The Bangles", 160, 4);
+let canciones = [s1, s2, s3];
+for (let cancion of canciones){ //devuelve el objeto
+	console.log(cancion);
+}
+for (let i in canciones){
+	console.log(canciones[i]);
+	console.log(i);
+	 //devuelve el indice
+}
+//suffle devuelve el valor del array de un solo numero que extraemos en el splice
+
 </script>	
 </head>
 <body>
 Hola
-</bodvector1y>
-</html>==
+</body>
+</html>

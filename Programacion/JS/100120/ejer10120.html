@@ -176,7 +176,7 @@ let vectorM = new Array(
 );
 let d=0;//acumulador suma
 for(let i=0;i < vectorM.length;i++){
-	//console.log(vectorM.length); //el length es 3 se cunta numero de arrays no componentes
+	//console.log(vectorM.length); //el length es 3 se cuenta numero de arrays no componentes
 	for(let j=0;j < vectorM[i].length;j++){
 		d += vectorM[i][j];
 		
@@ -186,6 +186,23 @@ console.log(d + " es la suma de los elementos de los array");
 
 let media = Math.round(d/12);
 console.log(media+ " es la media de los elementos del array");
+*/
+
+/*
+let datos = new Array (
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+let media = 0;
+let cont = 0;
+for(let i = 0; i < datos.length; i++){
+	for (let j = 0; j < datos[i].length; j++) {
+		media += datos[i][j];
+		cont++;
+	}
+}
+console.log("Media: " + media / cont);
 */
 
 /*
@@ -200,7 +217,7 @@ let vectorM = new Array(
 let d=0;//acumulador suma
 for(let i=0;i < vectorM.length;i++){
 	let d=""; //acumulador fila
-	//console.log(vectorM.length); //el length es 3 se cunta numero de arrays no componentes
+	//console.log(vectorM.length); 
 	for(let j=0;j < vectorM[i].length;j++){
 		vectorM[i][j] =vectorM[i][j]+1
 		d += vectorM[i][j]+ " ";
@@ -209,6 +226,21 @@ for(let i=0;i < vectorM.length;i++){
 }
 */
 
+/*
+let datos = new Array (
+	new Array(10,12,43,20, 25, 1, 100, 97),
+	new Array(11,95,40,8, 5, 6),
+	new Array(71, 5)
+);
+let copiaDatos = new Array(datos.length);
+for (let i = 0; i < datos.length; i++){
+	copiaDatos[i] = new Array(datos[i].length);
+	for (let j = 0; j < datos[i].length; j++){
+		copiaDatos[i][j] = datos[i][j] + 1;
+	}
+}
+console.log(copiaDatos);
+*/
 /*
 4- Crea una función que devuelva la suma de los números de la primera fila del array (suma 85)
 */
@@ -255,6 +287,31 @@ console.log("La suma de los elementos de la primera columna del array es: "+suma
 */
 
 /*
+let data = new Array (
+	new Array(10,12,43,20),
+	new Array(11,95,40,8, 5, 6),
+	new Array(71, 5)
+);
+function sumarFila(datos) {
+	let suma = 0;
+	for (let i = 0; i < datos[0].length; i++){
+		suma += datos[0][i];
+	}
+	return suma;
+}
+console.log(sumarFila(data));
+function sumarCol (datos) {
+	let suma = 0;
+	for (let i = 0; i < datos.length; i++){
+		suma += datos[i][0];
+	}
+	return suma;
+}
+console.log(sumarCol(data));
+
+*/
+
+/*
 6- Crea una función que devuelva el mayor valor que aparece en el array del primer ejercicio. La función debe ser válida para cualquier conjunto de valores y cualquier array mono o multidimensional.
 */
 /*
@@ -291,6 +348,51 @@ console.log("El mayor elemento del array vectorPlano es: " +mayorB);
 */
 
 /*
+
+let datos = new Array(
+	new Array(10,12,43,20),
+	new Array(11,95,40,8),
+	new Array(71,66,44,92)
+);
+function mayorValorMultidimensonal(dato){
+	let numeroMayor = dato[0][0];
+	for(let i = 0; i < dato.length;i++){
+		for(let j =0;j < dato[i].length;j++){
+			if(numeroMayor < dato[i][j]){
+				numeroMayor = dato[i][j];
+			}
+		}
+	}
+	return numeroMayor;
+}
+function mayorValorMonodimensonal(dato){
+	let numeroMayor = dato[0];
+	for(let i = 0; i < dato.length;i++){		
+		if(numeroMayor < dato[i]){
+			numeroMayor = dato[i];
+		}
+	}
+	return numeroMayor;
+}
+function buscarMayorValorEnArray (dato) {
+	let n = null;
+	if (dato[0] != undefined) {
+		if (dato[0][0] != undefined) {
+			n = mayorValorMultidimensonal(dato);
+		}
+		else {
+			n = mayorValorMonodimensonal(dato);
+		}
+	}
+	return n;
+}
+let acum = buscarMayorValorEnArray(datos);
+console.log(acum);
+acum = buscarMayorValorEnArray(new Array(1,2,3,4));
+console.log(acum);
+*/
+
+/*
 7- Crea dinámicamente un array multidimensional con los siguientes valores:
 5	6	7
 8	9	10
@@ -312,12 +414,27 @@ for(let i=0;i < datos.length;i++){
 	console.log(d);
 }
 */
+
+/*
+let contador = 5;
+let datos = new Array(
+new Array(3),
+new Array(3),
+);
+for ( let i=0; i<datos.length; i++){
+	for ( let j=0; j<datos[i].length; j++){
+	datos[i][j] = contador ++;
+	}
+}
+console.log(datos);
+*/
 /*
 8- Crea dinámicamente un array multidimensional con los siguientes valores:
 5	7	9
 6	8	10
 
 */
+//sin terminar
 /*
 let datos = new Array(
 	new Array(3),
@@ -346,6 +463,53 @@ for(let i=0;i<datos.length < 1;i++){
 	}
 	
 }
+*/
+
+/*
+let contador = 5;
+let datos = new Array(
+	new Array(3),
+	new Array(3),
+);
+for ( let i=0; i<3; i++){
+	for ( let j=0; j<datos.length; j++){
+		datos[j][i] = contador++;
+	}
+}
+console.log(datos);
+*/
+
+//ejerc 9
+/*
+let contador = 5;
+let datos = new Array(
+new Array(2),
+new Array(2),
+new Array(2),
+);
+for ( let i=0; i<datos.length; i++){
+	for ( let j=0; j<datos[i].length; j++){
+	datos[i][j] = contador ++;
+	}
+}
+console.log(datos);
+*/
+
+
+//ejerc 10
+/*
+let contador = 5;
+let datos = new Array(
+new Array(2),
+new Array(2),
+new Array(2),
+);
+for ( let i=0; i<datos[i].length; i++){
+	for ( let j=0; j<datos.length; j++){
+	datos[j][i] = contador ++;
+	}
+}
+console.log(datos);
 */
 </script>
 

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title> Altavoz</title>
+<script type="text/javascript" src="./js/classes/Volumen.js" charset="UTF-8"/>
+</script>
+<script type="text/javascript" src="./js/classes/Altavoz.js" charset="UTF-8"/>
+</script>
+<script>
+/*
+4- Vamos a modelar un Altavoz. Un altavoz tiene dos propiedades: el estado de
+encendido que puede ser verdadero o falso, y la otra el volumen que puede estar
+comprendido entre 0 y 100.
+El altavoz tendrá los siguientes métodos:
+- encender: establece el estado de encendido a verdadero y el volumen a 20.
+- apagar: establece el estado de encendido a false y el volumen a 0.
+- getVolumen: devolverá el valor actual del volumen.
+
+- subirVolumen: incrementa el volumen en 1. Si ya ha llegado a valer 100 no hará
+nada.
+- bajarVolumen: decrementa el volumen en 1. Si ya ha llegado a 0 no hará nada.
+
+- establecerVolumen: recibe un valor entre 0 y 100 y establece ese valor como
+valor del volumen.
+
+- mute: establece el valor del volumen a 0.
+
+- print: imprime el siguiente texto por pantalla: &quot;El altavoz está
+&lt;encendido/apagado&gt; y su volumen es de &lt;volumen&gt;&quot;.
+
+- Una vez completado esto crear unos altavoces 5.0 en los siguientes estados:
+altavozFrontal: volumen 50, encendido
+- altavozLateralIzquiero: volumen 20, encendido
+- altavozLateralDerecho: volumen 30, encendido
+- altavozTraseroIzquiero: volumen 10, encendido
+- altavozTraseroDerecho: volumen 0, apagado
+Una vez hecho esto, subir el volumen de altavozLateralIzquiero en 5, encender el
+altavozTraseroDerecho y establecer su volumen a 35.
+A continuación apagaremos todos los altavoces.
+
+*/
+//Incorrecto
+/*
+let altavoz1 = new Altavoz(1);
+let altavoz2 = new Altavoz(2);
+let altavoz3 = new Altavoz(3);
+let altavoz4 = new Altavoz(4);
+let altavoz5 = new Altavoz(5);
+
+let cincoUno = new Altavoz();
+cincoUno.addType(altavoz1);
+cincoUno.addType(altavoz2);
+cincoUno.addType(altavoz3);
+cincoUno.addType(altavoz4);
+cincoUno.addType(altavoz5);
+
+let cosas = cincoUno.getAltavoces();
+for (let i =0; i < cosas.length; i++){
+	console.log(cosas[i].getType() + " - " + cosas[i].getVolume());
+}
+
+altavoz1.setVolume(50);
+altavoz2.setVolume(20);
+altavoz1.setVolume(30);
+altavoz1.setVolume(10);
+altavoz1.setMute();
+
+
+cosas = cincoUno.getAltavoces();
+for (let i =0; i < cosas.length; i++){
+	console.log(cosas[i].getType() + " - " + cosas[i].getVolume());
+}
+*/
+
+/*
+
+
+*/
+</script>
+
+</head>
+
+<body>
+Hola
+</body>
+</html>

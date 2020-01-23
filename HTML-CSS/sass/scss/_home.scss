@@ -1,0 +1,193 @@
+body{
+    background-color:rgba(0, 0, 0, 0.712)!important;
+    color: $white;
+    
+    
+}
+
+.col-12{
+    padding:0 !important;
+}
+
+.navbarfit{
+    background-color:#2e26268c!important;
+    z-index: 9;
+    .col-12{
+        padding:0 !important;
+        border: 1px solid #693232;
+        position: absolute!important;
+    }
+    .navbar-dark .navbar-toggler {
+        color: $white;
+    }
+    .logoFit{
+        color: $white;
+        font-size: 25px;
+    }
+    li a{
+        font-size: 20px!important;
+        color:$white;
+    }
+   
+}
+
+.carouselGym1{
+    background-image: url(../img/gym1.jpg);
+    background-color: rgba(24, 23, 23, 0.212);
+   @include carouselProps;
+    .content1{
+        background-color:rgba(0, 0, 0, 0.219);
+        @include content;
+        .contentFondo{
+            background-color:rgba(0, 0, 0, 0.219);
+
+            h1{
+                color:$white;
+            }
+            .running{
+                text-align: center;
+            }
+            .running p{
+                color: $white;
+            }
+            
+            .running button{
+                background-color: transparent;
+                border: 1px solid $white;
+                border-radius: 15px;
+                color:$white;
+            }
+        }
+        
+    }
+}
+.carouselGym2{
+    background-image: url(../img/gym2.jpg);
+    @include carouselProps;
+    .content1{
+        background-color:rgba(0, 0, 0, 0.219);
+        @include content;
+        .contentFondo{
+            background-color:rgba(0, 0, 0, 0.219);
+
+            h1{
+                color:$white;
+            }
+            .running{
+                text-align: center;
+            }
+            .running p{
+                color: $white;
+            }
+            
+            .running button{
+                background-color: transparent;
+                border: 1px solid $white;
+                border-radius: 15px;
+                color:$white;
+            }
+        }
+        
+    }
+}
+.carouselGym3{
+    background-image: url(../img/gym3.jpg);
+    @include carouselProps;
+    .content1{
+        background-color:rgba(0, 0, 0, 0.219);
+        @include content;
+        .contentFondo{
+            background-color:rgba(0, 0, 0, 0.219);
+
+            h1{
+                color:$white;
+            }
+            .running{
+                text-align: center;
+            }
+            .running p{
+                color: $white;
+            }
+            
+            .running button{
+                background-color: transparent;
+                border: 1px solid $white;
+                border-radius: 15px;
+                color:$white;
+            }
+        }
+        
+    }
+}
+.carouselGym4{
+    background-image: url(../img/gym4.jpg);
+    @include carouselProps;
+    .content1{
+        background-color:rgba(0, 0, 0, 0.219);
+        @include content;
+        .contentFondo{
+            background-color:rgba(0, 0, 0, 0.219);
+
+            h1{
+                color:$white;
+            }
+            .running{
+                text-align: center;
+            }
+            .running p{
+                color: $white;
+            }
+            
+            .running button{
+                background-color: transparent;
+                border: 1px solid $white;
+                border-radius: 15px;
+                color:$white;
+            }
+        }
+        
+    }
+}
+
+.flexin{
+    display:inline;
+    .col-4{
+        display: flex;
+        justify-content: center;
+       
+    }
+}
+
+.cardHeight{
+    @include cardContent;
+    height: 60vh;
+}
+
+.rightt{
+    height: 50vh!important;
+    @include content;
+    background-color: rgba(43, 46, 46, 0.835)!important;
+    color: $white;
+    text-align: center;
+}
+
+.leftt{
+    height: 100%;
+    @include content;
+    background-color:rgba(43, 46, 46, 0.835)!important;
+    color: $white;
+}
+
+.adaptx{
+    width: 100%;
+    height: 100vh;
+}
+
+.heix{
+    height: 56vh;
+}
+ .col-md-6 {
+  
+    height: 35vh !important;
+}
+

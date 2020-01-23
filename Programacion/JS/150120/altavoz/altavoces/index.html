@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript"  src="js/classes/Altavoz.js" charset="UTF-8"></script>
+<script>
+
+let adf = new Altavoz();
+console.log(adf.print());
+adf.encender();
+adf.setVolumen(50);
+console.log(adf.print());
+
+let ali = new Altavoz();
+console.log(ali.print());
+ali.encender();
+ali.setVolumen(20);
+console.log(ali.print());
+
+let ald = new Altavoz();
+console.log(ald.print());
+ald.encender();
+ald.setVolumen(30);
+console.log(ald.print());
+
+let ati = new Altavoz();
+console.log(ati.print());
+ati.encender();
+ati.setVolumen(10);
+console.log(ati.print());
+
+let atd = new Altavoz();
+console.log(atd.print());
+
+console.log(ali.print());
+for (let i = 0; i < 5; i++){
+	ali.subirVolumen();
+}
+console.log(ali.print());
+
+atd.encender();
+console.log(atd.print());
+
+atd.setVolumen(35);
+
+let altavoces = [adf, ali, ald, ati, atd];
+for (let i = 0; i < altavoces.length; i++){
+	altavoces[i].apagar();
+	console.log(altavoces[i].print());
+}
+
+
+
+
+</script>	
+</head>
+<body>
+Hola
+</body>
+</html>

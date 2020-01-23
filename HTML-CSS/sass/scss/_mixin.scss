@@ -1,0 +1,21 @@
+//agrupaciones de propiedades
+@mixin carouselProps{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin content{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin cardContent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
