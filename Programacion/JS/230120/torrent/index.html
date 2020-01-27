@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+<title>Torrent</title>	
+<script type="text/javascript" src="./js/classes/Torrent.js" charset="UTF-8">
+</script>
+<script type="text/javascript" src="./js/classes/TorrentClient.js" charset="UTF-8">
+</script>
+
+<script>
+
+let t1 = new Torrent(1,"movieOne", 1536000,6030,Torrent.AVI);
+let t2 = new Torrent(2,"beachPhotos", 4096,4096,Torrent.JPG );
+let t3 = new Torrent(3,"videoMobile", 307200,30100,Torrent.MP4);
+
+console.log(t1);
+console.log(t2);
+console.log(t3);
+
+let tclient1 = new TorrentClient();
+
+
+tclient1.addTorrent(t1);
+tclient1.addTorrent(t2);
+tclient1.addTorrent(t3);
+
+console.log(tclient1);
+
+tclient1.alphabeticSort;
+console.log(tclient1);
+
+tclient1.downloadedSort;
+console.log(tclient1);
+</script>
+
+
+</head>
+
+<body>
+</body>
+
+</html>

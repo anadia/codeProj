@@ -178,7 +178,7 @@ body {
 }
 
 .rightt {
-  height: 50vh !important;
+  /* height: 50vh!important; */
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -190,7 +190,7 @@ body {
 }
 
 .leftt {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -205,12 +205,61 @@ body {
   height: 100vh;
 }
 
-.heix {
-  height: 56vh;
-}
-
 .col-md-6 {
   height: 35vh !important;
+}
+
+.martop {
+  margin-top: 30px !important;
+}
+.martop .col-12 {
+  margin-left: 100px;
+}
+
+.flexi {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.bloki {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.quest p {
+  margin-bottom: 0px;
+}
+
+.span1 {
+  height: 30vh;
+}
+
+.mrgbott {
+  margin-bottom: 25px;
+}
+.mrgbott p {
+  margin-bottom: 15px;
+}
+.mrgbott h4 {
+  margin-bottom: 15px;
+}
+
+.text-min {
+  font-size: 10px;
+  margin-right: 8px;
+}
+
+.webkbox {
+  display: -webkit-box;
+}
+
+img {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .info {
@@ -252,4 +301,65 @@ body {
   background-color: rgba(24, 23, 23, 0.212) !important;
   border-color: #e0dbbe;
   color: #e0dbbe;
+}
+
+.imgMov {
+  background-image: url(../img/gym3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.containerProgram {
+  height: 40vh;
+}
+
+.caja {
+  height: 30px;
+  width: 30px;
+}
+
+.transition2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition-duration: 2s;
+  transition-delay: 5s;
+  transition-timing-function: linear;
+  transition-property: width, background-color;
+  transition-delay: 2s;
+}
+.transition2:hover {
+  width: 500px;
+  transition-duration: 2s;
+  transition-delay: 3s;
+}
+.transition2:hover {
+  transition-duration: 2s;
+  transition-delay: 3s;
+}
+.transition2 .targetas {
+  align-items: center;
+}
+
+/* .transition{
+
+    transition-duration:2s;
+    transition-delay:5s;
+    transition-timing-function: linear;
+    transition-property: background-color ;
+    transition-delay:2s;
+
+    &:hover{
+
+        background-color: blue;
+    }
+} */
+.imgParallax {
+  background-image: url(../img/gym3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

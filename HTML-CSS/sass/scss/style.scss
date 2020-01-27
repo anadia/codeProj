@@ -1,8 +1,17 @@
+//definicion de variables
 @import './variables.scss';
+
 //agrupacion propiedades
 @import './mixin.scss';
+
 //pagina principal
 @import './home.scss';
-//pagina dde contacto
+
+//pagina de contacto
 @import './contact.scss';
+
+//pagina program
+@import './program.scss';
+
+//media query
 @import './query.scss';

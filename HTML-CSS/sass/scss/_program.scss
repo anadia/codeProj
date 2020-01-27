@@ -1,0 +1,74 @@
+.imgMov{
+    background-image: url(../img/gym3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.containerProgram{
+    height: 40vh;
+
+}
+
+.caja{
+    height: 30px;
+    width: 30px;
+}
+
+.transition2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-duration:2s;
+    transition-delay:5s;
+    transition-timing-function: linear;
+    transition-property: width,background-color ;
+    transition-delay:2s;
+
+    &:hover{
+        width: 500px; 
+        transition-duration:2s;
+        transition-delay:3s; 
+        
+    }
+    &:hover{
+        //background-color: blue; 
+        transition-duration:2s;
+        transition-delay:3s; 
+        
+    }
+
+.targetas{
+    
+    align-items: center;
+
+}
+
+
+    
+}
+/* .transition{
+
+    transition-duration:2s;
+    transition-delay:5s;
+    transition-timing-function: linear;
+    transition-property: background-color ;
+    transition-delay:2s;
+
+    &:hover{
+       
+        background-color: blue;
+    }
+} */
+
+.imgParallax{
+    background-image: url(../img/gym3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+

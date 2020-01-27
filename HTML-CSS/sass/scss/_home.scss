@@ -164,7 +164,7 @@ body{
 }
 
 .rightt{
-    height: 50vh!important;
+    /* height: 50vh!important; */
     @include content;
     background-color: rgba(43, 46, 46, 0.835)!important;
     color: $white;
@@ -172,7 +172,7 @@ body{
 }
 
 .leftt{
-    height: 100%;
+    /* height: 100%; */
     @include content;
     background-color:rgba(43, 46, 46, 0.835)!important;
     color: $white;
@@ -183,11 +183,61 @@ body{
     height: 100vh;
 }
 
-.heix{
-    height: 56vh;
-}
+
  .col-md-6 {
   
     height: 35vh !important;
 }
 
+.martop{
+    margin-top: 30px!important;
+    .col-12{
+        margin-left: 100px;
+    }
+}
+
+.flexi{
+    display: flex;
+    margin-bottom: 15px;
+}
+.bloki{
+    display:block;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 3rem;
+}
+
+.quest p{
+    margin-bottom: 0px;
+}
+
+.span1{
+    height:30vh;
+}
+
+.mrgbott{
+    margin-bottom: 25px;
+    p{
+        margin-bottom: 15px;
+    }
+    h4{
+        margin-bottom: 15px;
+    }
+}
+.text-min{
+    font-size: 10px;
+        margin-right: 8px;
+    
+}
+
+.webkbox{
+    display: -webkit-box;
+}
+
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}

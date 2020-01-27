@@ -1,0 +1,23 @@
+.butblue{
+    color:#2D96C8 !important;
+    border-radius: 20%;
+    border-color:#2D96C8 !important;
+}
+
+.hero-lft{
+background-color: grey;
+height: 800px;
+width: 100%;
+}
+
+.hero-rgt{
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+    width: auto;
+}
+
+.flexi{
+    display: flex;
+}
