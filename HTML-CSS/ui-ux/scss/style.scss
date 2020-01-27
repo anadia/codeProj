@@ -1,12 +1,28 @@
-.butblue{
-    color:#2D96C8 !important;
-    border-radius: 20%;
-    border-color:#2D96C8 !important;
+.nopad{
+    padding: 0 0 0 0 !important;
+}
+.navText{
+    font-weight: bolder !important;
+    color: black !important;
+    font-size: larger;
+    margin-left: 25px;
 }
 
+.butblue{
+    color:#2D96C8 !important;
+    border-radius: 20px!important;
+    border-color:#2D96C8 !important;
+    margin-left: 25px;
+    font-weight: bold !important;
+        
+}
+.register {
+    background-color:#2D96C8!important ;
+    color:white !important;
+}
 .hero-lft{
-background-color: grey;
-height: 800px;
+
+height: 600px;
 width: 100%;
 }
 
@@ -14,10 +30,98 @@ width: 100%;
     background-image: url(../img/hero.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 900px;
+    height: 600px;
     width: auto;
 }
 
 .flexi{
     display: flex;
+}
+
+.textBanner{
+    border: 65px solid transparent;
+}
+
+.botRed{
+    color:white !important;
+    border-radius: 20px!important;
+    border-color:#EF5466 !important;
+    font-weight: bold !important;
+    height: 50px;
+    width: 180px;
+    background-color:#EF5466!important ;
+}
+
+.botBW{
+    color:black !important;
+    border-radius: 20px!important;
+    border-color:black !important;
+    margin-left: 25px;
+    font-weight: bold !important;
+    height: 50px;
+    width: 180px;
+    background-color:white!important ;
+}
+
+h4{
+    margin-top: 140px;
+    
+}
+.pink{
+    color:#EF5466;
+}
+
+.greyB{
+    background-color: #F9F9F9;
+}
+.mobileImg{
+    background-image: url(../img/mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 641px;
+    width: 322px!important;
+    margin-top: 50px;
+}
+
+.anx{
+    width: 80px;
+    height: 50px;
+}
+.bW h4{
+    color:black !important;
+}
+
+.mTop{
+    margin-top: 70px;
+}
+
+.pinkR{
+    height: 286px;
+    background-color:#EF5466;
+}
+.textB2{
+    border: 15px solid transparent;
+}
+
+.w80{
+    width: 80px !important;
+}
+
+.w {
+    color: white !important;
+}
+
+.aCC{
+    align-content: center;
+}
+
+.pricesT{
+    height: 600px;
+    width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 5px;
+}
+
+.tAC{
+    text-align: center;
 }

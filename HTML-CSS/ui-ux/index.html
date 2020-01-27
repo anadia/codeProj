@@ -12,50 +12,149 @@
 </head>
 <body>
 <!--Navbar-->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-ligth">
+      
+      <img src="./img/logo.png" alt="logo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-    <img src="./img/logo.png" alt="logo">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-    
-        <li class="nav-item">
-          <a class="nav-link" href="#">Descargas</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Ofertas</a>
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+      
+          <li class="nav-item">
+            <a class="nav-link navText" href="#">Descargas</a>
           </li>
-        
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-       <button class="btn btn-outline-success my-2 my-sm-0 butblue" type="submit">Conectarse</button>
-       <button class="btn btn-outline-success my-2 my-sm-0 butblue" type="submit">Registrarse</button>
-        
-    </form>
-    </div>
-  </nav>
-
+          <li class="nav-item">
+              <a class="nav-link navText navText" href="#">Ofertas</a>
+            </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <button class="btn  my-2 my-sm-0 butblue" type="submit">Conectarse</button>
+        <button class="btn my-2 my-sm-0 butblue register" type="submit">Registrarse</button>
+          
+      </form>
+      </div>
+    </nav>
+</div>
 <!--Navbar End-->
 
 <!--Hero-->
-<div class="container">
+<div class="container-fluid nopad">
     <div class="row">
-        <div class="col-12 col-md-6 flexi">
-            <div class="col-12 col-md-6 hero-lft">
-
+        <div class="col-12  flexi">
+            <div class="col-6 hero-lft">
+              <div class="textBanner">
+                <h1>Tú pones la pasión. <br> Nosotros ponemos la <br> música.</h1>
+                <h4>Prueba Deezer Premium gratis <br> durante 3 meses*</h4>
+                <div class="mTop">
+                    <button class="botRed">Deezer Premium</button>
+                    <button class="botBW">Deezer Free</button>
+                </div>
+                
+              </div>
             </div>
-            <div class="col-12 col-md-6 hero-rgt">
-               <!--  <img src="./img/hero.png" alt="hero">
-            --> </div>
+            <div class="col-6 hero-rgt">
+            </div>
         </div>
     </div>
 </div>
 
 <!--Hero End-->
+
+<!--Mobile banner-->
+
+<div class="container-fluid greyB nopad">
+  <div class="row">
+    <div class="col-12 flexi">
+      <div class="col anx"></div>
+      <div class="col-6 mobileImg">
+      </div>
+      <div class="col-6 textBanner">
+        <div class="row">
+            <h1>¿Por qué Deezer?</h1>
+        </div>
+        <div class="row mTop">
+          <div class="col-5 bW">
+              <h4>Toda la música en tu bolsillo.</h4>
+              <p>Encuentra tus futuras pasiones y tus canciones favoritas de siempre entre 56 millones de canciones.</p>
+              <h4>Crea tu propia biblioteca musical.</h4>
+              <p>Crea playlists con millones de canciones y llévalas contigo allá donde vayas.</p>
+          </div>
+          <div class="col-5 bW">
+              <h4>¿No hay wifi? No pasa nada.</h4>
+              <p>Con Deezer Premium, no necesitas estar conectado para disfrutar de tus canciones favoritas.</p>
+              <h4>Diseñado a tu medida.</h4>
+              <p>Flow se entera de lo que te gusta y de lo que no. Descubre tu propia banda sonora.</p>
+          </div>
+          <div class="col-2"></div>
+           
+        </div>
+        
+      </div>
+      <div class="col-3">
+          
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+</div>
+
+<!--Mobile banner End-->
+
+<!--Text Pink-->
+<div class="container-fluid">
+  <div class="row pinkR aCC">
+
+    <div class="col-6 tAC">
+      <img src="./img/icons/laptop.png" class="w80" alt="laptop">
+      <img src="./img/icons/tablet.png" class="w80" alt="tablet">
+      <img src="./img/icons/watch.png" class="w80" alt="watch">
+      <img src="./img/icons/speaker.png" class="w80" alt="speaker">
+      <img src="./img/icons/alexa.png" class="w80" alt="alexa">
+      <img src="./img/icons/tv.png" class="w80" alt="tv">
+      <img src="./img/icons/car.png" class="w80" alt="car">
+
+    </div>
+
+    <div class="col-6 w">
+      <h1>Siempre contigo</h1>
+      <h4 class="textB2">Descarga tu música con Deezer Premium para llevártela cuando sales a correr o a cenar. Disponible de forma permanente, en todos tus dispositivos, incluso sin WiFi ni 4G.</h4>
+      </div>
+  </div>
+</div>
+
+<!--Text Pink End-->
+
+<!--Prices-->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+          <div class="col-3"></div>
+          <div class="col-1"></div>
+          <div class="col-4 tAC mTop">
+              <h1>Disfruta de tu música</h1>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-3"></div>
+        
+      </div>
+
+      <div class="row flexi mTop">
+        <div class="col-3"></div>
+        <div class="col-2 pricesT"></div>
+        <div class="col-2 pricesT"></div>
+        <div class="col-2 pricesT"></div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Prices End-->
  
 
 
