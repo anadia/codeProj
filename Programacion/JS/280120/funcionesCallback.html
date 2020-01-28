@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+
+<script>
+/*
+1- Crear una función que reciba una hora del día representada en un valor numérico simple
+(1,2,3...17,18,..21,22,23), que llame a cada una de las funciones correspondientes que se encargarán de
+saludar de forma correspondiente en función de las horas que aparecen a continuación:
+- Morning: 5 am to 12 (noon)
+- Afternoon: 12 to 17
+- Evening: 17 to 21
+- Night: 21 to 4 am
+*/
+/*
+function greetMorning(hour){
+
+		console.log("Good Morning");
+	
+}
+
+
+function greetAfternoon(hour){
+	
+		console.log("Good Afternoon");
+		
+}
+
+
+function greetEvening(hour){
+	
+		console.log("Good Evening");
+		
+}
+
+function greetNight(hour){
+	
+		console.log("Good Night");
+		
+}
+
+function checkTimeGreet(hour, ){
+
+	 if (hour >= 5 && hour <= 12){ 
+		 greetMorning(hour); 
+	 } 
+	 if  (hour > 12 && hour <= 17){ 
+		 greetAfternoon(hour); 
+	 } 
+	 if  (hour > 17 && hour <= 21){ 
+		 greetEvening(hour); 
+	 } 
+	 if  (hour > 21 || hour == 1 ||hour == 2 || hour == 3 ||hour == 4){ 
+		 greetNight(hour); 
+	 } 
+	/*switch (hour) {
+	case (5,11):
+		greetMorning(hour);
+    break;
+
+	case (12, 17):
+		greetAfternoon(hour);
+    break;
+	
+	case (18,21):
+		greetEvening(hour);
+    break;
+	
+	case (21,4):
+		greetNight(hour);
+    break;
+	
+	default:
+		console.log('error');
+	}*/
+}
+
+	
+/*
+
+checkTimeGreet (1);
+
+checkTimeGreet (5);
+checkTimeGreet (8);
+checkTimeGreet (12);
+checkTimeGreet (15);
+checkTimeGreet (16);
+checkTimeGreet (19);
+checkTimeGreet (21);
+checkTimeGreet (23);
+checkTimeGreet (2);
+checkTimeGreet (4);
+*/
+/*
+function sayGoodMorning(name){
+	console.log("Good Morning " + name + "!");
+}
+function sayGoodAfternoon(name){
+	console.log("Good Afternoon " + name + "!");
+}
+function sayGoodEvening(name){
+	console.log("Good Evening " + name + "!");
+}
+function sayGoodNight(name){
+	console.log("Good Night " + name + "!");
+}
+function chooseSalutation(time, name, fCallbackMorning, fCallbackAfternoon,
+	fCallbackEvening, fCallbackNight) {
+	if (time < 5){
+		fCallbackNight(name);
+	}
+	else if (time >= 5 && time < 12){
+		fCallbackMorning(name);
+	}
+	else if (time >= 12 && time < 17){
+		fCallbackAfternoon(name);
+	}
+	else if (time >= 17 && time < 21){
+		fCallbackEvening(name);
+	}
+	else if (time >= 21){
+		fCallbackNight(name);
+	}	
+}
+for (let i = 0; i < 24; i++){
+	chooseSalutation(i, "Adri", sayGoodMorning, sayGoodAfternoon, sayGoodEvening,
+		sayGoodNight);
+}
+*/
+</script>
+</head>
+
+<body>
+
+</body>
+
+</html>

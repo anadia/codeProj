@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+
+<script>
+/*
+2- Crear dos funciones una para calcular los años de perro y otra para calcular los años de gato dada una
+edad en años humanos normales. 1 año humano son 10 años de gato y 7 años de perro.
+Habrá que crear una función que reciba si el texto es “gato” o “perro” y que llame a cada una de las
+funciones correspondientes, pasándoles a cada una los años humanos que han transcurrido para poder
+calcular la edad.
+*/
+/*
+function calcularEdadGato(edadHumana){
+		let edadGato = edadHumana * 10;
+		return edadGato;
+}
+function calcularEdadPerro(edadHumana){
+	let edadPerro = edadHumana * 7;
+	return edadPerro;
+}
+function calcularEdadAnimal(animal,callbackEdadGato,callbackEdadPerro ){
+	if (animal == "perro"){
+		let res = callbackEdadPerro();
+		console.log(res);
+	}
+	else{
+		let res = callbackEdadGato();
+		console.log(res);
+	}
+}
+calcularEdadAnimal("perro", calcularEdadGato.bind(this,10), calcularEdadPerro.bind(this,12));
+calcularEdadAnimal("gato", calcularEdadGato.bind(this,10), calcularEdadPerro.bind(this,12));
+*/
+/*
+// uso de arguments
+10:25
+function sumar(){
+	let suma = 0;
+	for (let i = 0; i < arguments.length; i++){
+		suma += arguments[i];
+	}
+	return suma;
+}	
+console.log(sumar(1,2,4,587,4,12,5,87,74,12,5,8));
+console.log(sumar(1,2));
+console.log(sumar(1,2,5,6,3,2,2,4,54,65,67,87,98,9,1,5,4,3,2,22));
+
+function getDogYears(humanYears, humanDogEquivalence){
+	return humanYears * humanDogEquivalence;
+}
+function getCatYears(humanYears, humanCatEquivalence){
+	return humanYears * humanCatEquivalence;
+}
+function calculateAnimalAge(animal, callbackGetDogYears, callbackGetCatYears){
+	if (animal == "Dog"){
+		let dogYears = callbackGetDogYears();
+		console.log(dogYears);
+	}
+	else if (animal == "Cat"){
+		let catYears = callbackGetCatYears();
+		console.log(catYears);
+	}
+}
+calculateAnimalAge("Dog", getDogYears.bind(this, 8, 7),
+	getCatYears.bind(this, 15, 10));
+calculateAnimalAge("Cat", getDogYears.bind(this, 8, 7),
+	getCatYears.bind(this, 15, 10));
+
+*/
+
+</script>
+</head>
+
+<body>
+
+</body>
+
+</html>
