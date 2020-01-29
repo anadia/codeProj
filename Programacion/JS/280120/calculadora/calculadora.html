@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 
 <head>
-<title>Torrent</title>	
-<script type="text/javascript" src="./js/classes/Torrent.js" charset="UTF-8">
-</script>
-<script type="text/javascript" src="./js/classes/TorrentClient.js" charset="UTF-8">
-</script>
-
-<script>
-
-
+<title>Calculadora</title>	
+<script type="text/javascript" src="./js/calculadora.js" charset="UTF-8">
 </script>
 
 
 </head>
 
 <body>
+ <table border="0"> 
+	 <tr> 
+		<td colspan="4"><input type="text" id="pantalla"/></td> 
+
+		<td><input type="button" value="c" onclick="borrar()"/> </td> 
+	 </tr> 
+	 <tr> 
+
+		<td><input type="button" value="1" onclick="escribirPantalla('1')"/> </td> 
+		<td><input type="button" value="2" onclick="escribirPantalla('2')"/> </td> 
+		<td><input type="button" value="3" onclick="escribirPantalla('3')"/> </td> 
+		<td><input type="button" value="/" onclick="escribirPantalla('/')"/> </td> 
+	 </tr> 
+	 <tr> 
+		<td><input type="button" value="4" onclick="escribirPantalla('4')"/> </td> 
+		<td><input type="button" value="5" onclick="escribirPantalla('5')"/> </td> 
+		<td><input type="button" value="6" onclick="escribirPantalla('6')"/> </td> 
+		<td><input type="button" value="-" onclick="escribirPantalla('-')"/> </td> 
+	 </tr> 
+	 <tr> 
+		<td><input type="button" value="7" onclick="escribirPantalla('7')"/> </td> 
+		<td><input type="button" value="8" onclick="escribirPantalla('8')"/> </td> 
+		<td><input type="button" value="9" onclick="escribirPantalla('9')"/> </td> 
+		<td><input type="button" value="+" onclick="escribirPantalla('+')"/> </td> 
+	 </tr> 
+	 <tr> 
+		<td><input type="button" value="." onclick="escribirPantalla('.')"/> </td> 
+		<td><input type="button" value="0" onclick="escribirPantalla('0')"/> </td> 
+
+		<td><input type="button" value="=" onclick="calcular()"/> </td> 
+		<td><input type="button" value="*" onclick="escribirPantalla('*')"/> </td> 
+	 </tr> 
+      </table> 
 </body>
 
 </html>
