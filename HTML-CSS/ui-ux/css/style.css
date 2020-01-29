@@ -124,8 +124,27 @@ h4 {
   width: 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 5px;
+  padding: 40px;
+  font-weight: bolder;
 }
 
 .tAC {
   text-align: center;
+}
+
+.borT {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0) !important;
+}
+
+.miniT {
+  font-size: xx-small;
+}
+
+.mTopMin {
+  margin-top: 10px;
+}
+
+.footerD {
+  background-color: #32323d;
+  height: 40vh;
 }
