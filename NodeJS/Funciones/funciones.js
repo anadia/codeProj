@@ -10,5 +10,13 @@ function restar(a,b){
 /* console.log(sumar(2,3));
 console.log(restar(2,3)); */
 
-exports.sumar=sumar; //formato exports ponemos el nombre suma a la funcion sumar
-exports.restar=restar;
+
+//formato exports ponemos el nombre suma a la funcion sumar
+// exports.sumar=sumar; 
+// exports.restar=restar;
+
+//exportando funciones en conjunto
+module.exports ={
+    sumar,
+    restar
+}
