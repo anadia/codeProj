@@ -1,5 +1,5 @@
-function TorrentClient(){
-	this.torrentList = new Array();
+function TorrentClient(torrent){
+	this.torrentList = new Array(torrent);
 	
 	//methods
 	
@@ -22,7 +22,7 @@ function TorrentClient(){
 	TorrentClient.prototype.alphabeticSort = function(){	
 		this.torrentList.sort(
 			function(a,b) {
-					return b - a;
+					return b.getId - a.getId ;
 			})
 	}
 	

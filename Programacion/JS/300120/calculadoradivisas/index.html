@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora Divisas</title>
+    <script type="text/javascript" src="./js/exchangeCalculator.js" charset="UTF-8">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+ <!-- Script to show Toast Calculator -->
+    <script>
+        $(document).ready(function () {
+            $(".show-toast").click(function () {
+                $("#myToast").toast('show');
+            });
+        });
+    </script>
+ <!-- show script End -->
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <div class="cent">
+        <h2><strong>Rate Exchange Calculator</strong></h2>
+        <button type="button" class="btn btn-secondary show-toast">Open Calculator</button>
+    </div>
+    <!-- Header End -->
+
+    <!-- Calculator -->
+    <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center bgdark1">
+        <div class="toast" id="myToast" data-autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
+            <!-- Calculator Caption -->
+            <div class="toast-header aliba">
+                <strong class="mr-auto"><i class="fa fa-calculator c20"></i><label
+                        class="c5">Rate Exchange Calculator</label></strong>
+
+                <button type="button" class="ml-2 mb-1 close aliba" data-dismiss="toast">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!-- Calculator Caption End -->
+
+            <!-- Calculator Body -->
+            <div class="toast-body mf">
+                <!-- Calculator Screen -->
+                <div class="input-group">
+                    <input type="text" class="form-control screeni" id="inputScreen" aria-label="input" disabled />
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="outputScreen">0.00000</span>
+                        <span class="input-group-text" id="outputScreenSymbol" >CURRENCY</span>
+                    </div>
+                </div>
+                <!-- Calculator Screen End -->
+
+            <!-- Calculator Buttons -->
+
+                <!-- Calculator Buttons 1st Row -->
+                <div class="btn-toolbar mgtop" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="row">
+                        <div class="btn-group mr-2 mf20" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-secondary" value="1"
+                                onclick="addToScreen('1')">1</button>
+                            <button type="button" class="btn btn-secondary" value="2"
+                                onclick="addToScreen('2')">2</button>
+                            <button type="button" class="btn btn-secondary" value="3"
+                                onclick="addToScreen('3')">3</button>
+                            <button type="button" class="btn btn-secondary" value="4"
+                                onclick="addToScreen('4')">4</button>
+                            <button type="button" class="btn btn-secondary" value="5"
+                                onclick="addToScreen('5')">5</button>
+                            <button type="button" class="btn btn-secondary" value="6"
+                                onclick="addToScreen('6')">6</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Calculator Buttons 1st Row End-->
+
+                <!-- Calculator Buttons 2nd Row -->
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="row">
+                        <div class="btn-group mr-2 mf20" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-secondary" value="7"
+                                onclick="addToScreen('7')">7</button>
+                            <button type="button" class="btn btn-secondary" value="8"
+                                onclick="addToScreen('8')">8</button>
+                            <button type="button" class="btn btn-secondary" value="9"
+                                onclick="addToScreen('9')">9</button>
+                            <button type="button" class="btn btn-secondary" value="0"
+                                onclick="addToScreen('0')">0</button>
+                            <button type="button" class="btn btn-secondary" value="."
+                                onclick="addToScreen('.')">.</button>
+                            <button type="button" class="btn btn-secondary" value="C" onclick="clearScreen()">C</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Calculator Buttons 2nd Row End-->
+
+                <div class="btn-group lft mgtop" role="group" aria-label="Button group with nested dropdown">
+                    <button type="button" class="btn btn-secondary c5" onclick="changerO()"> < > </button>
+                  
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select <br /> Conversion
+                      </button>
+                      <div class="dropdown" aria-labelledby="btnGroupDrop1"> <!--modificamos la clase para un efecto diferente y decorativo-->
+
+                        <div class="chgx1">
+                            <a class="dropdown-item"  value="US $" onclick="convertEuroDollar()">Euro € 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> US $
+                            </a>
+                        </div>
+
+                        <div class="chgx2 hids">
+                            <a class="dropdown-item"  value="US $" onclick="convertDollarEuro()">US $ 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> Euro €
+                            </a>
+                        </div>
+
+                        <div class="chgx1">
+                            <a class="dropdown-item" onclick="convertEuroLibra()">Euro € 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> GPB £ 
+                            </a>
+                        </div>
+
+                        <div class="chgx2 hids">
+                            <a class="dropdown-item"  value="GBP £" onclick="convertLibraEuro()">GBP £ 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> Euro €
+                            </a>
+                        </div>
+
+                        <div class="chgx1">
+                            <a class="dropdown-item" onclick="convertEuroCad()" >Euro € 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> CAD $
+                            </a>
+                        </div>
+
+                        <div class="chgx2 hids">
+                            <a class="dropdown-item"  value="CAD $" onclick="convertCadEuro()">CAD $ 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> Euro €
+                            </a>
+                        </div>  
+
+                        <div class="chgx1">
+                            <a class="dropdown-item" onclick="convertEuroAus()">Euro € 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> AUS $
+                            </a>
+                        </div>
+
+                        <div class="chgx2 hids">
+                            <a class="dropdown-item"  value="AUS $" onclick="convertAusEuro()">AUS $ 
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i> Euro €
+                            </a>
+                        </div>  
+
+                      </div>
+                      <hr>
+                      <p class="copyright">Made with love by Óscar Terrés</p>
+                    </div>
+                  </div>
+            </div>
+            <hr>
+            <!-- Calculator Body End -->
+        </div>
+       
+    </div>
+    <!-- Calculator End -->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -19,18 +19,35 @@ console.log(t3);
 
 let tclient1 = new TorrentClient();
 
-
-tclient1.addTorrent(t1);
 tclient1.addTorrent(t2);
+tclient1.addTorrent(t1);
+
 tclient1.addTorrent(t3);
 
 console.log(tclient1);
 
-tclient1.alphabeticSort;
+/*let ordenado =tclient1.alphabeticSort;
+console.log(ordenado);
 console.log(tclient1);
+let toreJSON = JSON.stringify(tclient1);
+console.log(toreJSON);
+localStorage.setItem("torrentlist", toreJSON);
 
 tclient1.downloadedSort;
 console.log(tclient1);
+*/
+let toreJSON = localStorage.getItem("torrentlist");
+let tJSONParsed = JSON.parse(toreJSON);
+
+console.log(tJSONParsed);
+let tClient = new TorrentClient(tJSONParsed);
+
+console.log(tJSONParsed);
+console.log(tClient);
+
+console.log(tClient.alphabeticSort());
+
+console.log(tClient[0].getId());
 </script>
 
 

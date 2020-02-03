@@ -1,0 +1,64 @@
+.cent{
+    text-align: center;
+}
+
+.c20{
+    margin-right: 20px;
+}
+.c5{
+    margin-right: 5px;
+}
+
+.bgdark1{
+    background-color: #212529;
+    min-height: 450px;
+    margin: 20px;
+    position: relative;
+}
+
+.aliba{
+    align-items: baseline;
+    margin-bottom: 0px;
+}
+
+.mf{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.mf20{
+    margin-left: 20px;
+}
+
+.screeni{
+    background-color: #ffffffb7!important;
+    opacity: 0;
+}
+
+.hids{
+    display: none; /*oculta el div que contiene esta clase*/
+}
+
+.shows{
+    display: unset; /*muestra el div que contiene esta clase*/
+}
+.lft{
+    left: 20px;
+}
+
+.dropdown-toggle::after {
+    border-right: .0em solid transparent!important; /*modificamos el formato de la flecha del select*/
+}
+
+.mgtop{
+    margin-top: 15px;
+}
+
+.btn{
+    font-size: 17px !important;
+}
+
+.copyright{
+    font-size: xx-small;
+    color: black;
+}
