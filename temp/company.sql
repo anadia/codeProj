@@ -65,15 +65,16 @@ WHERE employee.departament_no = departament.departament_no
 AND employee.salary BETWEEN 10000 and 13000;
 
 
-/* Visualizar los departamentos con más de 5 empleados*/
+/* 6 Visualizar los departamentos con más de 5 empleados*/
 
 
 SELECT COUNT(employee.departament_no)>2, employee.departament_no, departament.name
 FROM employee, departament
 WHERE employee.departament_no = departament.departament_no
-GROUP BY employee.departament_no;
+GROUP BY employee.departament_no 
+HAVING count(*)>1;
 
-SELECT departament_no, COUNT(departament_no)>2
+SELECT DISTINCT departament_no, COUNT(departament_no)>2
 FROM employee
 GROUP BY departament_no;
 /*7.Mostrar el nombre, salario y nombre del departamento de losempleados   que   tengan   
@@ -81,7 +82,8 @@ el   mismo   oficio   que   ‘Delgado Carmen’ */
 SELECT employee.job FROM employee WHERE employee.last_name = 'Delgado';
 SELECT employee.name, employee.last_name, employee.salary,departament.name
 FROM employee, departament
-WHERE departament.departament_no= employee.departament_no AND employee.job = "Vendedor";
+WHERE departament.departament_no= employee.departament_no AND job IN(SELECT employee.job FROM employee WHERE employee.last_name = 'Delgado');
+/*employee.job = "Vendedor"*/;
 
 SELECT employee.name, employee.last_name, employee.salary,departament.name
 FROM employee, departament
@@ -93,7 +95,7 @@ SELECT employee.job FROM employee WHERE employee.last_name = 'Castillo Montes';
 SELECT employee.name, employee.last_name, employee.salary,departament.name, employee.commission
 FROM employee, departament
 WHERE departament.departament_no= employee.departament_no AND employee.job = "Vendedor"
-AND employee.commission = 0;
+AND employee.commission = 0 AND job IN(SELECT employee.job FROM employee WHERE employee.last_name = 'Castillo Montes');
 
 
 /* 9	Mostrar los datos de los empleados que trabajan en el departamento de contabilidad,
@@ -101,10 +103,10 @@ AND employee.commission = 0;
 SELECT employee.*, departament.name
 FROM employee, departament
 WHERE departament.departament_no = employee.departament_no AND departament.name = "Contabilidad"
-ORDER BY employee.name DESC; 
+ORDER BY employee.name ASC; 
 
 /* 10	Nombre de los empleados que trabajan en León y cuyo oficio sea analista o vendedor  */
-SELECT employee.name, employee.last_name, employee.dir
+SELECT employee.name, employee.last_name, employee.dir, employee.job
 FROM employee, departament
 WHERE departament.departament_no = employee.departament_no 
 AND employee.dir = "León"
@@ -112,46 +114,62 @@ AND (employee.job = "Analista"
 OR employee.job= "Vendedor")
 ORDER BY employee.name ASC;
 
+SELECT * FROM employee;
+
 /*	11.Calcula el salario medio de todos los empleados.  */
 
 SELECT AVG(employee.salary)
 FROM employee;
 
-/*12. ¿Cuál es el máximo salario de los empleados del departamento  10? */
+SELECT SUM(employee.salary) /*SUMATORIO*/
+FROM employee;
+
+/*12. ¿Cuál es el máximo salario de los empleados del departamento  40? */
 
 SELECT MAX(employee.salary)
 FROM employee
-WHERE departament_no = 10;
+WHERE departament_no = 40;
+
+
 
 /*13. Calcula el salario mínimo de los empleados del departamento ‘VENTAS’. */
 SELECT MIN(employee.salary)
-FROM employee
-WHERE departament_no = 40;
+FROM employee, departament
+WHERE departament.departament_no = employee.departament_no
+and departament.name = "Ventas";
 
 /*14 Calcula el promedio del salario de los empleados del departamento de ‘CONTABILIDAD’. */
 SELECT AVG(employee.salary)
-FROM employee
-WHERE departament_no = 30;
+FROM employee, departament
+WHERE employee.departament_no = departament.departament_no 
+and departament.name = "Contabilidad";
+
 
 /* 15	¿Cuántos empleados hay en el departamento número 10? */
 SELECT COUNT(*)
 FROM employee
 WHERE departament_no = 10;
 
-/* 16	¿Cuántos empleados hay en el departamento número 10? */
+
+/* 16	¿Cuántos empleados hay en el departamento de Ventas? */
 SELECT COUNT(*)
-FROM employee
-WHERE departament_no = 40;
+FROM employee, departament
+WHERE departament.departament_no = employee.departament_no
+AND departament.name = "Ventas";
+
 
 /* 17	Calcula el número de empleados que no tienen comisión.  */
 SELECT COUNT(*)
 FROM employee
 WHERE employee.commission = 0;
 
+SELECT * 
+FROM employee;
+
 /* 18 Visualizar cuántos nombres de los empleados empiezan por la letra ‘A’.   */
 SELECT * 
 FROM employee
-WHERE NAME REGEXP '^(A)';
+WHERE name REGEXP '^(A)';
 
 /* 	19 Visualizar el número de empleados de cada departamento.  */
 SELECT employee.departament_no , COUNT(employee.departament_no)
@@ -159,19 +177,21 @@ FROM employee
 GROUP BY employee.departament_no;
 
 /* 20		Para cada oficio obtener la suma de salarios.   */
-SELECT SUM(salary)
-FROM employee;
+SELECT job, SUM(salary)
+FROM employee
+GROUP BY job;
 
 /*21 Mostrar los datos de los empleados cuyo salario sea mayor que  la 
 media de todos los salarios. */
-SELECT name, salary
-FROM employee
-WHERE salary > AVG(salary);
+SELECT *  FROM employee WHERE salary > (SELECT AVG(salary) FROM employee);
 
 /*22 	Seleccionar el nombre del empleado que tiene máximo salario.  */
-SELECT name, salary
-FROM employee
-WHERE salary = MAX(salary);
+SELECT
+    name, max(salary) as salary_max
+FROM
+    employee
+where
+salary = (select max(salary) from employee;
 
 /*23 		Mostrar el nombre del empleado que tiene el salario más bajo.   */
 SELECT name, salary
@@ -180,25 +200,31 @@ WHERE salary = MIN(salary);
 
 /*24 	Mostrar los datos del empleado que tiene el salario más alto en 
 el departamento de ‘VENTAS’.   */
-SELECT employee.name, employee.salary
-FROM employee, departament
-WHERE salary = MAX(salary) AND departament.name = "Ventas";
+SELECT employee.name
+FROM employee,departament
+WHERE salary = (select MAX(salary) from employee)AND departament.name = "Ventas";
+/*corregir*/
+
 
 /*25 	Visualizar el departamento con más empleados.    */
-SELECT departament_no
-FROM employee
-WHERE MAX(count(name)) IN departament_no;
+SELECT departament.name, COUNT(employee.codigo_id) AS num_empleados
+FROM employee, departament
+WHERE departament.departament_no = employee.departament_no
+GROUP BY employee.departament_no
+ORDER BY num_empleados DESC LIMIT 1;
 
 /*26 Visualizar el número de departamento que tenga más empleados 
 cuyo oficio sea empleado.    */
-SELECT departament_no
+SELECT distinct departament_no, COUNT(codigo_id) 
 FROM employee
-WHERE MAX(count(name)) IN departament_no AND job = "Empleado";
+WHERE job = "Empleado";
 
 /*27 	Mostrar el número de oficios distintos de cada departamento     */
-SELECT departament_no, job
-FROM employee
-WHERE (SELECT count(name)) IN departament_no;
+SELECT count(distinct job), departament.name
+FROM employee, departament
+WHERE employee.departament_no = departament.departament_no
+GROUP BY employee.departament_no
+;
 
 /*28 Mostrar los departamentos que tengan más de dos personas trabajando en la misma profesión. */
 SELECT departament_no, job
@@ -208,3 +234,6 @@ WHERE (SELECT count(name)) > 2 IN job;
 SELECT count(name) > 2
 FROM employee;
 WHERE job = job;
+
+/* --PARTE II*/
+

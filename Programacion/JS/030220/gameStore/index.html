@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="js/classes/VideoGame.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/classes/GameShop.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/gameManager.js" charset="UTF-8"></script>
+    <script>
+		var myGameShop = new GameShop();
+	</script>
+</head>
+<body>
+   <form id="gameShopForm">
+    <table id="formulary" class="formulary" style="width:100%">
+    <tr>
+        <th>Name</th><th>Platform</th><th>Genre</th><th>PriceRental</th><th>PriceSell</th><th>State</th><th></th>     
+    </tr>
+    <tr>
+       <td><input type="text" id="name" size="25"></td><td><select id="platform">
+            <option value="1" selected>XBox</option>
+			<option value="2">PS4</option>
+			<option value="3">Switch</option>  
+        </td>
+        <td><select id="genre">
+            <option value="1" selected>Action</option>
+			<option value="2">Platform</option>
+			<option value="3">FPS</option>
+        </td><td><input type="text" id="priceRental" size="10"></td>
+        <td><input type="text" id="priceSell" size="10"></td>
+        <td id="state"></td><td><input type=button value="Create" onclick="createNewGame();"/></td>
+    </tr>
+    </table>
+    </form> 
+    <div class="span-12">&nbsp;</div>
+    <div class="span-12">&nbsp;</div>
+    <div class="span-12">&nbsp;</div>
+    <div class="span-12">&nbsp;</div>
+    <table id="videogames" class="formulary f2">
+        
+    </table>
+</body>
+</html>

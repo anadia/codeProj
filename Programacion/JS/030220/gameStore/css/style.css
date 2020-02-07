@@ -1,22 +1,25 @@
-#formulary {
+.formulary{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
-  #formulary td, #formulary th {
+.formulary td, .formulary th {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-  #formulary tr:nth-child(even){background-color: #f2f2f2;}
+  .formulary tr:nth-child(even){background-color: #f2f2f2;}
   
-  #formulary tr:hover {background-color: #ddd;}
+  .formulary tr:hover {background-color: #ddd;}
   
-  #formulary th {
+.formulary th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: rgb(87, 174, 214);
     color: white;
+  }
+  .f2 th{
+    background-color: rgb(78, 161, 78)!important;
   }

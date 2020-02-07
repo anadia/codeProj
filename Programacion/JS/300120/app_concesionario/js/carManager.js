@@ -110,12 +110,13 @@ function paintCars(){
 	}	
 }
 
+//todo
 function resetCarTable(){
 	document.getElementById("cars").innerHTML = "";
 	//un string en varias lineas (hay otra manera (secreta))
 	let cabecera = "<tr> \
 		<th>Estado</th> \
-		<th>Marca</th> \
+		<th>Nombre</th> \
 		<th>Color</th> \
 		<th>Año</th> \
 		<th>Km</th> \
