@@ -16,5 +16,6 @@
   "description": "express generator example",
   "main": "app.js",
   "author": "Oscar Terres",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }

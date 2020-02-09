@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Articles</title>
+    <link rel='stylesheet' href="/stylesheets/style.css" />
+  </head>
+  <body>
+
+ 
+    <table id="table" >  
+      <thead>  
+          <tr>  
+              <th>Article ID</th>  
+              <th>Name</th>
+              <th>Color</th>
+              <th>Price</th>          
+          </tr>  
+      </thead>  
+       <tbody>  
+       <% articles.forEach(function (article) { %>
+          <tr>  
+              <td><%= article.article_id %></td>  
+              <td><%= article.name %></td>
+              <td><%= article.color %></td>
+              <td><%= article.price %></td>
+          </tr>                                   
+       <% }) %>
+       </tbody>
+  </table>   
+  <h3><a href="/users"> Go to users</a></h3>
+  <h3><a href="/"> Go to Home</a></h3>
+  </body>
+</html>
