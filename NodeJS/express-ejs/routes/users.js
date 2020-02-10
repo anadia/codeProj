@@ -33,6 +33,21 @@ router.get('/', function(req, res){
 
 router.post('/', function(req,res){
   console.log(req.body);
+  let name= req.body;
+  let lastname = req.body.lastname;
+  let telephone =req.body.phone;
+  let email= req.body.email;
+   let sql="INSERT INTO `user`(`name`,`lastname`,`email`,`phone`) VALUES ('"+name+","+lastname"');
+
   res.redirect('/users');
 });
+    connection.query(sql,(err, result) => {
+      if (err) {
+        throw err;
+      }
+      res.redirect('/users');
+    });
+
+  // res.redirect('/users');
+
 module.exports = router;
