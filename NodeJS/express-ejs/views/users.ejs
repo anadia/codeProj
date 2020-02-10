@@ -25,6 +25,8 @@
               <td><%= user.lastname %></td>
               <td><%= user.email %></td>
               <td><%= user.phone %></td>
+              <td> <a href="users/delete/<%= user.user_id %>">Eliminar</a></td>
+              <td> <a href="users/edit/<%= user.user_id %>">Editar</a></td>
           </tr>                                   
        <% }) %>
        </tbody>
@@ -37,8 +39,7 @@
     <input type="text" name="email">  
     <input type="text" name="phone">  
     <input type="submit" name="submit">  
-    
- 
+  
   </form>
   </body>
 </html>
