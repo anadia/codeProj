@@ -1,0 +1,22 @@
+#mcars {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#mcars td, #mcars th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#mcars tr:nth-child(even){background-color: #f2f2f2;}
+
+#mcars tr:hover {background-color: #ddd;}
+
+#mcars th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

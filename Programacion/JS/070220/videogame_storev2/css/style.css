@@ -1,0 +1,22 @@
+#videogames {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#videogames td, #videogames th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#videogames tr:nth-child(even){background-color: #f2f2f2;}
+
+#videogames tr:hover {background-color: #ddd;}
+
+#videogames th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

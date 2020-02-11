@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+<script type="text/javascript"  src="js/classes/Videogame.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/VideogameStore.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/storage/StorageManager.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/videogameManager.js" charset="UTF-8"></script>
+
+
+<title>Video Game Store</title>
+</head>
+<body onload="getVideogameDataFromStorage()">
+<form id="gameForm">
+	<span class="btn">Nombre</span>
+	<input type=text id="name" />
+	<br />
+	<span>Precio de Compra</span>
+	<input type=number id="price" value="0" step=20  />
+	<br />
+	<span>Plataforma</span>
+	<select id="platform" class="btn">
+		<option value="1" selected>PS4</option>
+		<option value="2">X-BOX 360</option>
+		<option value="3">SWITCH</option>
+	</select>
+	<br />
+
+	<span>Género</span>
+	<select id="genre" class="btn">
+		<option value="1" selected>Accion</option>
+		<option value="2">Plataformas</option>
+		<option value="3">FPS</option>
+	</select>
+	<br />
+	
+	<input type=button value="Enviar" onclick="createNewGame();" />
+</form>
+<form id="orderOptions">
+</form>
+<table id="videogames">
+
+</table>
+</body>
+</html>
