@@ -4,7 +4,7 @@ const connection = require('../config/db.js')
 
 
 var obj = {};
-router.get('/', function(req, res){
+router.get('/', function(req, res,next){
 
     connection.query('SELECT * FROM employee', function(err, result) {
 
@@ -17,6 +17,28 @@ router.get('/', function(req, res){
     });
 
 });
+
+router.post('/', function(req,res){
+  console.log(req.body);
+
+  let name= req.body.name;
+  let lastname = req.body.lastname;
+  let year =req.body.year;
+  let email= req.body.email;
+  let password = req.body.password;
+
+
+  let sql2 = "INSERT INTO employee set? ";
+
+  connection.query(sql2, {name,lastname, year, email,password}, (err, result)=>{
+    if (err){
+      throw err;
+    }
+    res.redirect('/');
+  });
+
+});
+
 
 router.get('/employees/delete/:employee_id', function (req, res) {
   console.log(req.params.employee_id)
