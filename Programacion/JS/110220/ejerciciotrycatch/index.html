@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errores y Try Catch</title>
+
+
+<script>
+ /*    function checkPasswordFormat(insValue){
+        console.log(insValue);
+
+        try {
+            if (insValue.length < 6){
+                console.log("La contraseña introducida es muy corta");
+            }
+            if(insValue.length>= 6 <=15){
+                console.log("longitud correcta");
+            }
+            if (insValue.length > 15){
+                console.log("La contraseña introducida es muy larga");
+            }
+            if (insValue.match (/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?!.*?[#?!@$ %^&*-]).{6,15}$/)){
+                console.log("Formato Correcto");
+            }
+            else{
+                console.log("Formato Incorrecto: Introducir Mayusculas minusculas y numeros");
+            }
+        }
+         catch (e) {
+
+            console.log("Error en la contraseña");
+            
+        }
+    } */
+/*     try {
+                    var res = false;
+            function comprobarRegEx(valor){
+                if(valor.match (/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?!.*?[#?!@$ %^&*-]).{6,15}$/)){
+                    res = true;
+                    return true;
+                }
+                else{
+                    throw "El formato es incorrecto se necesitan letra minusculas, mayusculas y numeros";
+                }
+            }
+
+            function comprobarLongitud(valor){
+                if(comprobarRegEx(valor)==true){
+                    if(valor.length < 6 ||valor.length > 15 ){
+                        res = false;
+                        return false;
+                    }
+                }
+                else{
+                    throw "Longitud no valida es muy corta";
+                }
+            }
+
+            function comprobarPass(valor){
+                if(comprobarRegEx(valor)==true && comprobarLongitud(valor) != true){
+                    console.log("El formato de contraseña es correcta")
+                }
+                else{
+                    throw "Longitud no valida es muy larga";
+                }
+            }
+
+            let answer = prompt("introduce una contraseña)");
+            comprobarPass(answer);
+
+    } catch (error) {
+        console.log("ERROR: "+error)
+    }
+
+ */
+ console.log(checkPassword("545645456564645564564564564564566"));
+console.log(checkPassword("absaiugfhd"));
+console.log(checkPassword("absaAHHfhd"));
+console.log(checkPassword("abs3aiugfhd"));
+console.log(checkPassword("abs3aiuLOhd"));
+console.log(checkPassword("bs3aiuLñOhd"));
+function checkPassword(pass){
+	let res = "Fallo";
+	try{			
+		if (pass.length < 6) {
+			throw "Password demasiado corto";
+		}
+		else if (pass.length > 15) {
+			throw "Password demasiado largo";
+		}
+		else if (!containtNumbersLetters(pass)) {
+			throw "El password debe contener numeros y letras";
+		}
+		else {
+			res = "Todo ok";
+		}
+	}
+	catch (e){
+		console.error("Petada!!: " + e);
+		if (e == "Password demasiado largo") {
+			console.log("Haga el favor de usar un pass más largo, señora!");
+		}
+	}
+	finally {
+		return res;
+	}
+}
+function containtNumbersLetters(pass){
+	let res = false;
+	if (checkForNumbers(pass) && checkForLetters(pass)) {
+		res = true;
+	}
+	return res;
+}
+function checkForNumbers(pass){
+	let hasNumbers = false;
+	for (let i = 0; i < pass.length && !hasNumbers; i++){
+		if (!isNaN(pass[i])) {
+			hasNumbers = true;
+		}
+	}
+	return hasNumbers;
+}
+function checkForLetters(pass){
+	let hasLetters = false;
+	for (let i = 0; i < pass.length && !hasLetters; i++){
+		if ((pass[i].charCodeAt(0) >=  65 && pass[i].charCodeAt(0) <= 90) ||
+			(pass[i].charCodeAt(0) >=  97 && pass[i].charCodeAt(0) <= 122)) {			
+			hasLetters = true;
+		}
+	}
+	return hasLetters;
+}
+</script>
+</head>
+<body>
+    
+</body>
+</html>

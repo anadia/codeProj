@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript"  src="js/classes/Employee.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Seller.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/ExternalSeller.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Steward.js" charset="UTF-8"></script>
+<script>
+
+//Creamos diferentes objetos de diferentes clases,
+//cada uno va a tener una clase diferente
+let claudia = new Employee("Claudia", 3500);
+console.log(claudia.getName());
+console.log(claudia.getSalary());
+
+let msClean = new Employee("Maria", 1500);
+
+
+let carri = new Seller("Carri", 2500, 20, 200);
+console.log(carri.getName());
+console.log(carri.getSalary());
+console.log(carri.getSalesNumber());
+
+
+let fer = new Steward("Fer", 250, 10);
+console.log(fer.getNumberOfEvents());
+
+
+let rafa = new ExternalSeller("Rafa", 500, 30, 150, "Carri Esclavos S.A.");
+console.log(rafa.getName());
+console.log(rafa.getSalary());
+console.log(rafa.getSalesNumber());
+console.log(rafa.getCompany());
+
+/*
+* La ventaja de la herencia es que nos permite
+* sobrecargar un método como getSalary() y utilizar todos los
+* objetos de manera uniforme, aunque pertenecen a tipos
+* distintos, todos tienen ese método
+*/
+let employees = [claudia, msClean, carri, fer, rafa];
+
+let suma = 0;
+for (let emp of employees){
+	suma += emp.getSalary();
+}
+
+console.log(suma);
+
+
+
+
+
+</script>	
+</head>
+<body>
+Hola
+</body>
+</html>

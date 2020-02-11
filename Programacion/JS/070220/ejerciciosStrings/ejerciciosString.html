@@ -1,0 +1,123 @@
+//1
+let ctr = "esto es un string";
+console.log(ctr.charAt(2));
+console.log(ctr.charAt(8));
+console.log(ctr.charAt(13));
+console.log(ctr[2]);
+console.log(ctr[8]);
+console.log(ctr[13]);
+
+//2
+
+let str1 = "Hola ";
+let str2 = "me llamo Rodrigo!";
+let res2 = str1.concat(str2);
+console.log(res2);
+
+//3
+
+let array = ["A", "L", "R", "Z"];
+        let resultado = array.join("");
+        console.log(resultado);
+
+var arratLetras = new Array('Madrid', 'Barcelona', 'San Sebastian');
+var aux = arratLetras.toString();
+while (aux.includes("a")) {
+    aux = aux.replace("a", "");
+}
+console.log(aux);
+
+//4
+var str = "Hello world, welcome to the universe.";
+var n = str.endsWith("universe.");
+
+//5 5-Crear una función que compare dos Strings y nos diga si son iguales
+function myFunction() {
+    var str1 = "ab";
+    var str2 = "cd";
+    var n = str1.localeCompare(str2);
+    console.log = n;
+  }
+ let compararStrings = (txt1, txt2) => {
+	let resultado = (txt1.localeCompare(txt2) == 0) ?
+		"los strings son iguales" : "los strings son diferentes";
+	return resultado;
+}
+console.log(compararStrings(prompt(), prompt()));
+
+//6 let texto = new Array (" el proyecto", " voy hacer ", "no se de que  ");
+texto.reverse();
+console.log(texto);
+
+
+
+var output = "Cuanto aprendemos con carlos".split('');
+console.log(output);
+var output = "Cuanto aprendemos con carlos";
+var invertir = [];
+for (var i = 0; i < output.length; i++) {
+    invertir.push(output[i]);
+}
+console.log(invertir.reverse());
+
+// 7-Crear una fecha con los siguientes datos: 20 de mayo de 2018
+let fecha = new Date(2018,00,20);
+console.log(fecha);
+fecha = new Date("2018-01-20");
+console.log(fecha);
+
+//8
+momentoActual = new Date()
+
+
+//9
+
+//10
+let fecha1 = '02/24/2019 00:00'
+let fecha2 = '01/31/1975 00:00 '
+
+let bandera = false;
+function compararFechas(f1, f2){
+    if(return new Date(f1).getTime() >=  new Date(f2).getTime() == true){
+        bandera = true;
+    }
+   
+return bandera;
+
+}
+if (compararFechas(fecha1, fecha2)== true){
+    console.log("fecha1 es mayor que fecha2");
+}
+else{
+    console.log("fecha2 es mayor que fecha1");
+}
+let fecha = new Date(1982, 9, 30);
+let fecha2 = new Date(1980, 9, 20);
+let comparaFechas = (a, b) => {
+	let resultado = a.getTime() > b.getTime() ?
+	"la primera fecha es mayor" : "la segunda fecha es mayor";
+	return resultado;
+}
+console.log(comparaFechas(new Date(2019, 4, 5), new Date(2019, 5, 5)));
+let a = new Date().getTime();
+console.log(a);
+console.log(new Date(a));
+
+//11
+let  calcularDiferenciaEnDias = function(fecha1,fecha2,)
+ {
+ let a = fecha1.split('/');
+ let b = fecha2.split('/');
+ let f1 = Date.UTC(a[2],a[1]-1,a[0]);
+ let f2 = Date.UTC(b[2],b[1]-1,b[0]);
+ let diferencia = f2 - f1;
+ let dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+ return dias;
+ }
+console.log(calcularDiferenciaEnDias('04/02/2014', '11/04/2014'));
+console.log(calcularDiferenciaEnDias('12/02/2014', '11/04/2014'));
+
+
+let vector = [8,3, 5, 3, 4];
+let indice =vector.IndexOf()
+console.log(vector.lastIndexOf(indice));
