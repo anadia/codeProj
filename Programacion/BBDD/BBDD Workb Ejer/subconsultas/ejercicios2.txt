@@ -1,0 +1,31 @@
+En los siguientes ejercicios va a haber que hacer modificaciones con
+respecto al juego de datos que hemos estado usando hasta ahora. Las
+consultas anteriores arrojarán resultados distintos una vez que se
+hayan resuelto los siguientes ejercicios.
+1. Insertar en la tabla EMPLEADO un empleado con código 081-
+220678-0008U, nombre ‘Pérez Luis Carlos’ de 32 años, oficio
+Analista, vive en Matagalpa, fecha de alta en la empresa el 22-06-
+2001, su salario es C$ 15600, no tiene comisión y pertenece al
+departamento 20.
+2. Insertar en la tabla DEPARTAMENTO un departamento cuyo número
+sea 50, de nombre ‘GENERAL’ y cuya localización sea ‘Laborio’.
+3. Insertar en la tabla DEPARTAMENTO un departamento cuyo número
+sea 60 y de nombre ‘PRUEBAS’.
+4. Insertar en la tabla PRUEBA los datos de los empleados que
+pertenecen al departamento número 30.
+5. Insertar en la tabla PRUEBA2 el codigo_c, número de
+departamento y salario de los empleados que pertenecen al
+departamento número 20.
+6. Doblar el salario a todos los empleados del departamento 30.
+7. Cambiar todos los empleados del departamento número 30 al
+departamento número 20.
+8. Incrementar en un 10% el sueldo de los empleados del
+departamento 10.
+9. Cambiar la localidad del departamento número 10 a ‘Zaragoza’.
+10. Igualar el salario de ‘Esquivel Jose’ al salario de ‘Esquivel
+Leonel Alfonso’, de la tabla PRUEBA.
+11. En la tabla DEPARTAMENTO borrar el departamento número 40.
+12. En la tabla EMPELADO borrar todos los empleados que sean del
+departamento 20 y sean ‘ANALISTAS’.
+13. Borrar de la tabla EMPLEADO todos los empleados que no tengan
+comisión.

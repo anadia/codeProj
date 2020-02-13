@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee Individual</title>
+</head>
+<body>
+    <p>Employee Individual</p>
+   
+    <form action="/update/<%= results.employee_id %>" method="post">
+        <input type="text" name="name" value="<%= results.name %>" > 
+        <input type="text" value="<%= results.lastname %>" name="lastname">
+        <input type="text" value="<%= results.year %>" name="year">
+        <input type="text" value="<%= results.email %>" name="email">
+        <input type="text" value="<%= results.password %>" name="password">
+
+        <input type="submit" value="submit">
+
+    </form>
+    <h3><a href="/jobs"> Go to Jobs</a></h3>
+    <h3><a href="/"> Go to Home</a></h3>
+</body>
+</html>

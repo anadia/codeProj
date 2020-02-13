@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.842)!important;
+background-image: url(../images/transparent.png);
+
+}
+
+a {
+  color: white!important;
+  
+}
+
+.wdt{
+  width: 52px;
+  text-align: center!important;
+}
+
+.pdlf{
+  padding-left: 0px!important;
+}
+
+/* ============================= parallax ====================== */
+.parallax {width: 100%; position: relative; overflow: hidden; background: none; padding-top: 110px; padding-bottom: 80px; }
+.parallax, .parallax .parallax-content, .parallax .overlay { height: 100%;}
+
+.parallax-bg { width: 100%; height: 100%; left: 0; top: 0; margin: 0 auto; position: absolute; background-size: cover; background-attachment: scroll; background-repeat: repeat-y; background-position: center center; }
+.parallax-bg.bg-fixed{background-attachment: fixed;}
+.parallax .overlay { background: none; width: 100%; position: absolute; overflow: hidden; background: none; left: 0; top: 0;}
+
+
+
+.bg1 {
+  background-image: url(../images/parallax1.jpg);
+}
+
+
+.divI{
+  height: 150px;
+  background-color: transparent!important;
+}
+
+.parallax-bg {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  position: absolute;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+h4{
+  color: white!important;
+  text-align: center;
+}
+
+.tal{
+  text-align-last: center;
+}
+
+.btn{
+   color:white!important;
+}
+.vno{
+  visibility: hidden;
+}

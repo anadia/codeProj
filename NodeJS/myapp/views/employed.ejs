@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employed</title>
+</head>
+
+<body>
+    <h1>Esta es la vista de Employed</h1>
+
+
+    <% employeds.forEach(function (employed){ %>
+
+    <%= employed.name %>
+    <p><%= employed.img %></p>
+    <img src="uploads/<%= employed.img %> " alt="" width="80px">
+    <a href="/employed/delete/<%= employed.id %>">eliminar</a>
+    <a href="/employed/edit/<%= employed.id %>">editarrrrrr</a>
+    <br>
+    <%  }) %>
+
+    <div class="span-12">&nbsp;</div>
+    <div class="span-12">&nbsp;</div>
+    <form action="/employed" method="post" > <!--Permite subir imagenes-->
+        <input type="text" name="name" placeholder="name">
+        <input type="text" name="lastname"  placeholder="lastname">
+        <input type="text" name="name_job"  placeholder="name_job">
+        <input type="text" name="salary"  placeholder="salary">
+        <input type="number" name="year"  placeholder="year">
+        <input type="email" name="email"  placeholder="email">
+        <input type="password" name="password" placeholder="password">
+        <!-- <input type="text" name="originalname"> -->
+        <input type="submit">
+    </form>
+
+<!--     <form action="/employed" method="post" enctype="multipart/form-data"> 
+    <input type="file" name="myfile"/>
+    <input type="submit" value="Upload images">
+    </form> -->
+    
+
+
+</body>
+
+</html>

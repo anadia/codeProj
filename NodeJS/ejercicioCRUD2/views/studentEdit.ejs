@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Individual</title>
+</head>
+<body>
+    <p>Student Individual</p>
+   
+    <form action="/update/<%= results_students.id %>" method="post">
+        <input type="text" name="name" value="<%= results_students.name %>" > 
+        <input type="text" value="<%= results_students.lastname %>" name="lastname">
+        <input type="text" value="<%= results_students.eyescolor %>" name="eyescolor">
+        <input type="text" value="<%= results_students.nationality %>" name="nationality">
+        <input type="text" value="<%= results_students.age %>" name="age">
+        
+
+        <input type="submit" value="submit">
+
+    </form>
+
+    <p>Student Subject</p>
+   
+    <form action="/update/<%= results_subject.id_subjects %>" method="post">
+        <input type="text" name="name" value="<%= results_subject.name_subjects %>" > 
+
+
+    </form>
+
+    <h3><a href="/"> Go to Home</a></h3>
+
+
+</body>
+</html>

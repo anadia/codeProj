@@ -19,7 +19,7 @@ router.get('/', function(req, res,next){
 });
 
 router.post('/', function(req,res){
-  console.log(req.body);
+  // console.log(req.body);
 
   let name= req.body.name;
   let lastname = req.body.lastname;
@@ -41,7 +41,7 @@ router.post('/', function(req,res){
 
 
 router.get('/employees/delete/:employee_id', function (req, res) {
-  console.log(req.params.employee_id)
+  // console.log(req.params.employee_id)
   let employee_id = req.params.employee_id;
 
   connection.query("DELETE  FROM employee WHERE  employee_id = " + employee_id,
@@ -56,20 +56,20 @@ router.get('/employees/edit/:employee_id', function(req,res){
 
   connection.query("SELECT * FROM employee WHERE employee_id = ?",[employee_id], (err, results) =>{
 
-    res.render('employees',{results:results[0]});
-    console.log(results);
+    res.render('employeeI',{results:results[0]});
+    // console.log(results);
   })
-});
+}); //pintamos en la vista individual
 
-router.post("/employees/update/:employee_id", function(req,res){
+router.post("/update/:employee_id", function(req,res){
   let employee_id = req.params.employee_id;
   let name = req.body.name;
   let lastname = req.body.lastname;
   let year = req.body.year;
   let email = req.body.email;
   let password = req.body.password;
-
-  connection.query('UPDATE employee set? WHERE employee_id = ' + employee_id, {name,lastname,year,email,password} ,(err, results)=>{
+  console.log(req.body);
+  connection.query('UPDATE employee set? WHERE employee_id = ' + employee_id, {name,lastname,year,email,password} ,(err, result)=>{
     res.redirect('/');
   })
 });
