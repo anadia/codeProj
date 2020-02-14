@@ -40,24 +40,26 @@
         <table class="table-dark">
           <thead>
             <tr>
-              <th></th>
+              <!-- <th></th> -->
               <th>Name</th>
               <th>Lastname</th>
               <th>Eyes Color</th>
               <th>Nationality</th>
               <th>Age</th>
               <th>Subject</th>
+              <th>Option</th>
+           
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><input type="text" name="" class="vno"></td>
+              <!-- <td><input type="text" name="" class="vno"></td> -->
               <td> <input type="text" name="name"> </td>
               <td> <input type="text" name="lastname"> </td>
               <td> <input type="text" name="eyescolor"> </td>
               <td> <input type="text" name="nationality"> </td>
               <td> <input type="text" name="age"> </td>
-              <td> <input type="text" name="subject"> </td>
+              <td> <input type="text" name="name_subject"> </td>
               <td><button type="submit" class="btn btn-dark">Create</button> </td>
             </tr>
           </tbody>
@@ -98,16 +100,16 @@
       <tbody>
 
         <tr>
-          <% students.forEach(function (studata) { %>
-          <td> <input type="text" value="<%= studata.id %>" disabled></td>
-          <td> <input type="text" value="<%= studata.name %>" disabled></td>
-          <td> <input type="text" value="<%= studata.lastname %>" disabled></td>
-          <td> <input type="text" value="<%= studata.eyescolor %>" disabled></td>
-          <td> <input type="text" value="<%= studata.nationality %>" disabled></td>
-          <td> <input type="text" value="<%= studata.age %>" disabled></td>
-          <!-- <% students.forEach(function (subjects) { %>  <td> <input type="text" value="<%= subjects.subjects_name %>" disabled></td> <% }) %> -->
-          <td> <a href="students/delete/<%= studata.id %>"><button type="button" class="btn btn-dark">Delete</button></a></td>
-          <td> <a href="students/edit/<%= studata.id %>"><button type="button" class="btn btn-dark">Edit</button></a></td>
+          <% students.forEach(function (join) { %>
+          <td> <input type="text" value="<%= join.id %>" disabled></td>
+          <td> <input type="text" value="<%= join.name %>" disabled></td>
+          <td> <input type="text" value="<%= join.lastname %>" disabled></td>
+          <td> <input type="text" value="<%= join.eyescolor %>" disabled></td>
+          <td> <input type="text" value="<%= join.nationality %>" disabled></td>
+          <td> <input type="text" value="<%= join.age %>" disabled></td>
+          <td> <input type="text" value="<%= join.name_subject %>" disabled></td>
+          <td> <a href="students/delete/<%= join.id %>"><button type="button" class="btn btn-dark">Delete</button></a></td>
+          <td> <a href="students/edit/<%= join.id %>"><button type="button" class="btn btn-dark">Edit</button></a></td>
         </tr>
         <% }) %>
       </tbody>

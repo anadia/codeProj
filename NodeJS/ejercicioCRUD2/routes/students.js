@@ -4,94 +4,106 @@ const connection = require('../config/db.js')
 
 
 var obj = {};
-router.get('/', function(req, res,next){
+router.get('/', function (req, res, next) {
 
-    connection.query('SELECT * FROM studata', function(err, result) {
+  connection.query('SELECT * FROM studata JOIN subject on studata.id = subject.id_student', function (err, result) {
 
-        if(err){
-            throw err;
-        } else {
-            obj = {students: result};
-            res.render('students', obj);                
-        }
-    });
-
-});
-
-router.post('/', function(req,res){
-  // console.log(req.body);
-
-  let name= req.body.name;
-  let lastname = req.body.lastname;
-  let eyescolor =req.body.eyescolor;
-  let nationality= req.body.nationality;
-  let age = req.body.age;
-
-
-  let sql2 = "INSERT INTO studata set? ";
-
-  connection.query(sql2, {name,lastname, eyescolor, nationality,age}, (err, result)=>{
-    if (err){
+    if (err) {
       throw err;
+    } else {
+      obj = { students: result };
+      res.render('students', obj);
     }
-    res.redirect('/');
   });
 
 });
+
+router.post('/', function (req, res) {
+  // console.log(req.body);
+
+  let name = req.body.name;
+  let lastname = req.body.lastname;
+  let eyescolor = req.body.eyescolor;
+  let nationality = req.body.nationality;
+  let age = req.body.age;
+  let name_subject = req.body.name_subject;
+  console.log(req.body.name_subject)
+
+
+
+  let sql = "INSERT INTO studata set? ";
+  let sql2 = "INSERT INTO subject set? ";
+
+  connection.query(sql, { name, lastname, eyescolor, nationality, age }, (error, students) => {
+    console.log(students.insertId);
+    let id_student = students.insertId;
+
+    connection.query(sql2, { name_subject, id_student }, (err, subjects) => {
+
+      res.redirect('/');
+    })
+  });
+
+});
+
+
 
 
 router.get('/students/delete/:id', function (req, res) {
 
   let id = req.params.id;
 
-  connection.query("DELETE  FROM studata WHERE  id = " + id,
+  connection.query("DELETE  FROM subject WHERE  id = " + id,
     function (err, result) {
-      res.redirect('/')
+
+      connection.query("DELETE  FROM studata WHERE  id = " + id,
+        function (err, result) {
+          res.redirect('/')
+        })
+    });
+})
+
+router.get('/students/edit/:id', function (req, res) {
+
+  let id = req.params.id;
+
+  connection.query("SELECT * FROM studata WHERE id = ?", [id], (err, results) => {
+
+
+    connection.query('SELECT * FROM  subject WHERE id_student = ?', [id], (error, resultsubject) => {
+      // console.log(resultsubject)
+      res.render('studentEdit', {
+        results: results[0],
+        resultsubject: resultsubject[0]
+      });
+
     })
-})
+  }); //pintamos en la vista individual 
 
-/* router.get('/students/edit/:id', function(req,res){
-
-  let id = req.params.id;
-
-  connection.query("SELECT * FROM studata WHERE id = ?",[id], (err, results) =>{
-
-    res.render('studentEdit',{results:results[0]});
-
-  })
-}); //pintamos en la vista individual */
-
-router.get('students/edit/:id', (req, res) => {
-
-  let id = req.params.id;
-  connection.query("SELECT * FROM studata  WHERE id = ?", [id], (err, results_students) => {
-    console.log(results_students[0]);
-    let select_studata = results_students[0].id;
-    connection.query('SELECT * FROM subjects WHERE id_student = ?', [select_studata], (error, results_subject) =>{
-      res.render('studentEdit',{
-        results_students: results_students[0],
-        results_subject: results_subject[0]
-      })
-    }) 
-});
-})
-
-router.post("/update/:id", function(req,res){
-  let id = req.params.id;
-  let name = req.body.name;
-  let lastname = req.body.lastname;
-  let eyescolor = req.body.eyescolor;
-  let nationality = req.body.nationality;
-  let age = req.body.age;
-
-  connection.query('UPDATE studata set? WHERE id = ' + id, {name,lastname,eyescolor,nationality,age} ,(err, result)=>{
-    res.redirect('/');
-  })
 });
 
+  router.post("/update/:id", function (req, res) {
+    let id = req.params.id;
+    let name = req.body.name;
+    let lastname = req.body.lastname;
+    let eyescolor = req.body.eyescolor;
+    let nationality = req.body.nationality;
+    let age = req.body.age;
+    let name_subject = req.body.name_subject;
+    console.log(req.body);
+
+    let sql = "UPDATE INTO subject set? WHERE id_student" + id;
+
+    connection.query('UPDATE studata set? WHERE id = ' + id, { name, lastname, eyescolor, nationality, age }, 
+    (err, result) => {
+      connection.query('UPDATE subject set? WHERE id_student = ' + id, { name_subject },
+        (err, results) => {
+
+          res.redirect('/');
+        })
+    })
+  });
 
 
 
-
-
-module.exports = router;
+  module.exports = router;

@@ -14,6 +14,12 @@
     <% employeds.forEach(function (employed){ %>
 
     <%= employed.name %>
+    <%= employed.lastname %>
+    <%= employed.name_job %>
+    <%= employed.salary %>
+    <%= employed.year %>
+    <%= employed.email %>
+    <%= employed.password %>
     <p><%= employed.img %></p>
     <img src="uploads/<%= employed.img %> " alt="" width="80px">
     <a href="/employed/delete/<%= employed.id %>">eliminar</a>

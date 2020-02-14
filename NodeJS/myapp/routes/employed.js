@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const connection = require('../config/db.js');
-var multer = require('multer'); //instalamos la libreria y hyacemos el require creamos variable storage
+var multer = require('multer'); //instalamos la libreria y hacemos el require creamos variable storage
 
 var storage = multer.diskStorage({
   destination: function (req, file, cb) { //recibe dos parametros el fichero y destino
@@ -32,7 +32,7 @@ var upload = multer({ storage: storage })
 
 router.get('/', function (req, res, next) {
 
-  let sql = 'SELECT * FROM employed';
+  let sql = 'SELECT * FROM employed LEFT JOIN job on employed.id = job.id_employed';
   connection.query(sql, (error, employeds) => {
 
     res.render('employed', { employeds: employeds })
