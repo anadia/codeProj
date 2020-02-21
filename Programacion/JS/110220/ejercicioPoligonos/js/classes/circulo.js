@@ -6,7 +6,7 @@ function circulo(lado,diagonal, area, color, radio){
 	
 	Rectangulo.prototype.getRadio = function(){
 		return this.radio;	
-	}
+	};
 
 
 	Rectangulo.prototype.setradio = function(radio){
