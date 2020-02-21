@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f71ae889-db88-40e2-be5c-87c2e171e049" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/070220/.idea/070220.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/110220.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/dictionaries/Oscar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/Developer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/Employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/Seller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Circulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Cuadrado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Figura.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Paralelogramo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Rectangulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Triangulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/public/javascripts/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/routes/admin_users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/routes/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/routes/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_exercises/add_exercises.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_exercises/edit_exercises.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_exercises/index.exercises.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_users/add_user.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_users/edit_user.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_users/index_admin_users.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/layouts/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/layouts/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/partial/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/partial/nav.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/user/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/user/register.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/user/users.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codifica/views/user_dashboard/user_dashboard.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejerciciocrud2.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/employed.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/employed.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/ejercicioPoligonos/js/classes/circulo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/ejercicioPoligonos/js/classes/circulo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/DevEmployee.js/SalesEmployee.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/JS/170220/bibliaES6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/Employee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/HhrrEmployee.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/Worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/inheritanceCompany.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codifica/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codifica/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codifica/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codifica/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codifica/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codifica/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codifica/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/views/index.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Y1K0cwgq1rbDOm16RHWhZHJcAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f71ae889-db88-40e2-be5c-87c2e171e049" name="Default Changelist" comment="" />
+      <created>1582104438247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582104438247</updated>
+      <workItem from="1582104439893" duration="773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1582105213108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582105213108" />
+    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1582105213107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582105213107" />
+    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1582105213107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582105213107" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1582105213108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582105213108" />
+  </component>
+</project>

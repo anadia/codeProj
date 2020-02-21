@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef51c83f-12ff-4ab1-b4f7-4895135c0196" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../070220/.idea/070220.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/110220.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Oscar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Empresa-herencia II/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Empresa-herencia II/js/classes/Developer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Empresa-herencia II/js/classes/Employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Empresa-herencia II/js/classes/HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Empresa-herencia II/js/classes/Seller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/js/classes/Circulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/js/classes/Cuadrado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/js/classes/Figura.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/js/classes/Paralelogramo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/js/classes/Rectangulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/js/classes/Triangulo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicioPoligonos/js/classes/circulo.js" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicioPoligonos/js/classes/circulo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herenciaII/classes/DevEmployee.js/SalesEmployee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herenciaII/classes/Employee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herenciaII/classes/HhrrEmployee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herenciaII/classes/Worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herenciaII/inheritanceCompany.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1XuAdISVfxJ4vBQEJ235k4dqiwG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../170220" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oscar\Documents\codeProj\Programacion\JS\110220\herenciaII\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.inheritanceCompany.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/110220/herencia/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="inheritanceCompany.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/110220/herenciaII/inheritanceCompany.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.inheritanceCompany.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef51c83f-12ff-4ab1-b4f7-4895135c0196" name="Default Changelist" comment="" />
+      <created>1581885691824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581885691824</updated>
+      <workItem from="1581885693342" duration="1335000" />
+      <workItem from="1581912986529" duration="2935000" />
+      <workItem from="1581916000702" duration="6408000" />
+      <workItem from="1581925551890" duration="4852000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Oscar/Documents/codeProj/Programacion/JS/110220/herenciaII" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="703" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581915337776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1581915337776" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581918036714">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581918036714" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1581936969712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581936969712" />
+    <state width="1899" height="326" key="GridCell.Tab.0.bottom" timestamp="1581923367683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367683" />
+    <state width="1899" height="326" key="GridCell.Tab.0.center" timestamp="1581923367682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367682" />
+    <state width="1899" height="326" key="GridCell.Tab.0.left" timestamp="1581923367682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367682" />
+    <state width="1899" height="326" key="GridCell.Tab.0.right" timestamp="1581923367682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367682" />
+    <state width="1899" height="326" key="GridCell.Tab.1.bottom" timestamp="1581923367683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367683" />
+    <state width="1899" height="326" key="GridCell.Tab.1.center" timestamp="1581923367683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367683" />
+    <state width="1899" height="326" key="GridCell.Tab.1.left" timestamp="1581923367683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367683" />
+    <state width="1899" height="326" key="GridCell.Tab.1.right" timestamp="1581923367683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367683" />
+    <state width="1899" height="326" key="GridCell.Tab.2.bottom" timestamp="1581923367684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367684" />
+    <state width="1899" height="326" key="GridCell.Tab.2.center" timestamp="1581923367684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367684" />
+    <state width="1899" height="326" key="GridCell.Tab.2.left" timestamp="1581923367684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367684" />
+    <state width="1899" height="326" key="GridCell.Tab.2.right" timestamp="1581923367684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367684" />
+    <state width="1899" height="326" key="GridCell.Tab.3.bottom" timestamp="1581923367685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367685" />
+    <state width="1899" height="326" key="GridCell.Tab.3.center" timestamp="1581923367684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367684" />
+    <state width="1899" height="326" key="GridCell.Tab.3.left" timestamp="1581923367684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367684" />
+    <state width="1899" height="326" key="GridCell.Tab.3.right" timestamp="1581923367685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581923367685" />
+    <state x="730" y="145" key="RollbackChangesDialog" timestamp="1581917622069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="145" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581917622069" />
+    <state x="191" y="213" key="SettingsEditor" timestamp="1581915931700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="191" y="213" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581915931700" />
+    <state x="807" y="427" key="VCS.ChangelistChooser" timestamp="1581917974354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="427" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581917974354" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581915919522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581915919522" />
+  </component>
+</project>
