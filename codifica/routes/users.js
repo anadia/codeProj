@@ -1,9 +1,15 @@
-var express = require('express');
-var router = express.Router();
+//constantes generales de aplicación
+const express = require('express');
+const router = express.Router();
+const connection = require('../config/db.js'); //ruta config base de datos
 
-/* GET users listing. */
+
+//indicamos la ruta que renderiza la vista
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  console.log('Time:', Date.now());
+  res.render('user/users', { title: 'Express' });
 });
 
 module.exports = router;
+
+

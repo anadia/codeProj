@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript"  src="js/utilities/utilities.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Song.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Top.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Playlist.js" charset="UTF-8"></script>
+<script>
+
+let jPlaylist = localStorage.getItem("playlist");
+jPlaylist = JSON.parse(jPlaylist);
+let rockingMortal = new Playlist(jPlaylist);
+console.log(rockingMortal.nextSong());
+console.log(rockingMortal.nextSong());
+console.log(rockingMortal.nextSong());
+console.log(rockingMortal.nextSong());
+console.log(rockingMortal.nextSong());
+console.log(rockingMortal.nextSong());
+console.log(rockingMortal.nextSong());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+let p1 = new Playlist(null, "Rockear un puto lunes");
+console.log(p1.getName());
+let cont = new Date().getTime();
+let s1 = new Song(null, cont++, "I don't like mondays", "Boomtown Rats", 214, 4);
+let s2 = new Song(null, cont++, "Everyday is like monday", "The Smiths", 180, 5);
+let s3 = new Song(null, cont++, "Manic Monday", "The Bangles", 160, 4);
+let s4 = new Song(null, cont++, "Storming Monday", "The Smiths", 220, 3);
+let s5 = new Song(null, cont++, "The Lazy Song", "Bruno Mars", 189, 5);
+let s6 = new Song(null, cont++, "Photograph", "The Bangles", 259, 3);
+let s7 = new Song(null, cont++, "Move On", "The Smiths", 309, 5);
+let s8 = new Song(null, cont++, "Blurred lines", "The Bangles", 219, 2);
+let s9 = new Song(null, cont++, "Granade", "Bruno Mars", 223, 4);
+let s10 = new Song(null, cont++, "Happy", "The Smiths", 210, 5);
+let s11 = new Song(null, cont++, "Good Life", "The Smiths", 199, 3);
+let s12 = new Song(null, cont++, "Dear Mr.Fantasy", "Traffic", 527, 4);
+let s13 = new Song(null, cont++, "Hitch a Ride", "Boston", 409, 1);
+let s14 = new Song(null, cont++, "Stairway to heaven", "Led Zeppelin", 800, 3);
+let s15 = new Song(null, cont++, "Whole lotta love", "Led Zeppelin", 532, 2);
+let s16 = new Song(null, cont++, "ABC", "Jackson 5", 412, 1);
+let s18 = new Song(null, cont++, "Highway to hell", "AC/DC", 327, 4);
+let s19 = new Song(null, cont++, "Feliz Cumpleaños", "Parchis", 338, 4);
+let s20 = new Song(null, cont++, "Thank you", "Led Zeppelin", 532, 2);
+let s21 = new Song(null, cont++, "A whole lotta love", "Led Zeppelin", 532, 2);
+		
+p1.addSong(s1);  
+p1.addSong(s2);  
+p1.addSong(s3);  
+p1.addSong(s4);  
+p1.addSong(s5);  
+p1.addSong(s6);  
+p1.addSong(s7);  
+p1.addSong(s8);  
+p1.addSong(s9);  
+p1.addSong(s10);
+p1.addSong(s11);
+p1.addSong(s12);
+p1.addSong(s13);
+p1.addSong(s14);
+p1.addSong(s15);
+p1.addSong(s16);
+p1.addSong(s18);
+p1.addSong(s19);
+p1.addSong(s20);
+p1.addSong(s21);
+*/
+
+/*
+console.log(p1.toString());
+p1.shuffle();
+console.log(p1.toString());
+p1.orderByDuration();
+console.log(p1.toString());
+p1.orderByAdditionDate();
+console.log(p1.toString());
+p1.top();
+*/
+/*
+console.log(p1);
+
+let jPlaylist = p1.toJSONObject();
+console.log(jPlaylist);
+jPlaylist = JSON.stringify(jPlaylist);
+console.log(jPlaylist);
+
+localStorage.setItem("playlist", jPlaylist);
+
+
+let jPlaylist = localStorage.getItem("playlist");
+jPlaylist = JSON.parse(jPlaylist);
+let playlistRecreada = new Playlist(jPlaylist);
+
+console.log(playlistRecreada.nextSong());
+console.log(playlistRecreada.nextSong());
+console.log(playlistRecreada.nextSong());
+console.log(playlistRecreada.nextSong());
+console.log(playlistRecreada.nextSong());
+console.log(playlistRecreada.nextSong());
+*/
+</script>	
+</head>
+<body>
+Hola
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript"  src="js/classes/Employee.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/HR.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Developer.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Seller.js" charset="UTF-8"></script>
+<script>
+
+let mrClean = new Employee("Don", "Limpio", "00000001-A");
+let msClean = new Employee("Señora", "Limpia", "00000002-B", "Responsable de Higiene y Calidad");
+
+let puri = new HR("Puri", "Experta", "56456412-L");
+
+let rafa = new Developer("Rafa", "Makina", "1548964-X", "Master del Universo", 20);
+let laura = new Developer("Laura", "Kobol", "44564566-Y", "Wonder Woman", 180);
+
+let oskar = new Seller("Oscar", "Mayer", "5641564-G", "Batman los martes", 10);
+let adri = new Seller("Adry", "BadPrawn", "564564641-G", "Vengador Retirado", 35);
+
+let baska = [mrClean, msClean, puri, rafa, laura, oskar, adri];
+
+let pasta = 0;
+for (let person of baska){
+	console.log(person.title + " " + person.name + " " + person.lastName);
+	console.log(person.getSalary());
+	pasta += person.getSalary();
+}
+
+console.log("Toda esta people me cuesta: " + pasta);
+</script>	 
+</head>
+<body>
+Hola
+</body>
+</html>

@@ -1,0 +1,60 @@
+<meta charset="UTF-8">
+
+<html>
+<head>
+<script type="text/javascript"  src="Episode.js" charset="UTF-8"></script>
+<script>
+
+//paso por valor
+let x = 6;
+let y = x;
+y++;
+console.log(x);
+console.log(y);
+
+
+function hacerMasCosas(otraVariable){
+	otraVariable = 87;
+}
+let unDato = 6;
+hacerMasCosas(unDato);
+console.log(unDato);
+
+
+
+//paso por referencia: todas las variables hacen REFERENCIA al mismo objeto en memoria
+function hacerAlgo (arrayDatos){
+	arrayDatos.push(8);
+}
+
+let datos = [1,2,3];
+hacerAlgo(datos);
+console.log(datos);
+
+let datas = [1,2,3];
+let cosas = datas;
+cosas.push(8888);
+console.log(datas);
+console.log(cosas);
+
+
+
+function modCapi(cap){
+	cap.name = "Piloto";
+}
+let epi = new Episode(null, "Capitulo1", "goT", 2, 2, "leches", 120);
+console.log(epi.toString());
+modCapi(epi);
+console.log(epi.toString());
+let nuevo = new Episode(null, epi.name, epi.show, epi.season, epi.number, epi.genre, epi.duration);
+
+
+
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

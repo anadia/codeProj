@@ -53,15 +53,13 @@ router.get('/students/delete/:id', function (req, res) {
 
   let id = req.params.id;
 
-  connection.query("DELETE  FROM subject WHERE  id = " + id,
-    function (err, result) {
+  connection.query("DELETE  FROM subject WHERE  id_student = " + id, function (err, result) {
 
-      connection.query("DELETE  FROM studata WHERE  id = " + id,
-        function (err, result) {
+      connection.query("DELETE  FROM studata WHERE  id = " + id, function (err, result) {
           res.redirect('/')
         })
     });
-})
+});
 
 router.get('/students/edit/:id', function (req, res) {
 

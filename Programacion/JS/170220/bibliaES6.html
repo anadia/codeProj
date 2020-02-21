@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>ES6</title>
+    <script>
+       /* document.write("typeof true: "+typeof true);
+        document.write("<br/>");
+        document.write("typeof 3.14: "+typeof 3.14);
+        document.write("<br/>");
+        document.write("typeof string: "+typeof `string`);
+        document.write("<br/>");
+        document.write("typeof Symbol(): "+typeof Symbol());
+        document.write("<br/>");
+        document.write("typeof {a:1}: "+typeof  {a:1});
+        document.write("<br/>");
+        document.write("typeof [1,2,3]: "+typeof [1,2,3]);
+        document.write("<br/>");
+        document.write("typeof undefined: "+typeof undefined);
+        document.write("<br/>");
+        document.write("typeof null: "+typeof null);
+        document.write("<br/>");*/
+
+       //TEMPLATE LITERALS
+        //interpolar: coger los valores de las variables de la siguiente manera:
+/*
+    let name = "Manolo";
+    let lastName = "Pérez";
+    document.write(`${name} ${lastName}`); //string literal el pequeño ${name} template literal
+    document.write(`<br>`);
+    document.write(`<br>`);
+    document.write("${name} ${lastName}");
+    document.write("<br>");
+*/
+
+/*
+let a = 10;
+let b = 5;
+document.write(`a + b = ${a} + ${b} = ${a+b}`);
+document.write(`<br>`);
+document.write("a + b = ${a} + ${b} = ${a+b}");
+document.write("<br>");
+*/
+
+//FUNCIONES USANDO TEMPLATE LITERALS
+
+/*function matematicar(operacion, ...valores) {
+    if (operacion[0] == "Suma"){
+        let sumatorio = 0;
+        for (let i =0; i < valores.length;i++){
+            sumatorio += valores[i];
+        }
+        document.write(`Resultado de la suma ${sumatorio}`);
+        document.write(`<br>`);
+       }
+       else if(operacion[0] == "Multiplica"){
+           document.write(`Multiplica: ${valores[0]} * ${valores[1]} = ${valores[0] * valores[1]}`);
+        document.write(`<br>`);
+       }
+
+}
+matematicar `Suma${10} ${20} ${30} ${40}`;
+matematicar `Multiplica${10} ${50}`;*/
+
+//EJ.1 Recorrer el siguiente array y presentar la información utilizando un string literal y un document write
+// solo se puede usar un string literal (una sola linea)
+
+/*       let datos = ["Hola, me llamo", "Jose Miguel", "y me gusta el chorizo"];
+       let texto = " ";
+       for (let  i = 0; i < datos.length; i ++){
+           texto += datos[i] + " ";
+       }
+       document.write(`Resultado del String: ${texto}`);*/
+
+//USO STRING LITERALS EN VARIAS LINEAS
+     /*  let texto = "Hola \
+me llamo Poncho \
+y soy humano";
+       document.write(texto);
+       document.write('<br>');
+       let text = `Los string literals
+permiten escribir
+en multiuples lineas`;
+       document.write(text);
+       let pepe = "pepeeeee";
+       let web = `
+
+<h1>Hola Caracola esto es codigo HTML</h1>
+
+`;
+       document.write(web);*/
+
+
+
+     //Nuevas formas de crear arrays Son metodos estaticos directamente sobre la clase invocamos un metoido
+  /*      let datos = Array.of(1,2,3,4,5); // para numeros
+        console.log(datos);
+
+        let texto = Array.from("una palabra"); //para strings
+        console.log(texto);
+        texto = Array.of("una palabra"); // no funciona con strings devuelve un solo elemento
+       console.log(texto);
+
+       let masDatos = Array.from(datos, (val) => val *2);
+       console.log(masDatos);
+
+       let masMasDatos = Array.from(datos, (val) => val);
+       console.log(masMasDatos);
+       masMasDatos.push("lala");
+       console.log(datos);
+       console.log(masMasDatos);
+*/
+//VALORES POR DEFECTO EN LAS FUNCIONES
+/*   function sumar(num1 = 1, num2 = 2) {
+       document.write(`${num1} + ${num2} - ${num1 + num2}`);
+       document.write(`<br>`);
+   }
+   sumar(3);
+   sumar(8, 7);*/
+/*
+function restar(num1 = 1, num2 = 2) {
+    document.write(`${num1} - ${num2} = ${num1 - num2}`);
+    document.write(`<br>`);
+    console.log(arguments);
+}
+    restar(8,7,9);
+    restar (8,7);
+    restar(3);
+function hacerCosas() {
+    let suma = 0;
+    for(let num of arguments){ //arguments no recibe los valores por defecto
+        suma += num;
+    }
+    console.log(suma);
+}
+hacerCosasS(1,2,3,4);*/
+
+ /*      function hacerCosasS(dato, dos,...valores) { //parametros ilimitados ...
+           console.log(valores);
+           console.log(dato);
+           console.log(dos);
+           let suma = 0;
+           for(let num of valores){
+               suma += num;
+           }
+           console.log(suma);
+       }
+       hacerCosasS(1,2,3,4);*/
+
+ //EJ.2 CREAR UNA FUNCION QUE CONCATE Y DEVUELVA COMO UNA UNICA VARIABLE TODOS LOS VALORES SIGUIENTES
+ /*     let a = "Hola";
+      let b = "Pepe";
+    let c = "te tengo que contar";
+    let d = "lo que me ha pasado";
+    let e = "ayer cuando estaba por la calle";
+    let f = "me llamaron por telefono";
+    let g = "Y no te vas a creer lo que paso";*/
+/*let vector = new Array(a,b,c,d,e,f,g);
+function concat(vector1){
+    console.log (vector1);
+    for (let i=0; i < vector1.length;i++){
+        document.write(` ${vector1[i]} `);
+    }
+  /!*  document.write(` ${vector1} `);*!/
+}
+concat(vector);*/
+/*
+function hacerCosasS(...valores) { //parametros ilimitados ...
+    for (let num of valores) {
+        document.write(` ${num} `);;
+    }
+};
+hacerCosasS(a,b,c,d,e,f,g);
+
+       function concatenar(...textos){
+           let concat = "";
+           for (let texto of textos){
+               concat += texto + " ";
+           }
+           return concat;
+       }
+       console.log(concatenar(a,b,c,d,e,f,g));*/
+
+/*let resta = (num1, num2) => num1, num2;  //string literal a una función flecha
+document.write(`5 - 10 = ${resta(5,10)}`);
+document.write(`<br>`);*/
+
+/*
+let multiplicación = (num1, num2) => { //las funciones flechas son lambdas y deberían ser de una linea
+    let result =num1 * num2;
+    document.write(`${num1} * ${num2} = ${num1 * num2}`);
+    document.write(`<br>`);
+}
+multiplicacion(5,10);*/
+
+
+//reduce, filter y MAP
+let datos = [1,2,3,4,5,6,7];
+
+//REDUCE aplica una funcion acumulada a todos los elementos del array de forma que acaba devolviendo un solo valor
+
+/*
+let suma = datos.reduce((a,b) => a+b);
+console.log(suma);
+
+let textos = ["uno", "no", "sabe", "todo"];
+let concat = textos.reduce((a,b) => a+ " " +b);
+console.log(concat);
+*/
+
+
+//FILTER devuelve los valores que cumplen la condición
+/*        let pares = datos.filter(v => v%2 == 0);
+        console.log(pares);
+
+        let mayores = datos.filter(v => v>3);
+       console.log(mayores);*/
+
+//MAP realiza una operación para cada uno de los valores
+/*
+        let dobles = datos.map(dato => dato * 2);
+        console.log(dobles);
+
+        datos.map(dato => console.log(dato));
+*/
+//2- Crear un filtro para el siguiente array usando funciones flecha que sólo devuelva aquellas edades que
+       // superen los 60 años:
+       const edades = [23, 62, 45, 84, 2, 62, 81, 62, 34];
+       let mayoresSesenta = edades.filter(edad => edad > 60); // se pueden pone AND OR etc
+       console.log(mayoresSesenta);
+
+//3 - Modificar un array para que se devuelvan todos los cuadrados de los valores que contenga el array.
+let cuadrados = edades.map(dato => dato * dato);
+console.log(cuadrados);
+ /*      let cuadrado = numeros.map(x => Math.pow(x, 2));
+       console.log(cuadrado);*/
+
+// 4- Convierte los siguientes textos a mayúsculas usando los métodos de los arrays y funciones flecha: [“Juan”, “Pedro”, “Luis”]
+       let nombres = ["Juan", "Pedro", "Luis"];
+
+           let mayusculas = nombres.map(dato => dato.toUpperCase());
+           //lowercase  let mayusculas = nombres.map(dato => dato.toLowerCase());
+
+       console.log(mayusculas);
+//5- Parsea los siguientes datos para obtener aquellos que sean sólo números: [ 1, 'a', '5', 4, 'x', '9', 7]
+       let lista = [ 1, 'a', '5', 4, 'x', '9', 7];
+   let isnum = lista.filter(dato => parseInt(dato) );
+       console.log(isnum);
+       let isnum2 = lista.filter(dato =>typeof (dato) == "number" );
+       console.log(isnum2);
+       let isnum3 = lista.filter(numero => Number.isInteger(numero));
+       console.log(isnum3);
+/*
+       let sonNum2 = isnum.filter(v => v  >= 1);
+       console.log(sonNum);*/
+       let sonNum = lista.filter(v => v  >= 0);
+       console.log(sonNum);
+//6. rea una función flecha que elimine los elementos del array que tengan más de 4 letras:
+
+      let listaNombres = ["pepe", "alberto", "juan", "rodrigo", "jose", "antonio"];
+       let masDe4 = listaNombres.filter(dato => dato.length <= 4);
+           console.log(masDe4);
+
+// 7- Crea una función flecha que parsee un array y elimine todos los decimales a partir del tercer dígito.
+       let decimales =   [2.47895, 3.14159268, 5.699874, 8.574125];
+       let tresDecimals = decimales.map(dato => parseFloat(dato.toFixed(2)));
+       console.log(tresDecimals);
+
+ //      1- Analiza el siguiente código:
+/*           function saludar (persona) {
+               if ( JSON.stringify(persona) === JSON.stringify({ nombre: 'Paco' }) {
+                   return 'Hola Paco!'
+               }
+               else {
+                   return 'Hola Luis!'
+               }
+           }
+      console.log(saludar({ nombre: 'Paco' }));*/
+//¿Qué devuelve su ejecución?
+//¿Qué debemos cambiar para que devuelva 'Hola Paco!'
+/*
+function saludar (persona) {
+  if (persona.apellido == { nombre: 'Paco', apellido: 'Perez' }.apellido) {
+    return 'Hola Paco!'
+  } else {
+    return 'Hola Luis!'
+  }
+}
+console.log(saludar({ nombre: 'Paco', apellido: 'Perez'  }));
+let pipol = { nombre: 'Paco', apellido: 'Perez' };
+console.log(pipol.apellido);
+let person = {
+	nombre: "Pepe",
+	apellido: "Gonzalez",
+	edad: 33
+};
+ */
+
+// se debe usar para cosas pequeñas si no se debe trabajar de forma usual con Clases
+       //crear un object en caliente para objetos de poca entidad
+/*        function  createAnimal (name, owner) {
+            return {
+                //propiedades:
+                name,
+                owner,
+                //metods:
+                getInfo() {
+                    return `${this.name} es de ${this.owner}`
+                },
+                setOwner(owner) {
+                    this.owner = owner
+                },
+                //Creamos un objeto dentro de otro objeto
+                direccion:{
+                    calle: "c/Larios",
+                    numero:15
+                }
+            }
+        }
+
+        let gato1 = createAnimal("Jose", "Carlos");
+       let gato2 = createAnimal("Dora", "Laura");
+       let gato3 = createAnimal("Teto", "Rodri");*/
+/*console.log(gato1.getInfo());
+       gato1.setOwner("fede");
+       console.log(gato1.getInfo());
+
+       console.log(gato1);
+       console.log(gato1.direccion);
+       console.log(gato1.direccion.calle, ",", gato1.direccion.numero);*/
+
+//DESTRUCTURING
+  /*
+  et gato1 = {
+	//propiedades:
+	name: "Jonesy",
+	owner: "charles, el super profe",
+	//métodos:
+	getInfo(){
+		return `${this.name} es de ${this.owner}`
+	},
+	setOwner(owner){
+		this.owner = owner
+	},
+	direccion: {
+		calle: "c/Larios",
+		numero: 15
+	}
+};
+//DESTRUCTURING!!!!!!!!!!!!!!!!!!!
+let {name, owner} = gato1;
+//let name = gato1.name;
+console.log(name);
+console.log(owner);
+name += " y qué majo es";
+console.log(name);
+let {direccion} = gato1;
+console.log(direccion);
+let {numero} = gato1.direccion;
+console.log(numero);
+   */
+//DESTRUCTURAR CON ARRAY
+        //PARAMENTROS INFINITOS
+/*
+let numeros = [1,2,3];
+let [x,,...y] = numeros; // ... son parametros "infinitos" REST PARAMETERS recogen todos los elementos despues de la comas
+       // y con la forma de un array el numero de , indica a partir de donde muestra
+       let [s] = numeros;
+       let [g,,h] = numeros; // las comas hace que no muestre ese elementos, se pueden extraer valores individuales
+console.log(s);
+       console.log(g);
+console.log(y);
+       console.log(h);
+       let [...a] = numeros; //devuelve el array entero
+       console.log(a);
+*/
+
+ /*      let numeros = [1,2,3];
+       let [x,,] = numeros;
+       console.log(x); //la x vale 1
+       let [x,,y] = numeros;
+       console.log(x); //la x vale 1
+       console.log(y); //la y vale 3
+       let [...a] = numeros;
+       console.log(a); //la a vale el array completo
+       let [,...b] = numeros;
+       console.log(b); //la b vale un array con los valores [2, 3]
+       let [,,...c] = numeros;
+       console.log(c); //la c vale un array con el valor [3]*/
+
+ /*let val1 = 1;
+ let val2 = 2;
+
+ console.log("Antes:", val1);
+       console.log("Antes:", val2);
+       [val1, val2] = [val2, val1];
+       console.log("Desp:", val1);
+       console.log("Desp:", val2);
+let[x, y] = [val1, val2];
+console.log(x);
+       console.log(y);*/
+//CLASES EN ES6
+/*       class Persona {
+           constructor(name){
+               this._name = name;
+           }
+           get name(){
+               return this._name; //esta es la nomenclatura sugerida por ES6
+           }
+           set name(name){
+               this._name = name;
+           }
+           devolverDatos(){
+               return this._name;
+           }
+           dameCosas(cosas){
+               return this._name = cosas;
+           }
+       }
+       let pedro = new Persona("Pedro");
+       console.log(pedro.name); //GET son implicitos
+       pedro.name = "Luis"; //SET
+       console.log(pedro.name);
+       pedro.dameCosas("Manolo");
+       console.log(pedro.name);*/
+
+/* 1- Se pide modelar una baraja de 40 cartas. Habrá 10 cartas: 1-7, sota (10), caballo (11) y rey (12) para cada uno
+   de los cuatro palos: copas, oros, bastos y espadas. Cada carta almacenará su número y su palo.
+   Al crear la baraja se generarán las cartas ordenadas de menor a mayor para cada uno de los palos, y contendrá
+   funcionalidades para mostrar todas las cartas por pantalla, barajar. Se podrá también marcar una carta como
+   repartida, esa carta será aleatoria y tendrá una marca que indicará si la carta está repartida o no.
+*/
+
+       function crearPaloArrayObjetos(palo,letra){
+           palod = new Array(10);
+           let j = 10;
+           for (let i=0; i<10;i++){
+               if(i<7){
+                   palod[i] = "c"+letra +(i+1);
+            /*       palod[i] = new Carta(palo,i+1)*/
+               }
+
+               else{
+                   palod[i] = "c"+letra +j;
+            /*       palod[i] = new Carta(palo,j)*/
+                   ++j;
+               }
+           }
+           return palod;
+       }
+
+
+       let bastos = "bastos";
+       let b = "b";
+       cartasBastos = crearPaloArrayObjetos(bastos,b);
+       console.log(cartasBastos);
+       console.log(cartasBastos[0]);
+
+
+       let oros = "oros";
+       let o = "o";
+       cartasOros = crearPaloArrayObjetos(oros,o);
+       console.log(cartasOros);
+
+       let copas = "copas";
+       let c = "c";
+       cartasCopas = crearPaloArrayObjetos(copas,c);
+       console.log(cartasCopas);
+
+       let espadas = "espadas";
+       let e = "e";
+       cartasEspadas = crearPaloArrayObjetos(espadas,e);
+       console.log(cartasEspadas);
+
+let baraja = [cartasBastos,cartasOros,cartasCopas,cartasEspadas ]
+        console.log(baraja);
+
+       class Baraja {
+           get baraja() {
+               return this._baraja;
+           }
+
+           set baraja(value) {
+               this._baraja = value;
+           }
+           constructor(palo1, palo2, palo3,palo4){
+               this._palo1 = palo1;
+               this._palo2 = palo2;
+               this._palo3 = palo3;
+               this._palo4 = palo4;
+               this._baraja =  [this._palo1,this._palo2, this._palo3, this._palo4 ]
+           }
+
+       }
+
+       let baraja1 = new Baraja;
+       baraja1 = [cartasBastos,cartasOros,cartasCopas,cartasEspadas];
+       console.log(baraja1);
+       console.log(baraja1 + "");
+
+       const {_baraja} = Baraja;
+       console.log(_baraja);
+    </script>
+
+
+
+</head>
+</html>

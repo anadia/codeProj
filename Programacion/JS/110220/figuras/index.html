@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio de Figuras</title>
+<script type="text/javascript"  src="js/classes/Figura.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Circulo.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Triangulo.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Paralelogramo.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Cuadrado.js" charset="UTF-8"></script>
+<script type="text/javascript"  src="js/classes/Rectangulo.js" charset="UTF-8"></script>
+
+<script>
+
+
+let fig1 = new Figura("verde");
+console.log(fig1.getColor());
+let cir1 = new Circulo("gris", 3);
+console.log(cir1.getColor());
+console.log(cir1.calcularArea());
+console.log(cir1.calcularPerimetro());
+
+let paralelo1 = new Paralelogramo("naranja", 5, 2);
+console.log(paralelo1.getColor());
+console.log(paralelo1.calcularArea());
+console.log(paralelo1.calcularPerimetro());
+
+</script>	
+</head>
+<body>
+Hola
+</body>
+</html>

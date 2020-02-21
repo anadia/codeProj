@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Academy</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Administración de Usuarios</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/">Usuarios <span class="sr-only">(current)</span></a>
+        </div>
+    </div>
+</nav>
+<!--Navbar End-->
+<div id="parallax1" class="parallax">
+    <div class="bg1 parallax-bg bg-fixed"></div>
+    <div class="overlay"></div>
+    <div class="parallax-content">
+
+    </div>
+</div>
+<h4>INSERT</h4>
+<div class="container">
+    <div class="row">
+
+        <div class="col-12">
+            <form action="/" method="post" class="tal">
+                <table class="table-dark">
+                    <thead>
+                    <tr>
+
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Usuario</th>
+                        <th>Password</th>
+                        <th>Avatar</th>
+                        <th>Option</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <!-- Tabla de inserción de datos -->
+                        <td> <input type="text" name="name"> </td>
+                        <td> <input type="text" name="email"> </td>
+                        <td> <input type="text" name="user"> </td>
+                        <td> <input type="text" name="password"> </td>
+                        <td> <input type="text" name="avatar"> </td>
+                        <td><button type="submit" class="btn btn-dark">Alta</button> </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div id="parallax1" class="parallax">
+    <div class="bg1 parallax-bg bg-fixed"></div>
+    <div class="overlay"></div>
+    <div class="parallax-content">
+
+    </div>
+</div>
+<h4>LISTA USUARIOS</h4>
+<div class="container">
+    <div class="row">
+
+        <div class="col-12">
+            <form class="tal">
+                <table class="table-dark pdlf">
+                    <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Usuario</th>
+                        <th>Password</th>
+                        <th>Avatar</th>
+                        <th class="wdt"></th>
+                        <th class="wdt"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <% data.forEach(function (paint_users) { %>
+                            <td> <input type="text" value="<%= paint_users.user_id %>" disabled></td>
+                            <td> <input type="text" value="<%= paint_users.name %>" disabled></td>
+                            <td> <input type="text" value="<%= paint_users.email %>" disabled></td>
+                            <td> <input type="text" value="<%= paint_users.user %>" disabled></td>
+                            <td> <input type="text" value="<%= paint_users.password %>" disabled></td>
+                            <td> <input type="text" value="<%= paint_users.avatar %>" disabled></td>
+                            <td> <a href="delete/<%= paint_users.id %>"><button type="button" class="btn btn-dark">Delete</button></a></td>
+                            <td> <a href="edit/<%= paint_users.id %>"><button type="button" class="btn btn-dark">Edit</button></a></td>
+                    </tr>
+                    <% }) %>
+                    </tbody>
+
+                </table>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div id="parallax1" class="parallax">
+    <div class="bg1 parallax-bg bg-fixed"></div>
+    <div class="overlay"></div>
+    <div class="parallax-content">
+
+    </div>
+</div>
+
+<div class="divI">
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

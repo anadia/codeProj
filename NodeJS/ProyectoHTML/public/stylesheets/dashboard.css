@@ -1,0 +1,46 @@
+.bg-gradient-primary{
+    background-image: linear-gradient(180deg,#1f2023 10%,#5f5c499e) !important;
+}
+.btn-primary {
+    background-image: linear-gradient(180deg,#1f2023 10%,#5f5c499e) !important;
+    border-color: #1f2023 !important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-image: linear-gradient(180deg,#1f2023 10%,#5f5c499e) !important;
+    border-color: #1f2023;
+}
+
+.paging_simple_numbers{
+    color:#1f2023;
+}
+
+.dropdown-header {
+    background-image: linear-gradient(180deg,#1f2023 10%,#5f5c499e) !important;
+    border: 1px solid #1f2023;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #fff;
+}
+
+.form-controlz {
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.w30O{
+    width: 32px;
+}
