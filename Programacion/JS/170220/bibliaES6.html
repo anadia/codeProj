@@ -499,6 +499,130 @@ let baraja = [cartasBastos,cartasOros,cartasCopas,cartasEspadas ]
 
        const {_baraja} = Baraja;
        console.log(_baraja);
+
+// SET nueva estructura de ES6 para alamacenar datos
+//alamacena una lista de valores que no pueden estar duplicados (los valores)
+let conjunto = new Set();
+
+//me permite añadir datos
+conjunto.add("Carlos");
+conjunto.add(10);
+conjunto.add(new Date());
+
+//ver si tiene un valor:
+console.log(conjunto.has(10));
+
+//tamaño
+console.log(conjunto.size);
+
+console.log(conjunto);
+
+for(let val of conjunto){
+    console.log(val);
+}
+
+//borra el elemento
+conjunto.delete(10);
+
+for(let val of conjunto){
+    console.log(val);
+}
+
+//vacia el ser
+conjunto.clear();
+for (let val of conjunto){
+    console.log(val);
+}
+
+
+//------------- MAP: Hashtable -----------
+//estructura que almacena información mediante pares, K-V
+//se utiliza para almacenar info heterogenea
+//y dentro de la misma se puede iterar (forEach)
+//o acceder a cada dato de forma quirúrgica: datosDeFer.get("apellidos")
+let mapa = new Map();
+mapa.set("k1", "Texto");
+mapa.set("k2", 555696965);
+mapa.set("k3", new Date());
+console.log("Elemento 1: " + mapa.get("k1"));
+console.log("Elemento 2: " + mapa.get("k2"));
+console.log("Elemento 3: " + mapa.get("k3"));
+let datosDeFer = new Map();
+datosDeFer.set("nombre", "Fer");
+datosDeFer.set("apellidos", "Llamas Góngora");
+datosDeFer.set("tlf", "61111119");
+console.log(datosDeFer.get("apellidos"));
+console.log(datosDeFer.size);
+datosDeFer.forEach(
+	function (value, key) {
+		console.log(key + " - " + value);
+	}
+);
+//PROMISES
+
+/*
+let p1 = Promise.resolve("Me resuelvo");
+
+p1.then(
+	(res) => console.log(res)
+);
+*/
+
+/*
+function saludar(){
+	console.log("Passssa tron!");
+}
+
+setTimeout(saludar, 5000);
+*/
+
+/*
+let p2 = new Promise(
+	function (resolve, reject) {
+		setTimeout(
+			() => resolve("Estoy resuelto"), 2000
+		);
+	}
+);
+
+p2.then(
+	(res) => console.log(res)
+);
+*/
+
+let n = 11;
+
+let p3 = new Promise(
+	function (resolve, reject) {
+		if (n < 10){
+			resolve("Todo ok");
+		}
+		else {
+			reject("Todo maaaal");
+		}
+	}
+);
+
+p3.then(
+	(exito) => console.log(exito),
+	(error) => console.log("ERROR: " + error)
+);
+
+
+
+/*
+new Promise(
+	function (resolve, reject) {
+		console.log("Promesa pendiente");
+		resolve();
+		reject();
+	}
+).then(
+	function () {
+		console.log("Promesa resuelta");
+	}
+);
+*/
     </script>
 
 
