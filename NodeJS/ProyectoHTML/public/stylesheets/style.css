@@ -5,7 +5,7 @@ body{
     text-align: center !important;
 }
 .he-770{
-    height: 770px !important;
+    height: 80vh !important;
 }
 
 .orangeC li, a, p{
@@ -112,4 +112,10 @@ color:rgb(204, 238, 245) !important;;
 
 .fa-2x {
     font-size: 1.5em !important;
+}
+.confirm{
+    height: 30vh;
+}
+.px12O{
+    font-size: 12px;
 }

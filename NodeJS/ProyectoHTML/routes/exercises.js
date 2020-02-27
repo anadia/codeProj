@@ -19,7 +19,6 @@ router.get('/', function (req, res, next) {
 
 router.get('/create/:id', function (req, res, next) {
     let id_create= req.params.id;
-    console.log()
 
     connection.query('SELECT * FROM exercise WHERE exercise_id = ' + id_create, (err, data) => {
         // console.log(data[0])

@@ -2,109 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d259358-f41f-41f1-ae26-d63485922114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-pattern.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ejercicios.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ejercicios2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ejercicios3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ejercicios4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/lanzatucarrera.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo codifica block.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo_codifica.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/online9.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/programacion.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/programacion2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/programacion3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/programacion4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/exercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/createExercise.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/exercise.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/exercises.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/register.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/user.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/users.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/users2.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/userscopia.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/070220/.idea/070220.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/110220.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/dictionaries/Oscar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/Developer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/Employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/HR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/Empresa-herencia II/js/classes/Seller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Circulo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Cuadrado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Figura.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Paralelogramo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Rectangulo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/figuras/js/classes/Triangulo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programacion/JS/170220/bibliaES6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/public/javascripts/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/routes/admin_users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/routes/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/routes/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_exercises/add_exercises.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_exercises/edit_exercises.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_exercises/index.exercises.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_users/add_user.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_users/edit_user.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/admin_users/index_admin_users.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/layouts/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/layouts/header.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/partial/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/partial/nav.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/user/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/user/register.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/user/users.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../codifica/views/user_dashboard/user_dashboard.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/routes/students.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/routes/students.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicioCRUD2/views/studentEdit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCRUD2/views/studentEdit.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejerciciocrud2.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myapp/views/employed.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../myapp/views/employed.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/ejercicioPoligonos/js/classes/circulo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/JS/110220/ejercicioPoligonos/js/classes/circulo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/DevEmployee.js/SalesEmployee.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/Employee.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/HhrrEmployee.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/classes/Worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/JS/110220/herenciaII/inheritanceCompany.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codifica/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codifica/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codifica/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codifica/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codifica/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codifica/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codifica/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../../codifica/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codifica_Site/controllers/indexController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/noAvatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/confirmation.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/dashboard.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fruits/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fruits/controllers/indexController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt/views/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt/views/register.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto/Documentacion/Proyecto con Admin.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto/Documentacion/Proyecto con Admin.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/bg-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/bg-pattern.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/ejercicios.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/ejercicios2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/ejercicios3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/ejercicios4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/lanzatucarrera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/logo codifica block.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/logo_codifica.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/online9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/programacion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/programacion2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/programacion3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/programacion4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/exercises.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/exercises.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/exercises.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/exercises.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index - copia.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/oscar.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/user.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user4.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/users.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/users.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/users2.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/userscopia.ejs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +119,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/javascripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -147,6 +129,9 @@
       <recent name="C:\Users\Oscar\Documents\codeProj\NodeJS\ProyectoHTML\public\images" />
       <recent name="C:\Users\Oscar\Documents\codeProj\NodeJS\ProyectoHTML\public\stylesheets" />
       <recent name="C:\Users\Oscar\Documents\codeProj\NodeJS\ProyectoHTML" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oscar\Documents\codeProj\NodeJS\ProyectoHTML\public\images\avatars" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -165,7 +150,15 @@
       <workItem from="1582228942741" duration="9044000" />
       <workItem from="1582260809088" duration="6604000" />
       <workItem from="1582271026490" duration="16854000" />
-      <workItem from="1582293902371" duration="876000" />
+      <workItem from="1582293902371" duration="5535000" />
+      <workItem from="1582306202982" duration="2830000" />
+      <workItem from="1582443198227" duration="7440000" />
+      <workItem from="1582530940442" duration="304000" />
+      <workItem from="1582531328102" duration="5752000" />
+      <workItem from="1582703134606" duration="593000" />
+      <workItem from="1582729335264" duration="4277000" />
+      <workItem from="1582783912865" duration="2011000" />
+      <workItem from="1582789015648" duration="3583000" />
     </task>
     <servers />
   </component>
@@ -177,10 +170,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582234371283" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582131655605">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582531247303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582131655605" />
+    <state x="740" y="274" key="FileChooserDialogImpl/1920.323.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1582531247303" />
     <state width="1882" height="258" key="GridCell.Tab.0.bottom" timestamp="1582180515099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -197,5 +191,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1882" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582180515099" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1582785593293">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1582785593293" />
   </component>
 </project>

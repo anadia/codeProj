@@ -1,0 +1,80 @@
+La empresa BK ha recibido un nuevo encargo de software
+Se trata de diseñar una aplicación para una tienda especializada en vender productos estéticos.
+La tienda desea trabajar con software libre. Además, desea explícitamente que la aplicación sea capaz de cumplir las siguientes tareas:
+
+Proporcionar facturas en las ventas
+Llevar la cuenta de lo que vende cada trabajador.
+Controlar el stock de productos en almacen
+Operar con el lector de código de barras y tarjetas de crédito
+Controlar los precios de los productos y ofrecer la posibilidad de operar con ellos.
+
+La tiempo de respuesta de la aplicación debe ser el menor posible,
+No se podrán procesar dos peticiones a la vez, aunque haya varios equipos funcionando simultáneamente.
+
+La empresa también quiere almacenar información de sus trabajadores: 
+Nombre
+DNI
+Apellidos
+Número de la Seguridad Social
+Fecha de nacimiento.
+Teléfono
+Localidad
+De los productos la empresa querrá almacenar:
+Código
+Marca
+Nombre comercial
+Precio
+Cantidad
+
+Habrá que diseñar una planificación del proyecto de desarrollo de ese software que cumpla con todas las premisas que hemos visto.
+
+Esencialmente el proyecto se divide en los siguientes apartados:
+Sintetiza el análisis de requisitos del sistema para nuestro cliente. 
+Plantea el diseño y determina el modelo de ciclo de vida que mejor se adapte al desarrollo de esta aplicación.
+
+Planifica las restantes etapas del ciclo de vida, indicando el objeto que persigues en cada fase y cómo lo harías.
+
+
+REQUISITOS: APLICACION
+-Facturas
+- Ventas por trabajador
++Crear productos
+- Stock Productos en Almacen
+- Productos con Código de barras 
+- Pago con tarjeta de crédito
+- Modificar precios
+- Hacer calculos con precios
+- Tiempo de apertura menor de 10 segundos
+- Timepo de carga de vistas menor de 10 segundos
+- Interbloqueo de operacion de grabación de datos
+- Recoger datos de trabajador:
+Nombre
+DNI
+Apellidos
+Número de la Seguridad Social
+Fecha de nacimiento.
+Teléfono
+Localidad
+De los productos la empresa querrá almacenar:
+Código
+Marca
+Nombre comercial
+Precio
+Cantidad
+
+PLANIFICACION
+--ANALISIS
+Analisis de requisitos y Documentación
+Cosas que necesita desde el principio
+Modelo en Cascada o Iterativo
+-- DISEÑO
+Diagrama E-R, Diagrama de Secuencia
+-Base de datos en MySQL
+-Programación del back en NODE
+-Programación del front en Angular
+-- IMPLEMENTACION
+Implementación del código
+-- PRUEBAS
+Pruebas de funcionamiento
+-- MANTENIMIENTO
+Mantenimiento de las funciones de la palicación
