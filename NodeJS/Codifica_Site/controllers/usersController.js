@@ -1,19 +1,32 @@
 const connection = require('../config/db');
-
 const controller = {};
+const multer = require('multer');
 
 //Listar usuarios
 controller.listUsers = (req, res) => {
     let listSql = 'SELECT * FROM user';
-    connection.query(listSql, (error, resultsUsers) => {
-        console.log(resultsUsers);
-        res.send(resultsUsers);
-
-    });
+    connection.query(listSql, (error, data) => {
+        if (err) {
+            throw err;
+        } else {
+            // console.log(data)
+            res.render('users', { resultsUsers: data })
+        }
+    })
 };
+var storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'public/images/avatars')
+    },
+    filename: function (req, file, cb) {
+        cb(null, file.originalname)
+    }
+});
+var upload = multer({ storage: storage });
+
 
 //Crear User con INSERT
-controller.createUser = (req, res) => {
+controller.createUser = upload.single('avatar'),(req, res) => {
     console.log(req.body);
     let name = req.body.name;
     let email = req.body.email;
@@ -43,6 +56,14 @@ controller.deleteUser = (req,res)=> {
     })
 };
 
+//Editar usuario igualando el id al de la tabla
+controller.editUser = (req, res) => {
+    let user_id = req.params.user_id;
+    let editSql = `SELECT * FROM user WHERE user_id = '${user_id}' `;
+    connection.query(editSql, (error, resultEdit) => {
+        res.send(resultEdit);
+    })
+}
 //Actualizamos datos de User con UPDATE
 controller.updateUser= (req, res)=>{
     let user_id = req.params.user_id; //toma el ID de la URL

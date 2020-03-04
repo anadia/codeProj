@@ -1,8 +1,44 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  background: linear-gradient(to left, #160f1e, #000000);
+  color: white;
+  text-align: center !important; }
 
-a {
-  color: #00B7FF; }
+.he-770 {
+  height: 80vh !important; }
+
+.orangeC li, a, p {
+  color: #fcbe0f !important;
+  font-size: 12px; }
+
+.miniFont {
+  font-size: 10px; }
+
+.blueC {
+  color: #cceef5 !important; }
+
+.bg-dark {
+  background-color: transparent !important; }
+
+.mbott {
+  margin-bottom: 50px !important; }
+
+.mtp {
+  margin-top: 20px !important; }
+
+.blaki {
+  color: black !important; }
+
+.turki {
+  color: #34ca9d !important;
+  font-weight: 500; }
+
+.fa-2x {
+  font-size: 1.5em !important; }
+
+.confirm {
+  height: 30vh; }
+
+.px12O {
+  font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */
