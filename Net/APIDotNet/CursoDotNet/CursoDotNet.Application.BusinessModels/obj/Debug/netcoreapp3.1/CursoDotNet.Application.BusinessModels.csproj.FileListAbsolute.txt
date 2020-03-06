@@ -1,0 +1,8 @@
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\bin\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.deps.json
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\bin\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\bin\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\obj\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.csprojAssemblyReference.cache
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\obj\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.AssemblyInfoInputs.cache
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\obj\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.AssemblyInfo.cs
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\obj\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application.BusinessModels\obj\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.pdb

@@ -11,6 +11,6 @@ namespace CursoDotNet.DataAccess.Contracts.Entidades
         public string titulo { get; set; }
 
         [Required]
-        public string duracion { get; set; }
+        public int duracion { get; set; }
     }
 }

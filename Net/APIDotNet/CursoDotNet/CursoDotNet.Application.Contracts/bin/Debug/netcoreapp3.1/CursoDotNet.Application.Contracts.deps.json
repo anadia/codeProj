@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CursoDotNet.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "CursoDotNet.Application.BusinessModels": "1.0.0"
+        },
+        "runtime": {
+          "CursoDotNet.Application.Contracts.dll": {}
+        }
+      },
+      "CursoDotNet.Application.BusinessModels/1.0.0": {
+        "runtime": {
+          "CursoDotNet.Application.BusinessModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CursoDotNet.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CursoDotNet.Application.BusinessModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

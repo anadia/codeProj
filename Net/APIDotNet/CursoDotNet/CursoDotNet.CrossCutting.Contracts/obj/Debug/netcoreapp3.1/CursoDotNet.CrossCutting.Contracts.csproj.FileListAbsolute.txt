@@ -1,0 +1,8 @@
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.deps.json
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.AssemblyInfoInputs.cache
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.AssemblyInfo.cs
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.CrossCutting.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.CrossCutting.Contracts.csprojAssemblyReference.cache

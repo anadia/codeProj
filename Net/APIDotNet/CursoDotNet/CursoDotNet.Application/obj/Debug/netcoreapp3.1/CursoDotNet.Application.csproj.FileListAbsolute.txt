@@ -1,0 +1,15 @@
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.deps.json
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.csprojAssemblyReference.cache
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.AssemblyInfoInputs.cache
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.AssemblyInfo.cs
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.Contracts.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.Contracts.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.csproj.CopyComplete
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.pdb
