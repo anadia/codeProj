@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+<!--<h1>Hola mundo! Soy <span  [ngClass]="{'product-name':vista, 'product-name-false':!vista}">
+  {{product.name}}</span></h1>
+<div><button class="btn btn-danger" (click)="changeView()">
+  Dibujo<span *ngIf="vista"> No visto</span>
+  <span *ngIf="!vista"> Visto</span>
+</button></div>
+<ul>
+  <li *ngFor="let i of array">{{i}}</li>
+</ul>
+<p><img [src]="product.img" alt="unikitty" width="80px"></p>-->
+
+<div *ngFor="let movie of movies">
+  <h1 [ngClass]="{'product-name': movie.seen, 'product-name-false':!movie.seen}">{{ movie.name }}</h1>
+  <p>{{ movie.director }}</p>
+  <img [src]="movie.img" width="130px"  alt="" />
+  <div><button  class="btn btn-outline-primary"(click)="changeView2()">
+    Dibujo<span *ngIf="movie.seen"> No visto</span>
+    <span *ngIf="!movie.seen"> Visto</span>
+  </button></div>
+</div>
+
+<br />
+<br />
+<br />
+
+

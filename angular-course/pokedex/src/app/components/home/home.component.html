@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-3" *ngFor="let pokemon of pokemonList; let i = index">
+
+      <div class="card" >
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{i+1}}.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">{{pokemon.name | uppercase }}</h5>
+
+          <button class="btn btn-danger btn-block" [routerLink]="['/pokemon-detail',i+1]">Detalle</button>
+        </div>
+      </div>
+
+
+  </div>
+
+

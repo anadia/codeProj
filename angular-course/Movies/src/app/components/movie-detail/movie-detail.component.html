@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-3">
+        <img [src]="movie?.Poster" class="rounded float-left" alt="..." />
+      </div>
+      <div class="col-9">
+        <h3>Sinopsis</h3>
+        <p>{{ movie?.Plot }}</p>
+        <span class="badge badge-secondary mr-2" *ngFor="let genre of genres">{{
+          genre
+          }}</span>
+      </div>
+    </div>
+  </div>
+</div>

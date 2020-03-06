@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://miro.medium.com/max/3920/1*oZqGznbYXJfBlvGp5gQlYQ.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black !important;
+}
+
+nav {
+    box-shadow: 1px 7px 10px #127849;
+}
+
+nav a img {
+    width: 20%;
+}
+
+nav div ul li a {
+    color: black !important;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: unset !important;
+    box-shadow: 16px 12px 20px 4px #000000;
+    margin-bottom: 10%;
+    border: 1px solid black;
+}
+
+
+/* .card:hover {
+    transform: scale(1.5);
+    background-color: #010300 !important;
+} */
+
+.card img {
+    width: 5rem;
+}
+
+.pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
