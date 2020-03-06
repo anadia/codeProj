@@ -1,0 +1,13 @@
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.csprojAssemblyReference.cache
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.AssemblyInfo.cs
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.deps.json
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.runtimeconfig.json
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.runtimeconfig.dev.json
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.csproj.CopyComplete
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.pdb
