@@ -1,0 +1,10 @@
+https://cli.angular.io/
+
+
+documentacion
+https://angular.io/cli/generate
+
+
+npm install bootstrap
+npm install jquery popper.js
+
