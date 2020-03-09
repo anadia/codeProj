@@ -41,5 +41,30 @@ namespace CursoDotNet.Application.Services
             return result;
 
         }
+
+        public async Task<object> GetFilteredPaginate(string nombreUsuario, int numPagina, int numElementos)
+        {
+            //TODO: Cambiar la llamada
+            var canciones = await _cancionRepository.GetAll();
+
+            List<CancionModel> result = new List<CancionModel>();
+            foreach (var c in canciones)
+            {
+                result.Add(new CancionModel
+
+                {
+                    Id = c.Id,
+                    Titulo = c.Titulo,
+                    Duracion = c.Duracion,
+                    CreateUserId = c.CreateUserId,
+                    CreateDateTime = c.CreateDateTime,
+                    UpdateUserId = c.UpdateUserId,
+                    UpdateDateTime = c.UpdateDateTime
+
+                });
+            }
+
+            return result;
+        }
     }
 }

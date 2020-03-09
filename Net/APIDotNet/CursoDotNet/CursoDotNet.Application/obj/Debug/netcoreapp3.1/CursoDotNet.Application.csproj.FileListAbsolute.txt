@@ -13,3 +13,5 @@ C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\Cu
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.dll
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.pdb
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.pdb
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.pdb
