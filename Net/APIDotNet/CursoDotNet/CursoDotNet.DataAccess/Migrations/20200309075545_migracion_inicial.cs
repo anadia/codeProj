@@ -61,7 +61,7 @@ namespace CursoDotNet.DataAccess.Migrations
                     updateUserId = table.Column<int>(nullable: true),
                     updateDateTime = table.Column<DateTime>(nullable: true),
                     titulo = table.Column<string>(nullable: false),
-                    duracion = table.Column<string>(nullable: false),
+                    duracion = table.Column<int>(nullable: false),
                     Usuarioid = table.Column<int>(nullable: true)
                 },
                 constraints: table =>

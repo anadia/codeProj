@@ -21,7 +21,14 @@ namespace CursoDotNet.API.Controllers
         [Route("GetAll")]
         public async Task<ActionResult> GetAll()
         {
-            return Ok(_cancionService.GetAll());
+            return Ok(await _cancionService.GetAll());
         }
+
+        public async Task<ActionResult> GetFilteredPaginated(string nombreUsuario, int numPagina, int numElem )
+        {
+            return Ok(await _cancionService.GetAll()); //TODO
+        }
+
+
     }
 }

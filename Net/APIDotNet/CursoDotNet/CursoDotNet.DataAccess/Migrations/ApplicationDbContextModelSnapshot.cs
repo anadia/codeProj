@@ -35,9 +35,8 @@ namespace CursoDotNet.DataAccess.Migrations
                     b.Property<int>("createUserId")
                         .HasColumnType("int");
 
-                    b.Property<string>("duracion")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("duracion")
+                        .HasColumnType("int");
 
                     b.Property<string>("titulo")
                         .IsRequired()

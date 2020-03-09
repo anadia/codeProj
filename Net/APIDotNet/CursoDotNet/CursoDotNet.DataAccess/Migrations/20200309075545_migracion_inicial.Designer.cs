@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CursoDotNet.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200305165021_migracion_inicial")]
+    [Migration("20200309075545_migracion_inicial")]
     partial class migracion_inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,9 +37,8 @@ namespace CursoDotNet.DataAccess.Migrations
                     b.Property<int>("createUserId")
                         .HasColumnType("int");
 
-                    b.Property<string>("duracion")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("duracion")
+                        .HasColumnType("int");
 
                     b.Property<string>("titulo")
                         .IsRequired()
