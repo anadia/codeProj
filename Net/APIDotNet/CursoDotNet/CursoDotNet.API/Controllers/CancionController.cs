@@ -24,10 +24,6 @@ namespace CursoDotNet.API.Controllers
             return Ok(await _cancionService.GetAll());
         }
 
-        public async Task<ActionResult> GetFilteredPaginated(string nombreUsuario, int numPagina, int numElem )
-        {
-            return Ok(await _cancionService.GetAll()); //TODO
-        }
 
 
     }
