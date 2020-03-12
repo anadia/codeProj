@@ -1,0 +1,25 @@
+
+
+div{
+  border: solid 2px blue;
+}
+
+
+
+
+
+.comunidadesContainer{
+  width: 40%;
+  margin-left: 20px;
+  float: left;
+
+}
+.resultadosContainer{
+  width: 40%;
+  float: left;
+  border-color: 2px solid orange;
+}
+
+
+
+

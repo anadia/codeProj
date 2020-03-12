@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34bc6ae7-98f4-446d-b3b4-eef1848d536c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/Angular2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/player-item/player-item.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/player-item/player-item.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/player-item/player-item.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/app/player-item/player-item.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular2/primera-app-angular2/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/contador.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/.idea/ejemplo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/app.component.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugador-item/jugador-item.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugador-item/jugador-item.component.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugador-item/jugador-item.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugador-item/jugador-item.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugador-item/jugador-item.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugador-item/jugador-item.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugadores-list/jugadores-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugadores-list/jugadores-list.component.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugadores-list/jugadores-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugadores-list/jugadores-list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugadores-list/jugadores-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/app/jugadores-list/jugadores-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/styles.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemplo2/tslint.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YzLbVIVYs09gnmv2AEzAZHR9PZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../botonesOs" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\angular-course\contador\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (contador)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (contador)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34bc6ae7-98f4-446d-b3b4-eef1848d536c" name="Default Changelist" comment="" />
+      <created>1583940547249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583940547249</updated>
+      <workItem from="1583940552639" duration="1589000" />
+      <workItem from="1583998295563" duration="681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584004934944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584004934944" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<div class="comunidadesContainer">
+  <span><app-comunidad (comunidadEnferma)="enfermar('ANDALUCIA')" [comunidad]="'ANDALUCIA'"></app-comunidad></span>
+  <span><app-comunidad (comunidadEnferma)="enfermar('MADRID')" [comunidad]="'MADRID'"></app-comunidad></span>
+  <span><app-comunidad (comunidadEnferma)="enfermar('CATALUÑA')" [comunidad]="'CATALUÑA'"></app-comunidad></span>
+</div>
+<div class="resultadosContainer">
+  <app-resultados [nombreComunidad]="'Andalucia'" [contadorEnfermos]="enfermosAndalucia"></app-resultados>
+  <app-resultados [nombreComunidad]="'Madrid'" [contadorEnfermos]="enfermosMadrid"></app-resultados>
+  <app-resultados [nombreComunidad]="'Cataluña'" [contadorEnfermos]="enfermosCataluna"></app-resultados>
+</div>
