@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj": {}
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj": {
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj",
         "projectName": "CursoDotNet.API",
-        "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj",
-        "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\CursoDotNet.API.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj"
               },
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj"
               }
             }
           }
@@ -74,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj",
         "projectName": "CursoDotNet.Application.BusinessModels",
-        "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj",
-        "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,21 +126,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj",
         "projectName": "CursoDotNet.Application.Contracts",
-        "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -153,8 +153,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj"
               }
             }
           }
@@ -182,21 +182,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj": {
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
         "projectName": "CursoDotNet.Application",
-        "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,14 +209,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj"
               },
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj"
               },
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
               }
             }
           }
@@ -244,21 +244,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj": {
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj",
         "projectName": "CursoDotNet.CrossCutting",
-        "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\CursoDotNet.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -271,17 +271,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj"
               },
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj"
               },
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
               },
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj"
               }
             }
           }
@@ -319,21 +319,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj",
         "projectName": "CursoDotNet.DataAccess.Contracts",
-        "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -383,21 +383,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj": {
+    "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj",
         "projectName": "CursoDotNet.DataAccess",
-        "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -410,8 +410,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
+              "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
               }
             }
           }
@@ -473,7 +473,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

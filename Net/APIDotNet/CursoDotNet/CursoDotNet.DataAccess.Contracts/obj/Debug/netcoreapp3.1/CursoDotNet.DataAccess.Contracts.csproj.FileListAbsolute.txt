@@ -8,3 +8,13 @@ C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\Cu
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.pdb
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.runtimeconfig.json
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.runtimeconfig.dev.json
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.deps.json
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.runtimeconfig.json
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.runtimeconfig.dev.json
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.dll
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.pdb
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.csprojAssemblyReference.cache
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.AssemblyInfoInputs.cache
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.AssemblyInfo.cs
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.dll
+C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.DataAccess.Contracts\obj\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.pdb

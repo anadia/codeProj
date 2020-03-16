@@ -685,19 +685,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\": {}
+    "C:\\Users\\Oscar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
       "projectName": "CursoDotNet.Application",
-      "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
-      "packagesPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\obj\\",
+      "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\CursoDotNet.Application.csproj",
+      "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -710,14 +710,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
-              "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj"
+            "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.BusinessModels\\CursoDotNet.Application.BusinessModels.csproj"
             },
-            "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj"
+            "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj"
             },
-            "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
+            "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
             }
           }
         }
@@ -745,7 +745,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,50 @@
+
+<div class="row m-5">
+
+    <div class="col">
+
+        <h1>*Ngif</h1>
+        <hr>
+
+        <div *ngIf = 'mostrar' class="card text-white bg-primary mb-3" style="max-width:100%;">
+            <div class="card-body">
+              <h5 class="card-title">{{ mensaje.titulo }}</h5>
+              <p class="card-text">{{ mensaje.autor }}</p>
+            </div>
+        </div>
+        <button (click)= 'mostrar = !mostrar' class="btn  btn-outline-primary btn-block ">Primary</button>
+
+
+    </div>
+
+
+
+
+    <div class="col">
+
+        <h1> *NgFor</h1>
+        <hr>
+
+        <ul class="list-group">
+
+            <li *ngFor='let personaje of personajes; let i = index' class="list-group-item">
+                
+              {{i+1}} - {{personaje}}</li>
+              <li>
+                  
+                  {{ personajes[2] }}
+              </li>
+            
+          </ul>
+
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
