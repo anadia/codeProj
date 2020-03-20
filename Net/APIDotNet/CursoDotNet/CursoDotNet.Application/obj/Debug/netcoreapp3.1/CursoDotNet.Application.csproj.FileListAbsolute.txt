@@ -13,6 +13,7 @@ C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\Cu
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.dll
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.BusinessModels.pdb
 C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.Contracts.pdb
+<<<<<<< HEAD
 C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.deps.json
 C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.dll
 C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.Application.pdb
@@ -28,3 +29,7 @@ C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Applicat
 C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.csproj.CopyComplete
 C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.dll
 C:\Users\Oscar\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\obj\Debug\netcoreapp3.1\CursoDotNet.Application.pdb
+=======
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.dll
+C:\Users\Usuario.DESKTOP-BJ91NAI\Documents\codeProj\Net\APIDotNet\CursoDotNet\CursoDotNet.Application\bin\Debug\netcoreapp3.1\CursoDotNet.DataAccess.pdb
+>>>>>>> 96ba62a675775a583cc98a366122e7125e1dd6df

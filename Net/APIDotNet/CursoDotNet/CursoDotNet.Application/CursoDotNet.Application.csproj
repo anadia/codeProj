@@ -8,6 +8,7 @@
     <ProjectReference Include="..\CursoDotNet.Application.BusinessModels\CursoDotNet.Application.BusinessModels.csproj" />
     <ProjectReference Include="..\CursoDotNet.Application.Contracts\CursoDotNet.Application.Contracts.csproj" />
     <ProjectReference Include="..\CursoDotNet.DataAccess.Contracts\CursoDotNet.DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\CursoDotNet.DataAccess\CursoDotNet.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

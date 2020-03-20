@@ -2245,6 +2245,7 @@
         "dependencies": {
           "CursoDotNet.Application.BusinessModels": "1.0.0",
           "CursoDotNet.Application.Contracts": "1.0.0",
+          "CursoDotNet.DataAccess": "1.0.0",
           "CursoDotNet.DataAccess.Contracts": "1.0.0"
         },
         "runtime": {

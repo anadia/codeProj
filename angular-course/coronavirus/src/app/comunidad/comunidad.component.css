@@ -1,0 +1,22 @@
+button{
+  float: right;
+  background-color: white!important;
+  border: 2px solid red !important;
+  color: red!important;
+}
+
+div{
+  border: solid 2px blue;
+}
+
+
+
+span{
+  color:darkslategrey;
+}
+.comunidad{
+  color:green;
+  font-weight: bold;
+  margin-right: 10px;
+  text-transform: uppercase;
+}

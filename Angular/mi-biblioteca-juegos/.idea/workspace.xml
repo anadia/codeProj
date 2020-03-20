@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="520f27bf-66ed-46a6-b230-fba639efbec5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mi-biblioteca-juegos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/Controllers/CancionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/Controllers/UsuarioController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/CursoDotNet.API.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.API/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application.BusinessModels/CursoDotNet.Application.BusinessModels.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application.BusinessModels/Models/CancionModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application.BusinessModels/Models/UsuarioModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application.Contracts/CursoDotNet.Application.Contracts.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application.Contracts/Services/ICancionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application.Contracts/Services/IUsuarioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application/CursoDotNet.Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application/Services/CancionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.Application/Services/UsuarioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.CrossCutting.Contracts/CursoDotNet.CrossCutting.Contracts.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.CrossCutting/Configuration/IoC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.CrossCutting/CursoDotNet.CrossCutting.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/CursoDotNet.DataAccess.Contracts.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Dtos/CancionDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Dtos/UsuarioDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Entidades/Cancion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Entidades/EntidadBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Entidades/Rol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Entidades/Usuario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/IApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Repositories/ICancionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess.Contracts/Repositories/IUsuarioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess/CursoDotNet.DataAccess.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess/Repositories/CancionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess/Repositories/UsuarioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/Controllers/CancionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/Controllers/UsuarioController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/CursoDotNet.API.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.API/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.BusinessModels/CursoDotNet.Application.BusinessModels.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.BusinessModels/Helpers/AppSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.BusinessModels/Models/CancionModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.BusinessModels/Models/UsuarioModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.BusinessModels/Requests/CancionRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.BusinessModels/Requests/CancionUpdateRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.BusinessModels/Requests/LoginRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.Contracts/CursoDotNet.Application.Contracts.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.Contracts/Services/ICancionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application.Contracts/Services/IUsuarioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application/CursoDotNet.Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application/Services/CancionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.Application/Services/UsuarioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.CrossCutting.Contracts/CursoDotNet.CrossCutting.Contracts.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.CrossCutting/Configuration/IoC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.CrossCutting/CursoDotNet.CrossCutting.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/CursoDotNet.DataAccess.Contracts.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Dtos/CancionDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Dtos/UsuarioDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Entidades/Cancion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Entidades/EntidadBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Entidades/Rol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Entidades/Usuario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/IApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/IUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Repositories/ICancionGenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Repositories/ICancionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Repositories/IGenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess.Contracts/Repositories/IUsuarioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/CursoDotNet.DataAccess.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/Migrations/20200309082711_migracion_inicial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/Migrations/20200309082711_migracion_inicial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/Repositories/CancionGenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/Repositories/CancionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/Repositories/GenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/Repositories/UsuarioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.DataAccess/UnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-masterToken/CursoDotNet.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/Controllers/UsuarioController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application.BusinessModels/Models/UsuarioModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application.Contracts/Services/IUsuarioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/Services/UsuarioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/bin/Debug/netcoreapp3.1/CursoDotNet.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/bin/Debug/netcoreapp3.1/CursoDotNet.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess.Contracts/Dtos/UsuarioDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess.Contracts/Repositories/IUsuarioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Migrations/20200309075545_migracion_inicial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Migrations/20200309075545_migracion_inicial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Repositories/UsuarioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/NodeMongoDB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/dictionaries/Oscar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/appMethodsMongoDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/models/book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/routes/CHULETAusersROUTES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/routes/books.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/views/error.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/NodeMongoDB/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/dictionaries/Oscar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/gamers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/controllers/gamersController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/controllers/singleGameController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/models/gamer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/models/singleGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/routes/gamers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/gamers/routes/singleGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NodeJS/workspace code.code-workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/Angular2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/hola-mundo/hola-mundo.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/mi-nombre/mi-nombre.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/player-item/player-item.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/player-item/player-item.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/player-item/player-item.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/app/player-item/player-item.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/Angular2/primera-app-angular2/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/buttons/buttons.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/buttons/buttons.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/buttons/buttons.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/app/buttons/buttons.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botones/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/mi-formulario/mi-formulario.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/mi-formulario/mi-formulario.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/mi-formulario/mi-formulario.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/mi-formulario/mi-formulario.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/pueblo/pueblo.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/pueblo/pueblo.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/pueblo/pueblo.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/app/pueblo/pueblo.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/botonesOs/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/.idea/contador.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/contador/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/comunidad/comunidad.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/comunidad/comunidad.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/comunidad/comunidad.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/comunidad/comunidad.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/resultados/resultados.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/resultados/resultados.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/resultados/resultados.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/app/resultados/resultados.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/coronavirus/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/node_modules.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/add/add.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/add/add.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/add/add.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/add/add.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/andalucia/andalucia.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/andalucia/andalucia.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/andalucia/andalucia.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/andalucia/andalucia.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/madrid/madrid.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/madrid/madrid.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/madrid/madrid.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/madrid/madrid.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/total/total.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/total/total.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/total/total.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/app/total/total.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/cv/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/.idea/ejemplo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/app.component.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugador-item/jugador-item.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugador-item/jugador-item.component.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugador-item/jugador-item.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugador-item/jugador-item.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugador-item/jugador-item.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugador-item/jugador-item.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugadores-list/jugadores-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugadores-list/jugadores-list.component.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugadores-list/jugadores-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugadores-list/jugadores-list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugadores-list/jugadores-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/app/jugadores-list/jugadores-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/styles.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/ejemplo2/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/about/about.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/about/about.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/about/about.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/about/about.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/heroes/heroes.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/heroes/heroes.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/heroes/heroes.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/heroes/heroes.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/home/home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/environments/environments.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/environments/environments.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/environments/environments.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/app/environments/environments.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/A-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/aquaman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/batman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/daredevil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/hulk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/linterna-verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/spiderman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/assets/wolverine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../angular-course/heroes/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/Controllers/CancionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/Controllers/CancionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/CursoDotNet.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/CursoDotNet.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/CursoDotNet.API.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/CursoDotNet.API.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/bin/Debug/netcoreapp3.1/CursoDotNet.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/bin/Debug/netcoreapp3.1/CursoDotNet.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/obj/CursoDotNet.API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/obj/CursoDotNet.API.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/obj/CursoDotNet.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/obj/CursoDotNet.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application.Contracts/Services/ICancionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application.Contracts/Services/ICancionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/CursoDotNet.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/CursoDotNet.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/Services/CancionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/Services/CancionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/bin/Debug/netcoreapp3.1/CursoDotNet.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/bin/Debug/netcoreapp3.1/CursoDotNet.Application.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/CursoDotNet.Application.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/CursoDotNet.Application.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/CursoDotNet.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/CursoDotNet.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/Debug/netcoreapp3.1/CursoDotNet.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/Debug/netcoreapp3.1/CursoDotNet.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/bin/Debug/netcoreapp3.1/CursoDotNet.CrossCutting.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/bin/Debug/netcoreapp3.1/CursoDotNet.CrossCutting.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/obj/CursoDotNet.CrossCutting.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/obj/CursoDotNet.CrossCutting.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/obj/CursoDotNet.CrossCutting.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/obj/CursoDotNet.CrossCutting.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.CrossCutting/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Migrations/20200305165021_migracion_inicial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess/Migrations/20200309082711_migracion_inicial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Migrations/20200305165021_migracion_inicial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/API.NetCore.Alumnos-master/CursoDotNet.DataAccess/Migrations/20200309082711_migracion_inicial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Repositories/CancionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/APIDotNet/CursoDotNet/CursoDotNet.DataAccess/Repositories/CancionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/ClasesNet/.vs/ClasesNet/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/ClasesNet/.vs/ClasesNet/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/ClasesNet/ClasesNet/obj/Debug/netcoreapp3.1/ClasesNet.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/ClasesNet/ClasesNet/obj/Debug/netcoreapp3.1/ClasesNet.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Net/SolutionExNet/.vs/SolutionExNet/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Net/SolutionExNet/.vs/SolutionExNet/v16/.suo" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Oscar\Documents\codeProj\Angular\mi-biblioteca-juegos\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZOtmx4FxzW5HCtSdAIKY4gcLrr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../angular-course/coronavirus" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (mi-biblioteca-juegos)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (mi-biblioteca-juegos)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="520f27bf-66ed-46a6-b230-fba639efbec5" name="Default Changelist" comment="" />
+      <created>1584722130841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584722130841</updated>
+      <workItem from="1584722136759" duration="3449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1584722504139">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1093.614@0.0.1536.864" timestamp="1584722504139" />
+    <state width="1537" height="201" key="GridCell.Tab.0.bottom" timestamp="1584727183849">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="201" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1093.614@0.0.1536.864" timestamp="1584727183849" />
+    <state width="1537" height="201" key="GridCell.Tab.0.center" timestamp="1584727183848">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="201" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1093.614@0.0.1536.864" timestamp="1584727183848" />
+    <state width="1537" height="201" key="GridCell.Tab.0.left" timestamp="1584727183848">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="201" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1093.614@0.0.1536.864" timestamp="1584727183848" />
+    <state width="1537" height="201" key="GridCell.Tab.0.right" timestamp="1584727183848">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="201" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1093.614@0.0.1536.864" timestamp="1584727183848" />
+  </component>
+</project>

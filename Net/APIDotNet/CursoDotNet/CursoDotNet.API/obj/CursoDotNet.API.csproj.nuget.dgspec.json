@@ -215,8 +215,16 @@
               "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj": {
                 "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.Application.Contracts\\CursoDotNet.Application.Contracts.csproj"
               },
+<<<<<<< HEAD
               "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
                 "projectPath": "C:\\Users\\Oscar\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
+=======
+              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess.Contracts\\CursoDotNet.DataAccess.Contracts.csproj"
+              },
+              "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Usuario.DESKTOP-BJ91NAI\\Documents\\codeProj\\Net\\APIDotNet\\CursoDotNet\\CursoDotNet.DataAccess\\CursoDotNet.DataAccess.csproj"
+>>>>>>> 96ba62a675775a583cc98a366122e7125e1dd6df
               }
             }
           }

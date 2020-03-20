@@ -1,0 +1,11 @@
+
+<h1>Lista de Jugadores</h1>
+<!--<li *ngFor="let jugador of jugadores; let idx=index">
+  {{}}
+  <div>
+    <span>{{idx+1}}</span>
+
+  </div>
+</li>-->
+
+<app-jugador-item (click)="jugadorClicked(jugador.nombre)" [nombre]="jugador.nombre"  [equipo]="jugador.equipo" *ngFor="let jugador of jugadores"></app-jugador-item>

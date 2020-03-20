@@ -1,0 +1,14 @@
+.comunidad{
+  color:green;
+  font-weight: bold;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.contador{
+  color:red;
+}
+
+.resultado{
+  width: 100%;
+}
